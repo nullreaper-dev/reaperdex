@@ -1,5 +1,16 @@
 # Reaperdex – Changelog
 
+## 1.8.0 – Phone layout
+- **Phone layout** – Reaperdex now feels like an app on your phone: compact top bar, bottom navigation (Library, Insights, Share, Profile), two-column cards, full-screen show panels and swipeable filters
+- Windows open as **bottom sheets** on phones, with easy-to-tap buttons
+- **Fixed:** after choosing your Crunchyroll avatar, the "getting a copy" notice now clears by itself – no reload needed
+- **Fixed:** a small empty bar could peek out at the bottom of the screen
+- **Official sources** – Settings → Shortcuts & about (and the README) now show where the official Reaperdex is published, so you can tell if a copy has been tampered with
+- **Security:** spreadsheet exports (CSV, Excel, Google Sheets copy) can no longer contain hidden formulas from show titles or imports
+- **Security:** Excel export is now built in – Reaperdex no longer loads any outside code
+- **Security:** backup files, friend codes and imports are strictly checked – a tampered file can no longer break the app
+- **Security:** the shareable web page only uses safe https links and pictures
+
 ## 1.7.4
 - Safety snapshots list has more room and no repeated version numbers
 - The "Ten Thousand" title is now called **5K Club** – it's for 5,000 episodes

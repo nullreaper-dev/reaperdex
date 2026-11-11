@@ -5,15 +5,19 @@
 // @homepageURL  https://github.com/nullreaper-dev/reaperdex
 // @supportURL   https://github.com/nullreaper-dev/reaperdex/issues
 // @license      GPL-3.0-or-later
-// @version      1.7.4
+// @version      1.8.0
 // @copyright    2026, nullreaper (https://greasyfork.org/en/users/1661483-nullreaper)
 // @description  Your whole anime history as a slick tracker: Crunchyroll synced automatically (episode by episode), plus Netflix, Disney+ and Prime. Mark things watched, insights, awards, ratings, and a share card for your mates.
 // @icon         data:image/png;base64,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
 // @match        https://www.crunchyroll.com/*
 // @run-at       document-start
 // @grant        none
-// @require      https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js
 // ==/UserScript==
+
+/*  OFFICIAL SOURCES – Reaperdex is only published by nullreaper at:
+ *    https://greasyfork.org/en/scripts/604749-reaperdex-anime-tracker-for-crunchyroll
+ *    https://github.com/nullreaper-dev/reaperdex
+ *  A copy from anywhere else may have been modified. Forks must use their own name (see NOTICE.md). */
 
 /*  Reaperdex – anime tracker for Crunchyroll
  *  Copyright (C) 2026 nullreaper – https://greasyfork.org/en/users/1661483-nullreaper
@@ -34,15 +38,15 @@
  *  MyAnimeList or AniList. All trademarks belong to their owners.
  */
 
-/*  @require note: xlsx (SheetJS Community Edition 0.18.5, Apache-2.0) is used ONLY to build the optional
- *  Excel (.xlsx) download. It never runs on its own and makes no network requests.
+/*  No outside code: Reaperdex loads no libraries – the Excel download is built in.
  *
  *  Privacy: everything is stored in your browser (IndexedDB on crunchyroll.com). The script only talks to
- *  Crunchyroll's own API using your existing login. The one exception is the optional MyAnimeList/AniList
- *  export, which sends show TITLES (nothing else) to AniList's public API to look up MyAnimeList IDs.
+ *  Crunchyroll's own API using your existing login. The exceptions are the optional MyAnimeList/AniList
+ *  export and the optional airing countdowns, which send show TITLES (nothing else) to AniList's public API.
  */
 
 /*  CHANGELOG
+ *  1.8.0 – Phone layout, avatar notice fix, official-sources notice, security hardening (formula-safe exports, built-in Excel, strict file checks).
  *  1.7.4 – Snapshot list spacing, 5K Club title name.
  *  1.7.3 – Safer backup restore, internal tidy-up.
  *  1.7.2 – Crunchyroll avatar on share cards automatically (via Crunchyroll's image server).
@@ -74,8 +78,19 @@
 (function () {
   'use strict';
 
-  const VERSION = '1.7.4';
+  const VERSION = '1.8.0';
   const CHANGELOG = [
+    { v: '1.8.0', items: [
+      'Phone layout – Reaperdex now feels like an app on your phone: compact top bar, bottom navigation (Library, Insights, Share, Profile), two-column cards, full-screen show panels and swipeable filters',
+      'Windows open as bottom sheets on phones, with easy-to-tap buttons',
+      'Fixed: after choosing your Crunchyroll avatar, the “getting a copy” notice now clears by itself – no reload needed',
+      'Fixed: a small empty bar could peek out at the bottom of the screen',
+      'Settings → Shortcuts & about now shows where the official Reaperdex is published, so you can tell if a copy has been tampered with',
+      'Security: spreadsheet exports (CSV, Excel, Google Sheets copy) can no longer contain hidden formulas from show titles or imports',
+      'Security: Excel export is now built in – Reaperdex no longer loads any outside code',
+      'Security: backup files, friend codes and imports are strictly checked – a tampered file can no longer break the app',
+      'Security: the shareable web page only uses safe https links and pictures',
+    ] },
     { v: '1.7.4', items: [
       'Safety snapshots list has more room and no repeated version numbers',
       'The “Ten Thousand” title is now called “5K Club” – it’s for 5,000 episodes',
@@ -1485,6 +1500,7 @@
     };
   }
   function readImport(file) {
+    if (file.size > 40e6) return toast('That file is too big to import (max 40 MB)', 'bad');
     const fr = new FileReader();
     fr.onload = () => {
       const rows = parseCSV(String(fr.result || ''));
@@ -1549,6 +1565,7 @@
     toast('Backup downloaded – keep it somewhere safe', 'ok');
   }
   function restore(file) {
+    if (file.size > 60e6) return toast('That backup file is too big (max 60 MB)', 'bad');
     const fr = new FileReader();
     fr.onload = async () => {
       let d; try { d = JSON.parse(fr.result); } catch (_) { return toast("That isn't a tracker backup", 'bad'); }
@@ -1706,8 +1723,10 @@
     document.body.appendChild(a); a.click();
     setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1500);
   }
-  const toCSV = (rows) => { const hd = Object.keys(rows[0] || {}), esc = (v) => `"${String(v ?? '').replace(/"/g, '""')}"`; return '﻿' + [hd.map(esc).join(','), ...rows.map((r) => hd.map((k) => esc(r[k])).join(','))].join('\r\n'); };
-  const toTSV = (rows) => { const hd = Object.keys(rows[0] || {}), c = (v) => String(v ?? '').replace(/[\t\r\n]+/g, ' '); return [hd.join('\t'), ...rows.map((r) => hd.map((k) => c(r[k])).join('\t'))].join('\n'); };
+  // a cell starting with = + - @ (or a tab/return) would be run as a FORMULA by Excel / Google Sheets – make it plain text
+  const cellText = (v) => { if (typeof v === 'number') return String(v); const t = String(v ?? ''); return /^[=+\-@\t\r]/.test(t) && !/^-?\d+([.,]\d+)?$/.test(t) ? "'" + t : t; };
+  const toCSV = (rows) => { const hd = Object.keys(rows[0] || {}), esc = (v) => `"${cellText(v).replace(/"/g, '""')}"`; return '﻿' + [hd.map(esc).join(','), ...rows.map((r) => hd.map((k) => esc(r[k])).join(','))].join('\r\n'); };
+  const toTSV = (rows) => { const hd = Object.keys(rows[0] || {}), c = (v) => cellText(v).replace(/[\t\r\n]+/g, ' '); return [hd.join('\t'), ...rows.map((r) => hd.map((k) => c(r[k])).join('\t'))].join('\n'); };
   async function copyText(text) {
     try { await navigator.clipboard.writeText(text); }
     catch (_) { const t = h('textarea', {}, text); document.body.append(t); t.select(); document.execCommand('copy'); t.remove(); }
@@ -1725,17 +1744,47 @@
     if (kind === 'shows') return csv(showsTable(visible()), 'anime-shows');
     if (kind === 'seasons') return csv(seasonsTable(visible()), 'anime-seasons');
     if (kind === 'episodes') return csv(episodeTable(), 'anime-episodes');
-    if (typeof XLSX === 'undefined') return toast('Excel export unavailable – use CSV or Google Sheets', 'bad');
-    const wb = XLSX.utils.book_new(), add = (rows, name) => {
-      if (!rows.length) return;
-      const ws = XLSX.utils.json_to_sheet(rows);
-      ws['!cols'] = Object.keys(rows[0] || {}).map((k) => ({ wch: Math.max(12, Math.min(48, k.length + 6)) }));
-      ws['!autofilter'] = { ref: ws['!ref'] };
-      XLSX.utils.book_append_sheet(wb, ws, name);
-    };
     const all = state.series.filter((s) => !s.hidden).sort((a, b) => (a.last < b.last ? 1 : -1));
-    add(summaryTable(), 'Summary'); add(showsTable(all), 'Shows'); add(seasonsTable(all), 'Seasons'); add(episodeTable(), 'Episodes');
-    XLSX.writeFile(wb, `anime-tracker-${stamp()}.xlsx`);
+    download(xlsxBlob([['Summary', summaryTable()], ['Shows', showsTable(all)], ['Seasons', seasonsTable(all)], ['Episodes', episodeTable()]]), `anime-tracker-${stamp()}.xlsx`);
+  }
+  // ---- built-in Excel (.xlsx) writer: text is always stored as text (never as a formula), no outside library ----
+  const CRC_T = (() => { const t = new Uint32Array(256); for (let n = 0; n < 256; n++) { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xedb88320 ^ (c >>> 1) : c >>> 1; t[n] = c >>> 0; } return t; })();
+  const crc32 = (b) => { let c = 0xffffffff; for (let i = 0; i < b.length; i++) c = CRC_T[(c ^ b[i]) & 255] ^ (c >>> 8); return (c ^ 0xffffffff) >>> 0; };
+  function zipStore(files) {                       // files: [[path, Uint8Array]] – stored (no compression), valid ZIP
+    const parts = [], central = []; let off = 0;
+    const u16 = (v) => [v & 255, (v >>> 8) & 255], u32 = (v) => [v & 255, (v >>> 8) & 255, (v >>> 16) & 255, (v >>> 24) & 255];
+    for (const [path, data] of files) {
+      const name = new TextEncoder().encode(path), crc = crc32(data);
+      const head = [...u32(0x04034b50), ...u16(20), ...u16(0x0800), ...u16(0), ...u16(0), ...u16(0x21), ...u32(crc), ...u32(data.length), ...u32(data.length), ...u16(name.length), ...u16(0)];
+      parts.push(new Uint8Array(head), name, data);
+      central.push(new Uint8Array([...u32(0x02014b50), ...u16(20), ...u16(20), ...u16(0x0800), ...u16(0), ...u16(0), ...u16(0x21), ...u32(crc), ...u32(data.length), ...u32(data.length), ...u16(name.length), ...u16(0), ...u16(0), ...u16(0), ...u16(0), ...u32(0), ...u32(off)]), name);
+      off += head.length + name.length + data.length;
+    }
+    const cdSize = central.reduce((a, p) => a + p.length, 0);
+    return new Blob([...parts, ...central, new Uint8Array([...u32(0x06054b50), ...u16(0), ...u16(0), ...u16(files.length), ...u16(files.length), ...u32(cdSize), ...u32(off), ...u16(0)])],
+      { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+  }
+  function xlsxBlob(sheets) {
+    const enc = (t) => new TextEncoder().encode(t);
+    const x = (t) => String(t ?? '').replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f]/g, '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const col = (i) => { let s = ''; i++; while (i) { const m = (i - 1) % 26; s = String.fromCharCode(65 + m) + s; i = Math.floor((i - 1) / 26); } return s; };
+    const used = sheets.filter(([, rows]) => rows.length).map(([n, rows], i) => [x(n).slice(0, 31) || `Sheet${i + 1}`, rows]);
+    const sheetXml = (rows) => {
+      const hd = Object.keys(rows[0]);
+      const cell = (v, r, c) => (typeof v === 'number' && isFinite(v) ? `<c r="${col(c)}${r}"><v>${v}</v></c>`
+        : `<c r="${col(c)}${r}" t="inlineStr"><is><t xml:space="preserve">${x(v)}</t></is></c>`);
+      const body = [hd, ...rows.map((o) => hd.map((k) => o[k]))].map((vals, ri) => `<row r="${ri + 1}">${vals.map((v, ci) => cell(v, ri + 1, ci)).join('')}</row>`).join('');
+      return `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><cols>${hd.map((k, i) => `<col min="${i + 1}" max="${i + 1}" width="${Math.max(12, Math.min(48, k.length + 6))}" customWidth="1"/>`).join('')}</cols><sheetData>${body}</sheetData><autoFilter ref="A1:${col(hd.length - 1)}${rows.length + 1}"/></worksheet>`;
+    };
+    const files = [
+      ['[Content_Types].xml', `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/>${used.map((_, i) => `<Override PartName="/xl/worksheets/sheet${i + 1}.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>`).join('')}</Types>`],
+      ['_rels/.rels', `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>`],
+      ['xl/workbook.xml', `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets>${used.map(([n], i) => `<sheet name="${n}" sheetId="${i + 1}" r:id="rId${i + 1}"/>`).join('')}</sheets><definedNames>${used.map(([n, rows], i) => `<definedName name="_xlnm._FilterDatabase" localSheetId="${i}" hidden="1">'${n.replace(/'/g, "''")}'!$A$1:$${col(Object.keys(rows[0]).length - 1)}$${rows.length + 1}</definedName>`).join('')}</definedNames></workbook>`],
+      ['xl/_rels/workbook.xml.rels', `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">${used.map((_, i) => `<Relationship Id="rId${i + 1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet${i + 1}.xml"/>`).join('')}<Relationship Id="rId${used.length + 1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>`],
+      ['xl/styles.xml', `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><fonts count="1"><font><sz val="11"/><name val="Calibri"/></font></fonts><fills count="2"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill></fills><borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs><cellXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/></cellXfs><cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles></styleSheet>`],
+      ...used.map(([, rows], i) => [`xl/worksheets/sheet${i + 1}.xml`, sheetXml(rows)]),
+    ];
+    return zipStore(files.map(([p, t]) => [p, enc(t)]));
   }
   // debug info is safe to share publicly: no account/profile ids, emails, tokens or watch dates
   const redact = (o) => JSON.parse(JSON.stringify(o, (k, v) => (/account|profile|email|user|token|auth|date_played|created/i.test(k) ? '[removed]' : v)));
@@ -1924,19 +1973,34 @@
     } catch (_) { return 'NRA0.' + btoa(unescape(encodeURIComponent(data))); }
   }
   async function readCode(code) {
-    code = code.trim();
+    code = String(code || '').trim();
+    if (code.length > 400000) throw new Error('code too long');
+    return checkCode(await readCodeRaw(code));
+  }
+  // a friend's code comes from another person: only accept the exact shape Reaperdex makes, within sane limits
+  function checkCode(f) {
+    const n = (v) => (typeof v === 'number' && isFinite(v) && v >= 0 && v < 1e7 ? v : 0);
+    if (!f || typeof f !== 'object' || !Array.isArray(f.l)) throw new Error('bad code');
+    return { v: 1, n: typeof f.n === 'string' ? f.n.slice(0, 40) : 'Friend', d: n(f.d), h: n(f.h), c: n(f.c), s: n(f.s), e: n(f.e), y: n(f.y),
+      l: f.l.slice(0, 1000).filter((x) => Array.isArray(x) && typeof x[0] === 'string')
+        .map(([t, st, r, m]) => [t.slice(0, 200), ['w', 'c', 'd', 'n', 'u', 'p'].includes(st) ? st : 'w', Number.isInteger(r) && r >= 0 && r <= 10 ? r : 0, n(m)]) };
+  }
+  async function readCodeRaw(code) {
     const raw = code.slice(5).replace(/-/g, '+').replace(/_/g, '/');
     const bin = Uint8Array.from(atob(raw + '==='.slice((raw.length + 3) % 4)), (c) => c.charCodeAt(0));
-    if (code.startsWith('NRA0.')) return JSON.parse(decodeURIComponent(escape(String.fromCharCode(...bin))));
+    if (code.startsWith('NRA0.')) return JSON.parse(new TextDecoder().decode(bin));
     if (!code.startsWith('NRA1.')) throw new Error('bad code');
-    const ds = new Blob([bin]).stream().pipeThrough(new DecompressionStream('deflate-raw'));
-    return JSON.parse(await new Response(ds).text());
+    // stop reading if it unpacks to something huge (a "zip bomb")
+    const rd = new Blob([bin]).stream().pipeThrough(new DecompressionStream('deflate-raw')).getReader();
+    const chunks = []; let total = 0;
+    for (;;) { const { done, value } = await rd.read(); if (done) break; total += value.length; if (total > 3e6) { rd.cancel(); throw new Error('code too big'); } chunks.push(value); }
+    return JSON.parse(new TextDecoder().decode(await new Blob(chunks).arrayBuffer()));
   }
 
   function sharePage() {
-    const T = state.totals, esc = (t) => String(t ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const T = state.totals, esc = (t) => String(t ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])), https = (u) => (/^https:\/\/[^\s"'()<>\\]+$/i.test(u || '') ? u : '');
     const list = state.series.filter((s) => !s.hidden && s.status !== 'unavailable').sort((a, b) => (a.last < b.last ? 1 : -1));
-    const card = (s) => `<a class="c" href="${esc(s.url || '#')}" style="--c:${STATUS[s.status].color}"><div class="a" style="background-image:url('${esc(s.thumb)}')"><span>${esc(STATUS[s.status].label)}</span>${s.rating ? `<b>★ ${s.rating}</b>` : ''}</div><div class="t">${esc(s.title)}</div><div class="m">${s.total ? `${s.done}/${s.total} eps` : `${s.done} eps`} · ${Math.round(s.minutes / 60)} h${s.fav ? ' · ♥' : ''}</div></a>`;
+    const card = (s) => `<a class="c" href="${esc(https(s.url) || '#')}" style="--c:${STATUS[s.status].color}"><div class="a" style="background-image:url('${esc(https(s.thumb))}')"><span>${esc(STATUS[s.status].label)}</span>${s.rating ? `<b>★ ${s.rating}</b>` : ''}</div><div class="t">${esc(s.title)}</div><div class="m">${s.total ? `${s.done}/${s.total} eps` : `${s.done} eps`} · ${Math.round(s.minutes / 60)} h${s.fav ? ' · ♥' : ''}</div></a>`;
     const html = `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(state.name || 'My')} anime list</title>
 <style>body{margin:0;background:#07070b;color:#f2f2f5;font-family:Lato,Segoe UI,system-ui,sans-serif}main{max-width:1300px;margin:0 auto;padding:40px 24px}
 h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#ffb27a}.big{font-size:96px;font-weight:900;line-height:1;background:linear-gradient(135deg,#ff9a3c,#ff6a1a 45%,#ff3d6e);-webkit-background-clip:text;color:transparent}
@@ -2006,14 +2070,14 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
     ui.sync = h('button', { class: 'cx-sync', title: 'Sync now – picks up anything you watched on other devices', onclick: () => load('sync') }, h('i', { class: 'cx-sync-ico' }, '↻'), ui.syncTxt);
     const tab = (id, label) => h('button', { class: 'cx-tab', 'data-v': id, onclick: () => { state.view = id; render(); ui.overlay.scrollTo({ top: 0 }); } }, label);
     ui.tabs = h('div', { class: 'cx-tabs' }, tab('library', 'Library'), tab('insights', 'Insights'));
-    const addMenu = dd(h('button', { class: 'cx-btn ghost' }, '＋ Add'), [
+    const addMenu = dd(h('button', { class: 'cx-btn ghost cx-addbtn', title: 'Add' }, '＋', h('span', { class: 'cx-lbl' }, ' Add')), [
       ['Find a missing show', 'Search Crunchyroll and pull your real progress for it', () => findModal()],
       '-',
       ['Import from Netflix', 'Account → Viewing activity → Download all, then pick the file', () => pickFile('.csv,text/csv', readImport)],
       ['Import a CSV', 'Any list with a Title column (Prime, Disney+, a spreadsheet…)', () => pickFile('.csv,text/csv', readImport)],
       ['Add a show manually', 'For Disney+, Prime Video or anything else', () => manualModal()],
     ]);
-    const exportMenu = dd(h('button', { class: 'cx-btn primary' }, 'Export ▾'), [
+    const exportMenu = dd(h('button', { class: 'cx-btn primary cx-exportbtn', title: 'Export' }, h('span', { class: 'cx-ico-m' }, '⤓'), h('span', { class: 'cx-lbl' }, 'Export ▾')), [
       ['Share card', 'An image for your mates – all time or any year', () => openShare()],
       ['Share page', 'Your whole list as a web page to send', sharePage],
       ['Compare with a friend', 'Swap codes, see shared anime + recommendations', () => compareModal()],
@@ -2035,12 +2099,23 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
       h('header', { class: 'cx-top' },
         h('div', { class: 'cx-brand' }, h('span', { class: 'cx-logo' }, h('span', {})), h('div', {}, h('div', { class: 'cx-title' }, 'Reaperdex'), h('div', { class: 'cx-by' }, `v${VERSION} · by nullreaper`))),
         ui.tabs,
-        (ui.actions = h('div', { class: 'cx-actions' }, ui.sync, addMenu, h('button', { class: 'cx-btn ghost', onclick: () => openShare() }, '✦ Share'), exportMenu,
+        (ui.actions = h('div', { class: 'cx-actions' }, ui.sync, addMenu, h('button', { class: 'cx-btn ghost cx-sharebtn', onclick: () => openShare() }, '✦ Share'), exportMenu,
           h('button', { class: 'cx-btn icon', title: 'Settings', onclick: settingsModal }, '⚙'),
           h('button', { class: 'cx-btn icon', title: 'Close (Esc)', onclick: close }, '✕')))),
       ui.main);
     ui.drawer = h('div', { class: 'cx-drawer-wrap' }, h('div', { class: 'cx-drawer-bg', onclick: closeDrawer }), (ui.panel = h('aside', { class: 'cx-drawer' })));
     ui.bulk = h('div', { class: 'cx-bulk' });
+    const svg = (d) => { const e = document.createElementNS('http://www.w3.org/2000/svg', 'svg'); e.setAttribute('viewBox', '0 0 24 24');
+      for (const p of d) { const q = document.createElementNS('http://www.w3.org/2000/svg', 'path'); q.setAttribute('d', p); e.append(q); } return e; };
+    const ICONS = { library: ['M4 4h7v7H4z', 'M13 4h7v7h-7z', 'M4 13h7v7H4z', 'M13 13h7v7h-7z'], insights: ['M5 20V11', 'M12 20V4', 'M19 20v-6'],
+      share: ['M12 3v12', 'M7 8l5-5 5 5', 'M5 14v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5'], me: ['M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8z', 'M4 21a8 8 0 0 1 16 0'] };
+    const nb = (v, ico, label, fn) => h('button', { class: 'cx-mnav-b', 'data-v': v, onclick: fn }, svg(ICONS[v]), h('span', {}, label));
+    ui.mnav = h('nav', { class: 'cx-mnav' },
+      nb('library', '▦', 'Library', () => { closeDrawer(); state.view = 'library'; render(); ui.overlay.scrollTo({ top: 0 }); }),
+      nb('insights', '◔', 'Insights', () => { closeDrawer(); state.view = 'insights'; render(); ui.overlay.scrollTo({ top: 0 }); }),
+      nb('share', '✦', 'Share', () => openShare()),
+      nb('me', '☺', 'Profile', () => profileModal()));
+    ui.overlay.append(ui.mnav);
     ui.root.append(ui.launch, ui.overlay, ui.drawer, ui.bulk, ui.toasts);
     document.body.append(ui.root);
 
@@ -2105,6 +2180,7 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
     if (!ui.overlay || !state.totals) return;
     if (!state.busy) setSyncLabel();
     ui.tabs.querySelectorAll('.cx-tab').forEach((t) => t.classList.toggle('on', t.dataset.v === state.view));
+    if (ui.mnav) ui.mnav.querySelectorAll('.cx-mnav-b').forEach((t) => t.classList.toggle('on', t.dataset.v === state.view));
     if (state.view === 'insights') { ui.main.replaceChildren(renderInsights()); ui.grid = null; }
     else renderLibrary();
     renderBulk();
@@ -2259,9 +2335,12 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
   function ring(pct, size = 92) {
     const r = size / 2 - 7, c = 2 * Math.PI * r, NS = 'http://www.w3.org/2000/svg';
     const svg = document.createElementNS(NS, 'svg'); svg.setAttribute('width', size); svg.setAttribute('height', size); svg.setAttribute('class', 'cx-ring');
-    svg.innerHTML = `<defs><linearGradient id="cxg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="var(--acc1)"/><stop offset="1" stop-color="var(--acc2)"/></linearGradient></defs>
-      <circle cx="${size / 2}" cy="${size / 2}" r="${r}" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="9"/>
-      <circle cx="${size / 2}" cy="${size / 2}" r="${r}" fill="none" stroke="url(#cxg)" stroke-width="9" stroke-linecap="round" stroke-dasharray="${c}" stroke-dashoffset="${c * (1 - pct)}" transform="rotate(-90 ${size / 2} ${size / 2})"/>`;
+    const el = (tag, attrs, parent) => { const e = document.createElementNS(NS, tag); for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, String(v)); parent.append(e); return e; };
+    const grad = el('linearGradient', { id: 'cxg', x1: 0, y1: 0, x2: 1, y2: 1 }, el('defs', {}, svg));
+    el('stop', { offset: 0, 'stop-color': 'var(--acc1)' }, grad); el('stop', { offset: 1, 'stop-color': 'var(--acc2)' }, grad);
+    const C = size / 2, p = Math.max(0, Math.min(1, Number(pct) || 0));
+    el('circle', { cx: C, cy: C, r, fill: 'none', stroke: 'rgba(255,255,255,.08)', 'stroke-width': 9 }, svg);
+    el('circle', { cx: C, cy: C, r, fill: 'none', stroke: 'url(#cxg)', 'stroke-width': 9, 'stroke-linecap': 'round', 'stroke-dasharray': c, 'stroke-dashoffset': c * (1 - p), transform: `rotate(-90 ${C} ${C})` }, svg);
     return svg;
   }
 
@@ -2697,6 +2776,10 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
     const keys = [['/', 'Search'], ['L', 'Library'], ['I', 'Insights'], ['S', 'Share card'], ['R', 'What should I watch?'], ['M', 'Select several shows'], ['V', 'Grid / list view'], ['Esc', 'Close / back'], ['?', 'This help']];
     modal('', (close) => [h('h3', {}, 'Keyboard shortcuts'), h('div', { class: 'cx-keys' }, ...keys.map(([k, l]) => h('div', {}, h('kbd', {}, k), h('span', {}, l)))),
       h('div', { class: 'cx-about' }, h('b', {}, `Reaperdex v${VERSION}`), ' by nullreaper · © 2026 · GPL-3.0 licence. Free to modify – but keep the credit and don’t pass it off as your own.', h('br', {}), 'Not affiliated with Crunchyroll or any streaming service.', h('br', {}), h('a', { href: 'https://github.com/nullreaper-dev/reaperdex', target: '_blank', class: 'cx-link inline-a' }, 'Source code & bug reports on GitHub →')),
+      h('div', { class: 'cx-official' }, h('b', {}, '✓ Official sources'), ' – Reaperdex is only published by nullreaper on ',
+        h('a', { href: 'https://greasyfork.org/en/scripts/604749-reaperdex-anime-tracker-for-crunchyroll', target: '_blank', class: 'cx-link inline-a' }, 'Greasy Fork'), ' and ',
+        h('a', { href: 'https://github.com/nullreaper-dev/reaperdex', target: '_blank', class: 'cx-link inline-a' }, 'GitHub (nullreaper-dev/reaperdex)'),
+        '. Got it from anywhere else? It may have been modified – reinstall it from Greasy Fork.'),
       h('div', { class: 'cx-modal-act' }, h('button', { class: 'cx-btn', onclick: () => { close(); whatsNew(true); } }, 'What’s new'), h('button', { class: 'cx-btn primary', onclick: close }, 'Got it'))]);
   }
   const THEMES = [['crunchy', 'Sunset', 'warm orange glow'], ['neon', 'Cyberpunk', 'neon grid'], ['sakura', 'Sakura', 'soft pink petals'], ['ocean', 'Ocean', 'deep sea waves'],
@@ -2986,9 +3069,7 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
   async function loadProfile() {
     Object.assign(profile, (await store.get('profile3')) || {});
     cleanProfile();
-    if (profile.picSrc === 'cr' && profile.picTaint && profile.pic) {
-      crAvatarData(profile.crUrl || profile.pic).then(async (d) => { if (d) { profile.pic = d; profile.picTaint = false; await saveProfile(); if (state.series.length) render(); } });
-    }
+    if (profile.picSrc === 'cr' && profile.picTaint && profile.pic) setTimeout(() => retryCrAvatar(0), 500);
     img.pic = await loadImg(profile.pic, !profile.pic || !profile.pic.startsWith('data:'));
     img.banner = await loadImg(profile.banner);
     crAvatarSwap();
@@ -3208,9 +3289,24 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
     const data = await crAvatarData(url);
     profile.pic = data || url; profile.picSrc = 'cr'; profile.picTaint = !data; profile.crUrl = url;
     await saveProfile();
-    if (data) toast('Using your Crunchyroll avatar', 'ok');
-    else toast('Using your Crunchyroll avatar – but Crunchyroll blocks it on share cards. To fix: right-click your avatar on Crunchyroll → Save image, then Upload picture', 'info', true);
+    toast('Using your Crunchyroll avatar', 'ok');
+    if (!data) retryCrAvatar();
   }
+  // the copy for share cards sometimes isn't ready on the first try – keep trying quietly, then update everything on screen
+  let avaRetry = null;
+  function retryCrAvatar(n = 0) {
+    clearTimeout(avaRetry);
+    if (!profile.picTaint || profile.picSrc !== 'cr' || n > 5) return;
+    avaRetry = setTimeout(async () => {
+      const d = await crAvatarData(profile.crUrl || profile.pic);
+      if (!d) return retryCrAvatar(n + 1);
+      profile.pic = d; profile.picTaint = false; await saveProfile();
+      if (state.series.length) render();
+      refreshProfileModal();
+    }, [1500, 4000, 8000, 15000, 30000, 60000][n]);
+  }
+  let profileClose = null;
+  function refreshProfileModal() { if (profileClose && ui.root.querySelector('.cx-modal-box.profile')) { profileClose(); setTimeout(profileModal, 220); } }
   // optional: show your picture in Crunchyroll's own menus – only on this computer
   let swapObs = null;
   function crAvatarSwap() {
@@ -3264,7 +3360,7 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
       h('button', { class: 'cx-btn xs ghost', onclick: () => move(i, -1), disabled: i ? null : '' }, '↑'), h('button', { class: 'cx-btn xs ghost', onclick: () => move(i, 1), disabled: i < tops.length - 1 ? null : '' }, '↓'),
       h('button', { class: 'cx-btn xs ghost', onclick: async () => { await toggleTop(s.sid); reopen(); } }, '✕'))))
       : h('p', { class: 'cx-hint' }, 'Open any show and press “☆ Top 5” to pin it here.');
-    closeFn = modal('wide profile', () => [
+    closeFn = profileClose = modal('wide profile', () => [
       h('div', { class: 'cx-prof-head', style: profile.banner ? `background-image:linear-gradient(180deg,rgba(0,0,0,.1),rgba(0,0,0,.65)),url("${profile.banner}")` : '' },
         avatarEl(96), h('div', {}, h('h3', {}, displayName()), titleChip(currentTitle()))),
       h('div', { class: 'cx-form' },
@@ -3273,12 +3369,7 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
           h('button', { class: 'cx-btn', onclick: () => pickPic(false) }, 'Upload picture'),
           h('button', { class: 'cx-btn', onclick: async () => { await useCrAvatar(); render(); reopen(); } }, 'Use my Crunchyroll avatar'),
           profile.pic ? h('button', { class: 'cx-btn ghost', onclick: async () => { profile.pic = null; profile.picSrc = null; profile.showOnCR = false; await saveProfile(); render(); reopen(); } }, 'Remove') : null),
-        profile.picTaint ? h('div', { class: 'cx-avafix' },
-          h('p', { class: 'cx-hint warn' }, 'Crunchyroll blocks its avatar on share cards, so cards show your initials. 3 steps to fix it:'),
-          h('ol', { class: 'cx-steps' },
-            h('li', {}, h('button', { class: 'cx-btn xs primary', onclick: async () => { const u = profile.crUrl || (await crAvatarUrl()) || profile.pic; window.open(u, '_blank', 'noopener'); } }, 'Open my avatar in a new tab')),
-            h('li', {}, 'In that tab, right-click the picture → ', h('b', {}, 'Save image as…'), ' and save it'),
-            h('li', {}, 'Come back here and press ', h('b', {}, 'Upload picture'), ' – pick the file you just saved'))) : null,
+        profile.picTaint ? h('p', { class: 'cx-hint warn' }, 'Getting a copy of your Crunchyroll avatar for share cards… this updates by itself in a moment.') : null,
         h('div', { class: 'cx-flabel' }, 'Banner'),
         h('div', { class: 'cx-inline wrap' }, h('button', { class: 'cx-btn', onclick: () => pickPic(true) }, profile.banner ? 'Change banner' : 'Upload banner'),
           profile.banner ? h('button', { class: 'cx-btn ghost', onclick: async () => { profile.banner = null; await saveProfile(); render(); reopen(); } }, 'Remove') : null),
@@ -3450,13 +3541,60 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
     return { settings: { ...S }, marks: state.marks, markAs: state.markAs || {}, showMarks: state.showMarks, hidden: state.hidden, meta: state.meta,
       external: state.external, merges: state.merges, lookOk: state.lookOk || {}, plan: state.plan || {}, lang: state.lang || {}, profile: { ...profile } };
   }
+  // ---- strict checking of anything that comes from a FILE (backups, snapshots): only known fields, right types, sane sizes ----
+  const BAD_KEY = /^(__proto__|constructor|prototype)$/;
+  const isObj = (o) => !!o && typeof o === 'object' && !Array.isArray(o);
+  const str = (v, max) => (typeof v === 'string' ? v.slice(0, max) : undefined);
+  const num = (v) => (typeof v === 'number' && isFinite(v) ? v : undefined);
+  const okDate = (v) => (typeof v === 'string' && v.length <= 40 && !isNaN(Date.parse(v)) ? v : undefined);
+  function dict(o, check, max = 100000) {
+    const out = {};
+    if (!isObj(o)) return out;
+    for (const k of Object.keys(o).slice(0, max)) {
+      if (BAD_KEY.test(k) || k.length > 200) continue;
+      const v = check(o[k]);
+      if (v !== undefined) out[k] = v;
+    }
+    return out;
+  }
+  function cleanPersonal(d) {
+    const meta = (m) => {
+      if (!isObj(m)) return undefined;
+      const o = {};
+      if (Number.isInteger(m.r) && m.r >= 0 && m.r <= 10) o.r = m.r;
+      if (typeof m.n === 'string') o.n = m.n.slice(0, 5000);
+      if (typeof m.fav === 'boolean') o.fav = m.fav;
+      if (Array.isArray(m.tags)) o.tags = m.tags.filter((t) => typeof t === 'string').map((t) => t.slice(0, 40)).slice(0, 30);
+      return o;
+    };
+    const plan = (p) => (isObj(p) && typeof p.t === 'string' ? { t: p.t.slice(0, 300), img: /^https:\/\/(static|imgsrv)\.crunchyroll\.com\/[\w\-./,=:%]+$/i.test(p.img || '') ? p.img : '',
+      g: Array.isArray(p.g) ? p.g.filter((x) => typeof x === 'string').map((x) => x.slice(0, 40)).slice(0, 10) : [], at: num(p.at) || Date.now() } : undefined);
+    const ext = (x) => {
+      if (!isObj(x) || typeof x.title !== 'string' || !(x.svc in SERVICES) || BAD_KEY.test(x.svc)) return null;
+      const o = { id: /^[a-z0-9]{1,40}$/i.test(x.id || '') ? x.id : Math.random().toString(36).slice(2, 10), svc: x.svc, title: x.title.slice(0, 300),
+        count: Math.max(0, Math.min(100000, Math.floor(num(x.count) || 0))), at: num(x.at) || Date.now(), movie: x.movie === true,
+        eps: Array.isArray(x.eps) ? x.eps.slice(0, 20000).filter(isObj).map((e) => ({ date: okDate(e.date) || '', t: str(e.t, 300) || '' })).filter((e) => e.date) : [] };
+      if (Number.isInteger(x.total) && x.total >= 0 && x.total <= 100000) o.total = x.total;
+      if (['completed', 'watching', 'dropped'].includes(x.status)) o.status = x.status;
+      if (okDate(x.date)) o.date = x.date;
+      if (num(x.epMin) >= 1 && num(x.epMin) <= 600) o.epMin = x.epMin;
+      return o;
+    };
+    return { settings: d.settings, profile: isObj(d.profile) ? d.profile : undefined,
+      marks: dict(d.marks, num), markAs: dict(d.markAs, (v) => str(v, 200)), showMarks: dict(d.showMarks, num),
+      hidden: dict(d.hidden, (v) => (typeof v === 'boolean' || num(v) !== undefined ? v : undefined)), meta: dict(d.meta, meta),
+      merges: dict(d.merges, (v) => (typeof v === 'string' && !BAD_KEY.test(v) ? v.slice(0, 200) : undefined)), lookOk: dict(d.lookOk, (v) => (typeof v === 'boolean' || num(v) !== undefined ? v : undefined)),
+      plan: dict(d.plan, plan, 5000), lang: dict(d.lang, (v) => (typeof v === 'string' && /^[a-z]{2,3}(-[A-Za-z0-9]{2,4})?$/.test(v) ? v : undefined)),
+      external: Array.isArray(d.external) ? d.external.slice(0, 5000).map(ext).filter(Boolean) : [] };
+  }
   async function applyPersonal(d, mode) {
     const replace = mode === 'replace';
+    d = cleanPersonal(isObj(d) ? d : {});
     const put = (k, v) => { state[k] = replace ? { ...(v || {}) } : Object.assign(state[k] || {}, v || {}); };
     if (d.settings && typeof d.settings === 'object') {
       // settings from a file: only known settings, of the right type
       const base = { ...S }, ok = {};
-      for (const [k, v] of Object.entries(d.settings)) if (k in base ? typeof v === typeof base[k] : k === 'custom' && v && typeof v === 'object') ok[k] = v;
+      for (const [k, v] of Object.entries(d.settings)) if (!BAD_KEY.test(k) && (Object.prototype.hasOwnProperty.call(base, k) ? typeof v === typeof base[k] && (typeof v !== 'string' || v.length <= 200) : k === 'custom' && isObj(v))) ok[k] = v;
       if (ok.custom) ok.custom = Object.fromEntries(['a1', 'a', 'a2', 'bg'].map((k) => [k, /^#[0-9a-f]{6}$/i.test(ok.custom[k] || '') ? ok.custom[k] : null]).filter((e) => e[1]));
       Object.assign(S, ok);
     }
@@ -3464,7 +3602,9 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
     put('merges', d.merges); put('lookOk', d.lookOk); put('plan', d.plan); put('lang', d.lang);
     if (replace) state.external = [...(d.external || [])];
     else for (const x of d.external || []) if (!state.external.some((y) => y.id === x.id)) state.external.push(x);
-    if (d.profile) { if (replace) Object.assign(profile, { pic: null, picSrc: null, picTaint: false, banner: null, name: '', title: 'auto', frame: 'auto', top: [], showOnCR: false }); Object.assign(profile, d.profile); await saveProfile(); }
+    if (d.profile) { if (replace) Object.assign(profile, { pic: null, picSrc: null, picTaint: false, banner: null, name: '', title: 'auto', frame: 'auto', top: [], showOnCR: false });
+      for (const k of ['pic', 'picSrc', 'picTaint', 'banner', 'name', 'title', 'frame', 'top', 'showOnCR', 'crUrl']) if (k in d.profile) profile[k] = d.profile[k];
+      await saveProfile(); }
     state.lookIds = null;
     await store.set('lang3', state.lang); await savePrefs(); applyTheme(); refresh();
   }
@@ -3832,8 +3972,8 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
   .cx-card.sel .cx-check{background:var(--grad);color:#fff;box-shadow:none}
   .cx-card.selecting:hover{transform:none}
   .cx-bulk{position:fixed;left:50%;bottom:24px;z-index:2147483003;display:flex;align-items:center;gap:10px;padding:10px 12px 10px 20px;border-radius:18px;background:rgba(22,22,30,.96);backdrop-filter:blur(18px);
-    box-shadow:0 20px 50px rgba(0,0,0,.6),inset 0 0 0 1px var(--line);transform:translate(-50%,140%);transition:transform .3s cubic-bezier(.2,1,.3,1)}
-  .cx-bulk.open{transform:translate(-50%,0)}
+    box-shadow:0 20px 50px rgba(0,0,0,.6),inset 0 0 0 1px var(--line);transform:translate(-50%,calc(100% + 140px));visibility:hidden;transition:transform .3s cubic-bezier(.2,1,.3,1),visibility 0s .3s}
+  .cx-bulk.open{transform:translate(-50%,0);visibility:visible;transition:transform .3s cubic-bezier(.2,1,.3,1)}
   .cx-bulk b{margin-right:8px;font-size:14px}
   .cx-list{display:flex;flex-direction:column;gap:4px}
   .cx-lrow{--c:#ff8a1f;display:grid;grid-template-columns:72px minmax(0,2.4fr) 150px 170px 90px 70px 110px;align-items:center;gap:14px;min-height:52px;padding:6px 14px 6px 6px;border-radius:12px;background:var(--panel);cursor:pointer;font-size:13px;font-weight:600;transition:.12s}
@@ -4163,6 +4303,8 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
   .cx-modal-box.share .cx-share-img:not(.id){max-height:calc(94vh - 300px)}
   .cx-modal-box.share .cx-modal-act{position:sticky;bottom:0;margin:0 -26px;padding:14px 26px 20px;background:linear-gradient(transparent,#14141b 35%);flex-wrap:wrap}
   .cx-modal-box.share h3+p{margin:0 0 12px}
+  .cx-official{margin-top:12px;padding:12px 14px;border-radius:12px;font-size:12.5px;line-height:1.5;color:#ddd;background:rgba(46,224,124,.07);box-shadow:inset 0 0 0 1px rgba(46,224,124,.25)}
+  .cx-official b{color:#5cf09a}
   .cx-coderow{display:flex;gap:8px;align-items:center}
   .cx-coderow .cx-input{flex:1}
   .cx-snaps{display:flex;flex-direction:column;gap:8px;margin:2px 0 18px}
@@ -4171,6 +4313,123 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
   .cx-snap span{color:var(--mut)}
   .cx-snap{min-height:48px}
   .cx-more-sentinel{grid-column:1/-1;display:grid;place-items:center;padding:24px}
+
+  /* ===================== PHONE LAYOUT ===================== */
+  .cx-mnav,.cx-ico-m{display:none}
+  @media (max-width:640px){
+    .cx-main{padding:12px 12px 96px}
+    /* top bar: one compact row */
+    .cx-top{flex-wrap:nowrap;height:56px;min-height:56px;padding:0 10px 0 12px;gap:6px}
+    .cx-top .cx-tabs{display:none}
+    .cx-brand{gap:8px;min-width:0}.cx-logo{width:30px;height:30px}
+    .cx-by{display:none}.cx-title{font-size:17px}
+    .cx-actions{gap:4px}
+    .cx-actions .cx-btn{height:36px;min-width:36px;padding:0 10px}
+    .cx-actions .cx-sharebtn{display:none}
+    .cx-actions .cx-addbtn{display:inline-flex!important;padding:0;width:36px;justify-content:center;font-size:18px}
+    .cx-lbl{display:none}.cx-ico-m{display:inline;font-size:17px}
+    .cx-exportbtn{padding:0!important;width:36px;justify-content:center}
+    .cx-sync{padding:0 6px}
+    .cx-menu{position:fixed!important;left:10px!important;right:10px!important;top:60px!important;width:auto!important;max-height:72vh;overflow:auto}
+    /* bottom navigation, like an app */
+    .cx-mnav{display:grid;grid-template-columns:repeat(4,1fr);position:fixed;left:0;right:0;bottom:0;z-index:6;height:64px;padding:0 6px env(safe-area-inset-bottom);
+      background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(18px) saturate(1.4);-webkit-backdrop-filter:blur(18px) saturate(1.4);border-top:1px solid var(--line)}
+    .cx-mnav-b{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;border:0;background:none;color:var(--mut);font:800 11px inherit;font-family:inherit;cursor:pointer}
+    .cx-mnav-b svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    .cx-mnav-b.on{color:var(--acc1)}
+    .cx-mnav-b.on svg{filter:drop-shadow(0 0 6px var(--acc))}
+    .cx-overlay{overflow-x:hidden}
+    /* hero */
+    .cx-hero{gap:12px;margin-bottom:16px}
+    .cx-big{padding:18px}
+    .cx-who{gap:12px;margin-bottom:10px}.cx-who .cx-ava{--s:52px!important}
+    .cx-who-name{font-size:19px}
+    .cx-days b{font-size:62px}
+    .cx-sub{font-size:13px}
+    .cx-goal{width:100%;flex-direction:row;justify-content:center}
+    .cx-first{font-size:12.5px;flex-wrap:wrap}
+    .cx-stats{gap:8px}
+    .cx-stat{padding:12px 12px;min-height:0;border-radius:14px}
+    .cx-stat b{font-size:24px}.cx-stat span{font-size:11px;line-height:1.2}
+    .cx-shelf-i{width:104px}
+    /* sections */
+    .cx-sec{margin-bottom:18px}
+    .cx-sec-h{flex-wrap:wrap;row-gap:4px;margin-bottom:10px}
+    .cx-sec-h h2{font-size:16px}
+    .cx-sec-h>button:last-child,.cx-sec-h .cx-btn{margin-left:auto}
+    .cx-check-card{padding:12px 12px;border-radius:16px}
+    .cx-ck-head{flex-wrap:wrap;gap:10px}
+    .cx-ck-txt{flex:1 1 180px}
+    .cx-ck-act{width:100%}.cx-ck-act .cx-btn{flex:1}
+    .cx-check-card.slim .cx-ck-bar.slim{display:none}
+    .cx-ck-item{grid-template-columns:minmax(0,1fr) auto !important}
+    .cx-ck-item>*:nth-child(n+3){display:none}
+    .cx-cw{width:78vw;max-width:300px}
+    .cx-week{grid-template-columns:repeat(7,140px)}
+    .cx-airrow{grid-template-columns:70px 44px minmax(0,1fr) auto;gap:8px;padding:9px 10px}
+    .cx-airrow-u{display:none}
+    .cx-air-tools .cx-airseg-b{padding:5px 9px}
+    .cx-rec{width:200px}
+    .cx-medals{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px}
+    .cx-badges{grid-template-columns:1fr 1fr;gap:8px}
+    /* filters: one swipeable row */
+    .cx-bar{gap:8px}
+    .cx-chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding:2px 0 4px;max-width:100%}
+    .cx-chips::-webkit-scrollbar{display:none}
+    .cx-chip{flex:none}
+    .cx-tools{width:100%}
+    .cx-search{flex:1 1 100%;min-width:0;width:100%}
+    /* cards */
+    .cx-grid{grid-template-columns:1fr 1fr;gap:10px}
+    .cx-card{border-radius:14px}
+    .cx-card .cx-art{aspect-ratio:4/3}
+    .cx-card .cx-status{font-size:9.5px;padding:3px 7px;top:8px;left:8px}
+    .cx-card .cx-heart{top:6px;right:6px;transform:scale(.85)}
+    .cx-card .cx-ini{font-size:34px}
+    .cx-card .cx-info{padding:9px 10px 10px}
+    .cx-card .cx-info b,.cx-card h3{font-size:13.5px}
+    .cx-card .cx-pills,.cx-card .cx-qbtns,.cx-card .cx-quick{display:none}
+    .cx-card .cx-meta{font-size:11px;flex-wrap:wrap;row-gap:2px}
+    .cx-card .cx-note{font-size:11px}
+    .cx-lrow{grid-template-columns:44px minmax(0,1fr) 80px}.cx-lrow>span:nth-child(n+4){display:none}
+    /* show panel: full screen */
+    .cx-drawer{width:100vw!important;max-width:100vw!important;border-radius:0}
+    .cx-dhero{height:200px}
+    .cx-dbody{padding:14px!important}
+    .cx-dact{display:grid!important;grid-template-columns:1fr 1fr;gap:8px}
+    .cx-dact .cx-btn{justify-content:center;width:100%}
+    .cx-dact .cx-btn.primary{grid-column:1/-1}
+    .cx-dfacts{grid-template-columns:1fr 1fr!important;gap:8px}
+    .cx-rate{flex-wrap:wrap}
+    .cx-season summary{flex-wrap:wrap;row-gap:8px;padding:12px}
+    .cx-season summary .cx-st{flex:1 1 calc(100% - 90px);min-width:0}
+    .cx-season summary .cx-sbar{display:none}
+    .cx-season summary .cx-btn{order:5;flex:1 1 100%;justify-content:center}
+    .cx-ep{gap:8px}
+    /* windows become bottom sheets */
+    .cx-modal{place-items:end stretch}
+    .cx-modal-box,.cx-modal-box.wide,.cx-modal-box.share,.cx-modal-box.profile{width:100vw!important;max-width:100vw;max-height:92vh;overflow:auto;border-radius:22px 22px 0 0;padding:20px 16px calc(16px + env(safe-area-inset-bottom))}
+    .cx-modal-box h3{font-size:18px}
+    .cx-modal-act{flex-wrap:wrap;gap:8px}
+    .cx-modal-act .cx-btn{flex:1 1 auto;justify-content:center}
+    .cx-form label:not(.row){flex-direction:column;align-items:stretch;gap:6px}
+    .cx-form label .cx-input,.cx-form label .cx-select{max-width:none!important;width:100%}
+    .cx-form label .cx-input.sm{width:100%}
+    .cx-inline{flex-wrap:wrap}
+    .cx-themes{grid-template-columns:1fr 1fr}
+    .cx-cols{grid-template-columns:1fr 1fr}
+    .cx-titles,.cx-frames{grid-template-columns:1fr 1fr;max-height:none}
+    .cx-prof-head{margin:-20px -16px 16px;padding:28px 16px 18px;border-radius:22px 22px 0 0}
+    .cx-modal-box.share .cx-modal-act{margin:0 -16px;padding:12px 16px calc(14px + env(safe-area-inset-bottom))}
+    .cx-modal-box.share .cx-share-img:not(.id){max-height:calc(92vh - 330px)}
+    .cx-airseg.big{display:flex}.cx-airseg.big .cx-airseg-b{flex:1}
+    /* little things */
+    .cx-toasts{bottom:78px;left:12px;right:12px;transform:none}
+    .cx-toast{max-width:100%}
+    .cx-launch{right:14px;bottom:14px;height:44px;padding:0 16px 0 6px;font-size:13px}
+    .cx-bulk{bottom:76px!important;max-width:calc(100vw - 20px)}
+    .cx-insights,.cx-igrid{grid-template-columns:1fr!important}
+  }
   .cx-imp.row3{grid-template-columns:minmax(0,1fr) auto auto}
   `;
 

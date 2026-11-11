@@ -10,6 +10,11 @@
   <a href="CHANGELOG.md">Changelog</a>
 </p>
 
+> **✓ Official sources** – Reaperdex is only published by **nullreaper** on
+> [Greasy Fork](https://greasyfork.org/en/scripts/604749-reaperdex-anime-tracker-for-crunchyroll) and here on
+> [GitHub (nullreaper-dev/reaperdex)](https://github.com/nullreaper-dev/reaperdex).
+> A copy from anywhere else may have been modified – install from Greasy Fork to be safe.
+
 ![Library](1-library.jpg)
 
 ## Features
@@ -23,9 +28,13 @@
 - **Insights** – days of anime, streaks, activity calendar, when you watch, top genres, anime personality.
 - **Awards** – yearly medals, milestone badges, watch goals.
 - **Ratings, notes, tags, favourites**, "What should I watch?", compare with a friend.
+- **Profiles** – your own picture (or your Crunchyroll avatar), banner, 35 titles to earn from Common to Mythic, unlockable frames and a Top 5.
+- **Anime ID card**, Plan to watch, "More like this" recommendations and optional airing countdowns.
 - **Anime Recap** share cards (all time or any year) and a shareable web page of your list.
 - **Exports** – MyAnimeList / AniList XML, Google Sheets, Excel, CSV, backup & restore.
-- **5 themes** – Crunchy, Neon, Sakura, Ocean, Midnight.
+- **8 themes** – Sunset, Cyberpunk, Sakura, Ocean, Aurora, Reaper, Midnight and **Custom** (your own colours, shareable as theme codes).
+- **Works on phones** – Firefox for Android + Tampermonkey, with a phone layout.
+- **Safety** – daily snapshots of your marks, ratings and profile, full backups, and failed Crunchyroll updates are retried automatically.
 
 | Show panel | Insights | Anime Recap |
 |---|---|---|
@@ -40,10 +49,10 @@
 | Where | Why |
 |---|---|
 | `www.crunchyroll.com` (its own API, with your existing login) | history, seasons, episodes, saved progress, watchlist, marking episodes watched |
-| `graphql.anilist.co` – **only when you use the MAL/AniList export** | looks up MyAnimeList IDs by show title (titles only) |
-| `cdn.jsdelivr.net/npm/xlsx@0.18.5` | loaded by your userscript manager via `@require`, used only for the Excel download |
+| `static.crunchyroll.com`, `imgsrv.crunchyroll.com` | show posters and your Crunchyroll avatar (Crunchyroll's own image servers) |
+| `graphql.anilist.co` – **only for the MAL/AniList export, or airing countdowns if you turn them on** | looks up MyAnimeList IDs and next-episode times by show title (titles only) |
 
-Nothing else. No analytics, no servers of our own. Data is stored in IndexedDB on crunchyroll.com – use **Export → Backup** to keep a copy.
+Nothing else. No analytics, no servers of our own, and **no outside code** – Reaperdex loads no libraries. Data is stored in IndexedDB on crunchyroll.com – use **Export → Backup** to keep a copy.
 
 ## Bugs & ideas
 Open an [issue](https://github.com/nullreaper-dev/reaperdex/issues) and paste **Export → Copy debug info** (it contains no account ids, tokens or watch dates).
