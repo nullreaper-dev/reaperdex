@@ -1,5 +1,9 @@
 # Reaperdex – Changelog
 
+## 1.7.4
+- Safety snapshots list has more room and no repeated version numbers
+- The "Ten Thousand" title is now called **5K Club** – it's for 5,000 episodes
+
 ## 1.7.3
 - **Safer backup restore** – pictures and settings from backup files are checked, so a tampered backup can't inject anything
 - Small internal tidy-up – no changes to how anything works
