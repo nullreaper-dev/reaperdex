@@ -1,5 +1,8 @@
 # Reaperdex – Changelog
 
+## 1.9.2 – Menu fix
+- **Fixed:** long menus like Export ▾ now scroll instead of running off the bottom of the screen (so *Fix “1s left”* is reachable on smaller screens).
+
 ## 1.9.1 – Fix “1s left”
 - **New:** Export ▾ → **Fix “1s left” on Crunchyroll** – episodes marked by older versions (before 1.9.0) were saved 2 seconds short, so Crunchyroll and the phone app showed “1s left”. One click finds them, shows you how many, and saves them as fully played. Nothing else is touched.
 
