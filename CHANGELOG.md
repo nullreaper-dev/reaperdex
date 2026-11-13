@@ -1,5 +1,10 @@
 # Reaperdex – Changelog
 
+## 1.8.2 – Fixes
+- **Fixed:** "Mark complete" no longer undoes itself after a refresh – long specials inside a season (like Attack on Titan's Final Chapters) now count for their show instead of becoming separate movie cards
+- **Fixed:** episodes Reaperdex only counted as watched (because you watched a later one) are now sent to Crunchyroll when you mark a show or season, so your phone shows them too – seasons like that get a **Sync to Crunchyroll** button
+- **Fixed:** "First anime" no longer changes when you mark an old show as watched – Reaperdex now remembers the earliest date it has ever seen
+
 ## 1.8.1 – Fixes
 - **Fixed:** fully watched shows (every season 100%) now show **Completed** – a few episodes Crunchyroll keeps under their own IDs (often dub copies) no longer hold them on Watching
 - **Fixed:** season numbers no longer skip – movies (like JJK 0 or Mugen Train) don't take a number, so it's S1, S2, S3 instead of S1, S2, S4
