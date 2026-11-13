@@ -1,5 +1,8 @@
 # Reaperdex – Changelog
 
+## 1.9.5 – Continue Watching shows your real next episode
+- **Fixed:** after *Fix “1s left”*, Continue Watching could show an episode you’d already watched (marked “Watched”) instead of your real next one. Run the button again to put it right.
+
 ## 1.9.4 – One button
 - **Fixed:** *Fix “1s left”* now does everything in one go – fixes the episodes, keeps their real watch dates and puts Continue Watching back in the order you really watched. If Continue Watching is still out of order from an earlier version, just run it again.
 - **Fixed:** Continue Watching could put barely-started first episodes at the front – only real watch dates are used now.
