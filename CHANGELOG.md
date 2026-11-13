@@ -1,5 +1,12 @@
 # Reaperdex – Changelog
 
+## 1.8.1 – Fixes
+- **Fixed:** fully watched shows (every season 100%) now show **Completed** – a few episodes Crunchyroll keeps under their own IDs (often dub copies) no longer hold them on Watching
+- **Fixed:** season numbers no longer skip – movies (like JJK 0 or Mugen Train) don't take a number, so it's S1, S2, S3 instead of S1, S2, S4
+- **Fixed:** the Library check now lists shows with episodes it couldn't match to a season ("N eps not matched")
+- **Fixed:** a dub that's still coming out is no longer counted as an extra season (it could wrongly say "New season out")
+- **Fixed:** a season that's only announced (no episodes yet) no longer makes a show say "New season out"
+
 ## 1.8.0 – Phone layout
 - **Phone layout** – Reaperdex now feels like an app on your phone: compact top bar, bottom navigation (Library, Insights, Share, Profile), two-column cards, full-screen show panels and swipeable filters
 - Windows open as **bottom sheets** on phones, with easy-to-tap buttons
