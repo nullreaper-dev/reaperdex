@@ -1,5 +1,8 @@
 # Reaperdex – Changelog
 
+## 1.9.6 – Leaves you alone when nothing’s wrong
+- **Better:** *Fix “1s left”* only changes anything when there’s something to fix – otherwise it just says everything is fine.
+
 ## 1.9.5 – Continue Watching shows your real next episode
 - **Fixed:** after *Fix “1s left”*, Continue Watching could show an episode you’d already watched (marked “Watched”) instead of your real next one. Run the button again to put it right.
 
