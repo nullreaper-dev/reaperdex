@@ -1,5 +1,10 @@
 # Reaperdex – Changelog
 
+## 1.9.4 – One button
+- **Fixed:** *Fix “1s left”* now does everything in one go – fixes the episodes, keeps their real watch dates and puts Continue Watching back in the order you really watched. If Continue Watching is still out of order from an earlier version, just run it again.
+- **Fixed:** Continue Watching could put barely-started first episodes at the front – only real watch dates are used now.
+- **Removed:** the separate *Fix Continue Watching order* button (the one button does it).
+
 ## 1.9.3 – Continue Watching fix
 - **Fixed:** *Fix “1s left”* made Crunchyroll treat every fixed episode as watched just now, so old shows jumped to the front of Continue Watching and Reaperdex showed today as their date. Real watch dates are now kept, and Continue Watching is put back in order automatically afterwards.
 - **New:** Export ▾ → **Fix Continue Watching order** – if old shows jumped to the front of Crunchyroll’s Continue Watching, one click puts it back in the order you really watched.
