@@ -5,7 +5,7 @@
 // @homepageURL  https://github.com/nullreaper-dev/reaperdex
 // @supportURL   https://github.com/nullreaper-dev/reaperdex/issues
 // @license      GPL-3.0-or-later
-// @version      1.8.2
+// @version      1.9.0
 // @copyright    2026, nullreaper (https://greasyfork.org/en/users/1661483-nullreaper)
 // @description  Your whole anime history as a slick tracker: Crunchyroll synced automatically (episode by episode), plus Netflix, Disney+ and Prime. Mark things watched, insights, awards, ratings, and a share card for your mates.
 // @icon         data:image/png;base64,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
@@ -46,6 +46,8 @@
  */
 
 /*  CHANGELOG
+ *  1.9.0 – Crunchylists; First-watched sort, Copy titles, Paused reminder, On this day, Drop a show yourself; Mark up to here, Undo; smarter/smoother search, natural A–Z, steady sorts, SP labels; marking fixes (0s left, no re-sends, real lengths, faster).
+ *  1.8.3 – Marking no longer re-sends episodes Crunchyroll already has as watched (they stay out of Continue Watching).
  *  1.8.2 – Fixed: long specials inside a season (e.g. AoT Final Chapters) count for their show, so Mark complete sticks; First anime keeps the earliest date ever seen.
  *  1.8.1 – Fixed: fully watched shows now show Completed, season numbers no longer skip, Library check flags unmatched episodes.
  *  1.8.0 – Phone layout, avatar notice fix, official-sources notice, security hardening (formula-safe exports, built-in Excel, strict file checks).
@@ -80,8 +82,31 @@
 (function () {
   'use strict';
 
-  const VERSION = '1.8.2';
+  const VERSION = '1.9.0';
   const CHANGELOG = [
+    { v: '1.9.0', items: [
+      'New: Crunchylists – add any show (or every show you’ve selected, e.g. “Select all shown” on a filter) to a Crunchylist, or make a new list in one go',
+      'New: Manage Crunchylists – see your lists, delete them, or copy a list’s shows into your Plan to watch',
+      'New: “Mark up to here” (⤒) on any episode – marks it and every earlier episode of that season',
+      'New: Undo right after marking – one tap puts the episodes back to not watched (also on Crunchyroll)',
+      'New: sort by “First watched” – your library in the order you started each show',
+      'New: “Copy titles” for selected shows – paste the list anywhere',
+      'New: “Paused” reminder on cards – shows how long it’s been and when a show will count as Dropped',
+      'New: “On this day” in Insights – what you watched on today’s date in earlier years',
+      'New: drop a show yourself (✕ Drop / ↺ Undrop in the show panel) – no need to wait 180 days',
+      'Better: search ignores punctuation and word order – “re zero” finds Re:ZERO, “spy family” finds SPY x FAMILY',
+      'Better: search waits until you pause typing, so big libraries stay smooth',
+      'Better: A–Z sorts naturally (Season 2 before Season 10) and ignores “The”',
+      'Better: shows with the same progress, hours or time left keep a steady order (last watched first)',
+      'Fixed: specials are labelled “SP1” instead of “ESP1”',
+      'Fixed: marked episodes no longer show “1s left” on Crunchyroll – they’re saved as fully played',
+      'Fixed: episodes without a known length (long specials, some movies) are marked with their real length instead of a 24-minute guess',
+      'Faster: marking a whole show sends 3 episodes at a time',
+      'Fixed: marking an old show as watched no longer makes it jump to the top as “watched just now”',
+    ] },
+    { v: '1.8.3', items: [
+      'Fixed: marking a show or season as watched no longer re-sends episodes Crunchyroll already has as watched (in any language) – so they don’t pop back into Crunchyroll’s “Continue Watching”',
+    ] },
     { v: '1.8.2', items: [
       'Fixed: “Mark complete” no longer undoes itself after a refresh – long specials inside a season (like Attack on Titan’s Final Chapters) now count for their show instead of becoming separate movie cards',
       'Fixed: episodes Reaperdex only counted as watched (because you watched a later one) are now sent to Crunchyroll when you mark a show or season – so your phone shows them too. Seasons like that get a “Sync to Crunchyroll” button',
@@ -596,7 +621,7 @@
   // Tell Crunchyroll an episode is finished. Uses the exact request format Crunchyroll's own player was seen
   // using (if you've played anything this session), otherwise tries the known formats and remembers what works.
   async function crMarkWatched(id, seconds, at) {
-    const ph = at != null ? at : Math.max(1, (seconds || S.epMin * 60) - 2);
+    const ph = at != null ? at : Math.max(1, Math.ceil(seconds || S.epMin * 60));   // the full length – "length − 2 s" showed as “1s left” on Crunchyroll
     if (phLearned && !state.phLearned) { state.phLearned = phLearned; store.set('phlearn3', phLearned); }
     const L = state.phLearned;
     await playheadOwner();
@@ -772,8 +797,11 @@
       if (r.known) s.known = true;
       if (!s.last || r.date > s.last) { s.last = r.date; s.lastEp = r; }
       if (!s.first || r.date < s.first) { s.first = r.date; s.firstEp = r; }
+      if (r.date && !r.bulk && (!s.lastReal || r.date > s.lastReal)) s.lastReal = r.date;
     }
     noteFirst(rows);
+    // marking a whole show at once isn't watching it: keep "last watched" on when you really watched (if known)
+    for (const s of map.values()) if (s.lastReal && s.lastReal < s.last) s.last = s.lastReal;
     const now = Date.now(), out = [];
     const byDays = (d) => (d <= S.dropDays ? 'watching' : 'dropped');
     for (const s of map.values()) {
@@ -940,6 +968,8 @@
     }
     // airing countdowns
     for (const s of out) s.airing = (state.airing || {})[s.sid] || null;
+    // shows you dropped yourself (✕ Drop) – a show you finish anyway still counts as Completed
+    for (const s of out) if ((state.meta[s.sid] || {}).drop && s.status !== 'completed' && s.status !== 'unavailable') { s.status = 'dropped'; s.droppedByYou = true; }
     state.series = out;
     state.lookIds = null;
     state.byId = new Map(out.map((s) => [s.sid, s]));
@@ -1370,18 +1400,137 @@
   // ================================================================
   async function pushToCrunchyroll(list) {
     if (!list.length) return;
-    let fails = 0, done = 0, lastErr = '';
-    const t = toast(`Updating Crunchyroll… 0/${list.length}`, 'info', true);
-    for (const e of list) {
-      try { await crMarkWatched(e.cid || e.id, e.d); } catch (err) { fails++; lastErr = err.message; if (err.retry) await enqueue('mark', e.cid || e.id, e.d); }
-      t.set(`Updating Crunchyroll… ${++done}/${list.length}`);
-      await sleep(150);
+    // skip what Crunchyroll already has as watched (in any language): re-sending it would make Crunchyroll treat it as
+    // just played and put it back in "Continue Watching"
+    let skipped = 0;
+    try {
+      const idsOf = (e) => [...new Set([e.cid || e.id, ...(e.ids || [])].filter(Boolean))];
+      const ph = await fetchPlayheads([...new Set(list.flatMap(idsOf))]);
+      const seen = (e) => idsOf(e).some((id) => { const p = ph[id]; return p && (p.fully_watched || (e.d > 0 && p.playhead >= e.d * 0.85)); });
+      const before = list.length; list = list.filter((e) => !seen(e)); skipped = before - list.length;
+    } catch (_) {}
+    if (!list.length) return toast(skipped ? `✓ Already watched on Crunchyroll – nothing to send` : 'Nothing to send', 'ok');
+    // real lengths: an unknown length used to be guessed as 24 min (a long special then showed "35 min left")
+    const lenOf = new Map();
+    for (const L of Object.values(state.eps || {})) for (const ep of L || []) if (ep.d) ep.ids.forEach((id) => lenOf.set(id, ep.d));
+    for (const e of list) if (!e.d) e.d = lenOf.get(e.cid || e.id) || lenOf.get(e.id) || 0;
+    const unknown = [...new Set(list.filter((e) => !e.d).map((e) => e.cid || e.id))];
+    for (let i = 0; i < unknown.length; i += 40) {
+      try {
+        const j = await api(`/content/v2/cms/objects/${unknown.slice(i, i + 40).join(',')}?locale=${LOCALE}`);
+        for (const o of j.data || []) {
+          const ms = (o.episode_metadata || {}).duration_ms || (o.movie_metadata || {}).duration_ms || o.duration_ms;
+          if (ms) list.forEach((e) => { if ((e.cid || e.id) === o.id) e.d = Math.round(ms / 1000); });
+        }
+      } catch (_) {}
     }
+    let fails = 0, done = 0, lastErr = '';
+    const sent = [];
+    const t = toast(`Updating Crunchyroll… 0/${list.length}`, 'info', true);
+    await pool(list, 3, async (e) => {   // 3 at a time – a whole show used to take a long while
+      try { await crMarkWatched(e.cid || e.id, e.d); sent.push(e); } catch (err) { fails++; lastErr = err.message; if (err.retry) await enqueue('mark', e.cid || e.id, e.d); }
+      t.set(`Updating Crunchyroll… ${++done}/${list.length}`);
+      await sleep(100);
+    });
     t.close();
+    const undo = sent.length ? { label: 'Undo', fn: () => undoMarks(sent) } : null;
     if (fails === list.length && (state.queue || []).length) toast(`Saved in the tracker. Crunchyroll didn't answer (${lastErr}) – Reaperdex will send it again automatically on the next sync.`, 'info');
     else if (fails === list.length) toast(`Saved in the tracker, but Crunchyroll didn't accept it (${lastErr}). Play any episode for a few seconds, then try again – Reaperdex learns Crunchyroll's format from the player.`, 'bad');
-    else if (fails) toast(`Marked ${list.length - fails}/${list.length} on Crunchyroll · all saved in the tracker`, 'ok');
-    else toast(`✓ ${plural(list.length, 'episode')} marked watched on Crunchyroll`, 'ok');
+    else if (fails) toast(`Marked ${list.length - fails}/${list.length} on Crunchyroll · all saved in the tracker`, 'ok', false, undo);
+    else toast(`✓ ${plural(list.length, 'episode')} marked watched on Crunchyroll${skipped ? ` · ${skipped} already watched there, left alone` : ''}`, 'ok', false, undo);
+  }
+  // ================================================================
+  // Crunchylists – Crunchyroll's own lists (10 lists, 100 shows each)
+  // ================================================================
+  const clBase = () => `/content/v2/${state.acc}/custom-lists`;
+  async function clLists() {
+    if (!state.acc) { const me = await api('/accounts/v1/me'); state.acc = me.account_id; }
+    const j = await api(`${clBase()}?locale=${LOCALE}`);
+    return { lists: (j.data || []).map((l) => ({ id: l.list_id, t: l.title || 'Untitled', n: l.total || 0 })), max: (j.meta && j.meta.max_private) || 10 };
+  }
+  async function clItems(id) {
+    const out = [];
+    for (let p = 1; p <= 3; p++) { const j = await api(`${clBase()}/${id}?locale=${LOCALE}&page=${p}&page_size=100`); out.push(...(j.data || [])); if (!j.meta || !j.meta.next_page) break; }
+    return out;
+  }
+  const clOk = (s) => s && !s.ext && !s.hidden && s.sid && !String(s.sid).startsWith('mv:');
+  async function addToCrunchylist(sids) {
+    const shows = sids.map((id) => state.byId.get(id)).filter(clOk);
+    if (!shows.length) return toast('Only Crunchyroll shows can go in a Crunchylist', 'bad');
+    let info;
+    try { info = await clLists(); } catch (e) { return toast(`Couldn’t load your Crunchylists (${e.message})`, 'bad'); }
+    modal('', (close) => {
+      const name = h('input', { class: 'cx-input', placeholder: 'New list name…', maxlength: '50', style: 'flex:1' });
+      const go = async (id, title) => { close(); await fillCrunchylist(id, title, shows); };
+      return [h('h3', {}, `Add ${shows.length === 1 ? shows[0].title : plural(shows.length, 'show')} to a Crunchylist`),
+        h('p', {}, `Crunchyroll allows ${info.max} lists with up to 100 shows each.`),
+        ...info.lists.map((l) => h('button', { class: 'cx-btn', style: 'display:flex;width:100%;margin:4px 0;justify-content:space-between', onclick: () => go(l.id, l.t) }, h('span', {}, `☰ ${l.t}`), h('em', {}, `${l.n}/100`))),
+        info.lists.length < info.max
+          ? h('div', { style: 'display:flex;gap:8px;margin-top:10px' }, name, h('button', { class: 'cx-btn primary', onclick: async () => {
+              const t = name.value.trim(); if (!t) return name.focus();
+              close();
+              try { const j = await api(`${clBase()}?locale=${LOCALE}`, 1, { method: 'POST', body: JSON.stringify({ title: t }) }); const id = ((j.data || [])[0] || j).list_id; if (!id) throw new Error('no list id'); await fillCrunchylist(id, t, shows); }
+              catch (e) { toast(`Crunchyroll didn’t create the list (${e.message})`, 'bad'); }
+            } }, '+ New list'))
+          : h('p', {}, 'You have the most lists Crunchyroll allows – delete one in Manage first.'),
+        h('div', { class: 'cx-modal-act' }, h('button', { class: 'cx-btn', onclick: () => { close(); manageCrunchylists(); } }, 'Manage Crunchylists'), h('button', { class: 'cx-btn', onclick: close }, 'Cancel'))];
+    });
+  }
+  async function fillCrunchylist(id, title, shows) {
+    let have = new Set();
+    try { have = new Set((await clItems(id)).map((x) => x.id)); } catch (_) {}
+    const todo = shows.filter((s) => !have.has(s.sid)), list = todo.slice(0, Math.max(0, 100 - have.size));
+    const t = toast(`Adding to “${title}”… 0/${list.length}`, 'info', true);
+    let ok = 0, fail = 0;
+    for (const s of list) {
+      try { await api(`${clBase()}/${id}?locale=${LOCALE}`, 1, { method: 'POST', body: JSON.stringify({ content_id: s.sid }) }); ok++; } catch (_) { fail++; }
+      t.set(`Adding to “${title}”… ${ok + fail}/${list.length}`); await sleep(120);
+    }
+    t.close();
+    const already = shows.length - todo.length, over = todo.length - list.length;
+    toast(`✓ ${plural(ok, 'show')} added to “${title}”${already ? ` · ${already} already in it` : ''}${over ? ` · ${over} didn’t fit (100 max)` : ''}${fail ? ` · ${fail} failed` : ''}`, fail && !ok ? 'bad' : 'ok');
+  }
+  async function manageCrunchylists() {
+    let info;
+    try { info = await clLists(); } catch (e) { return toast(`Couldn’t load your Crunchylists (${e.message})`, 'bad'); }
+    modal('', (close) => [h('h3', {}, 'Your Crunchylists'),
+      h('p', {}, info.lists.length ? `${info.lists.length} of ${info.max} lists.` : 'No Crunchylists yet – press Select, pick shows (or “Select all shown” on any filter), then “☰ Add to Crunchylist”.'),
+      ...info.lists.map((l) => h('div', { style: 'display:flex;gap:8px;align-items:center;margin:6px 0' },
+        h('span', { style: 'flex:1' }, `☰ ${l.t} · ${l.n}/100`),
+        h('button', { class: 'cx-btn xs', title: 'Copy this list’s shows into your Plan to watch', onclick: () => { close(); importCrunchylist(l.id, l.t); } }, '→ Plan to watch'),
+        h('button', { class: 'cx-btn xs', onclick: async () => {
+          if (!(await confirmModal(`Delete “${l.t}”?`, 'The list is deleted on Crunchyroll. Your shows and progress are not touched.', 'Delete list'))) return;
+          try { await api(`${clBase()}/${l.id}?locale=${LOCALE}`, 1, { method: 'DELETE' }); toast(`Deleted “${l.t}”`, 'info'); } catch (e) { toast(`Crunchyroll didn’t delete it (${e.message})`, 'bad'); }
+        } }, 'Delete'))),
+      h('div', { class: 'cx-modal-act' }, h('button', { class: 'cx-btn', onclick: close }, 'Close'))]);
+  }
+  async function importCrunchylist(id, title) {
+    let items;
+    try { items = await clItems(id); } catch (e) { return toast(`Couldn’t read “${title}” (${e.message})`, 'bad'); }
+    state.plan = state.plan || {};
+    let n = 0;
+    for (const it of items) {
+      const p = it.panel || {}, sid = it.id || p.id, have = state.byId.get(sid);
+      if (!sid || state.plan[sid] || (have && !have.plan)) continue;   // already planned, or already started
+      state.plan[sid] = { t: String(p.title || '').slice(0, 200), img: imgOf(p, 'poster_tall') || imgOf(p, 'thumbnail') || '', g: [], at: Date.now() };
+      delete state.hidden[sid]; n++;
+    }
+    await savePrefs(); refresh();
+    toast(n ? `✓ ${plural(n, 'show')} from “${title}” added to Plan to watch` : `Nothing new – you’ve already started or planned everything in “${title}”`, 'ok');
+  }
+  // Undo straight after marking: back to "not watched" in the tracker and on Crunchyroll
+  async function undoMarks(list) {
+    const t = toast(`Undoing… 0/${list.length}`, 'info', true);
+    let n = 0, fails = 0;
+    for (const e of list) {
+      delete state.marks[e.id]; delete state.markAs[e.id];
+      try { if (!(await crUnwatch(e.cid || e.id))) fails++; } catch (_) { fails++; }
+      t.set(`Undoing… ${++n}/${list.length}`);
+    }
+    const gone = new Set(list.map((e) => e.cid || e.id));
+    state.rows = state.rows.filter((r) => !gone.has(r.id));
+    await saveHistory(); await savePrefs(); refresh(); t.close();
+    toast(fails ? `Undone in the tracker · ${fails} not undone on Crunchyroll` : `↺ Undone – ${plural(list.length, 'episode')} back to not watched`, fails ? 'bad' : 'ok');
   }
   // ---- which language to mark in: Crunchyroll keeps every dub as its own episode
   const LANG_NAMES = { 'ja-JP': 'Japanese', 'en-US': 'English', 'en-IN': 'English (India)', 'es-419': 'Spanish (Latin America)', 'es-ES': 'Spanish (Spain)', 'es-LA': 'Spanish (Latin America)',
@@ -1646,6 +1795,7 @@
     return `${Math.floor(d / 365)} year${d >= 730 ? 's' : ''} ago`;
   }
   const dur = (min) => { min = Math.round(min); if (min < 60) return `${min}m`; const hh = Math.floor(min / 60), mm = min % 60; return hh >= 100 ? `${hh.toLocaleString()}h` : `${hh}h${mm ? ` ${mm}m` : ''}`; };
+  const epTag = (l) => (/^\d/.test(String(l ?? '')) ? 'E' + l : String(l || 'E?'));   // "SP1", not "ESP1"
   const epLabel = (e) => (e.movie ? 'Movie' : `${e.sNo !== '' && e.sNo != null ? 'S' + e.sNo + ' ' : ''}E${e.epNo !== '' && e.epNo != null ? e.epNo : '?'}`);
   const stamp = () => new Date().toISOString().slice(0, 10);
   const daysText = (d) => (d >= 10 ? Math.round(d).toLocaleString() : d.toFixed(1));
@@ -1664,14 +1814,16 @@
     return el;
   }
   const loader = (t) => h('div', { class: 'cx-empty' }, h('div', { class: 'cx-spin' }), h('div', {}, t));
-  function toast(msg, kind = 'info', sticky) {
+  function toast(msg, kind = 'info', sticky, action) {
     const box = ui.toasts || document.body;
-    const t = h('div', { class: 'cx-toast ' + kind }, h('i', {}), h('span', {}, msg));
+    const txt = h('span', {}, msg);
+    const t = h('div', { class: 'cx-toast ' + kind }, h('i', {}), txt,
+      action ? h('button', { class: 'cx-btn xs', style: 'margin-left:10px;pointer-events:auto', onclick: (e) => { e.stopPropagation(); close(); action.fn(); } }, action.label) : null);
     box.append(t);
     requestAnimationFrame(() => t.classList.add('in'));
     const close = () => { t.classList.remove('in'); setTimeout(() => t.remove(), 300); };
-    if (!sticky) setTimeout(close, 4200);
-    return { close, set: (m) => (t.lastChild.textContent = m) };
+    if (!sticky) setTimeout(close, action ? 9000 : 4200);
+    return { close, set: (m) => (txt.textContent = m) };
   }
   function modal(cls, content) {
     const close = () => { m.classList.remove('in'); setTimeout(() => m.remove(), 200); };
@@ -1721,7 +1873,7 @@
       'Seasons completed': s.movie || s.ext ? '' : s.seasonsDone ?? '', 'Seasons total': s.movie || s.ext ? '' : s.seasonsTotal ?? '',
       'Episodes watched': s.done + (s.others || []).reduce((a, o) => a + o.count, 0), 'Episodes total': s.total || '',
       'Progress %': s.total ? Math.round((s.done / s.total) * 100) : '',
-      'Next episode': s.current && s.current.next ? `${s.current.t} E${s.current.next}` : '',
+      'Next episode': s.current && s.current.next ? `${s.current.t} ${epTag(s.current.next)}` : '',
       'Skipped episodes': s.current && s.current.gaps.length ? s.current.gaps.join(', ') : '',
       'New season': s.newSeason ? `${s.newSeason.t} (${s.newSeason.n} eps)` : '',
       'Time left': s.left ? dur(s.left) : '', 'Hours watched': Math.round(s.minutes / 6) / 10,
@@ -2083,10 +2235,13 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
     if (f === 'almost') return s.status === 'watching' && s.total && s.total - s.done > 0 && s.total - s.done <= 3;
     return s.status === f;
   };
+  // search ignores punctuation, spacing and word order: "re zero" finds Re:ZERO, "spy family" finds SPY x FAMILY
+  const qKey = (x) => norm(x).replace(/[^a-z0-9\u3040-\u30ff\u4e00-\u9fff]+/g, ' ').trim();
+  const qHit = (title, q) => { const tt = qKey(title), tc = tt.replace(/ /g, ''); return qKey(q).split(' ').filter(Boolean).every((w) => tt.includes(w) || tc.includes(w)); };
   const matches = (s) => {
     const q = norm(state.q);
     return inFilter(s, state.filter, q) && (!state.genre || (s.genres || []).includes(state.genre)) && (!state.tag || (s.tags || []).includes(state.tag))
-      && (!state.year || s.years.has(state.year)) && (!q || norm(s.title).includes(q));
+      && (!state.year || s.years.has(state.year)) && (!q || qHit(s.title, q));
   };
   function setSyncLabel(t, busy) {
     if (!ui.sync) return;
@@ -2424,7 +2579,7 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
     if (!list.length) return h('span', {});
     const tile = (s) => {
       const nx = s.nextEp, st = STATUS[s.status];
-      const label = s.current && nx ? `${s.current.t.length > 26 ? 'Next' : s.current.t} · E${nx.l}${nx.t ? ` – ${nx.t}` : ''}` : s.newSeason ? `New: ${s.newSeason.t}` : s.mid ? `Finish ${epLabel(s.mid)}` : 'Keep watching';
+      const label = s.current && nx ? `${s.current.t.length > 26 ? 'Next' : s.current.t} · ${epTag(nx.l)}${nx.t ? ` – ${nx.t}` : ''}` : s.newSeason ? `New: ${s.newSeason.t}` : s.mid ? `Finish ${epLabel(s.mid)}` : 'Keep watching';
       const href = nx ? `https://www.crunchyroll.com/watch/${nx.id}` : s.mid ? `https://www.crunchyroll.com/watch/${s.mid.id}` : s.url;
       return h('div', { class: 'cx-cw', style: `--c:${st.color}`, onclick: () => openDrawer(s.sid) },
         h('div', { class: 'cx-cw-art', style: artBg(s) }, h('div', { class: 'cx-shade' }),
@@ -2476,7 +2631,7 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
     if (count('hidden')) chips.push(chip('hidden', 'Hidden', '#6b6b78'));
     if (state.year) chips.push(h('button', { class: 'cx-chip on', style: '--c:#ffc35a', onclick: () => { state.year = null; renderLibrary(); } }, `${state.year} ✕`));
     ui.search = h('input', { class: 'cx-search', placeholder: 'Search your anime…  ( / )', type: 'text', value: state.q });
-    ui.search.addEventListener('input', () => { state.q = ui.search.value; renderGrid(); });
+    ui.search.addEventListener('input', () => { state.q = ui.search.value; clearTimeout(ui.qTimer); ui.qTimer = setTimeout(renderGrid, 150); });   // wait for a pause in typing
     const sel = (opts, val, fn, title) => { const s = h('select', { class: 'cx-select', title }, ...opts.map(([v, l]) => h('option', { value: v, selected: v === val ? '' : null }, l))); s.addEventListener('change', () => fn(s.value)); return s; };
     const genres = {}; all.forEach((s) => !s.hidden && (s.genres || []).forEach((g) => (genres[g] = (genres[g] || 0) + 1)));
     const tags = {}; all.forEach((s) => !s.hidden && (s.tags || []).forEach((g) => (tags[g] = (tags[g] || 0) + 1)));
@@ -2486,8 +2641,9 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
         gs.length ? sel([['', 'All genres'], ...gs.map(([g, n]) => [g, `${g} (${n})`])], state.genre, (v) => { state.genre = v; renderGrid(); }, 'Genre') : null,
         ts.length ? sel([['', 'All tags'], ...ts.map(([g, n]) => [g, `#${g} (${n})`])], state.tag || '', (v) => { state.tag = v; renderGrid(); }, 'Tag') : null,
         ui.search,
-        sel([['recent', 'Last watched'], ['title', 'A–Z'], ['progress', 'Most progress'], ['hours', 'Most hours'], ['rating', 'Top rated'], ['left', 'Least time left']], state.sort, (v) => { state.sort = v; renderGrid(); }, 'Sort'),
+        sel([['recent', 'Last watched'], ['title', 'A–Z'], ['progress', 'Most progress'], ['hours', 'Most hours'], ['rating', 'Top rated'], ['left', 'Least time left'], ['first', 'First watched']], state.sort, (v) => { state.sort = v; renderGrid(); }, 'Sort'),
         h('button', { class: 'cx-btn icon' + (S.layout === 'list' ? ' on' : ''), title: 'Grid / list view (V)', onclick: () => { S.layout = S.layout === 'list' ? 'grid' : 'list'; savePrefs(); renderLibrary(); } }, S.layout === 'list' ? '▦' : '☰'),
+        h('button', { class: 'cx-btn', title: 'Your Crunchylists', onclick: () => manageCrunchylists() }, '☰ Lists'),
         h('button', { class: 'cx-btn' + (state.selecting ? ' primary' : ''), title: 'Select several shows (M)', onclick: () => { state.selecting = !state.selecting; state.sel.clear(); render(); } }, state.selecting ? 'Done' : 'Select')));
     void q;
     return ui.bar;
@@ -2495,8 +2651,11 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
 
   function sortList(list) {
     const pr = (s) => (s.total ? s.done / s.total : 0);
-    const by = { title: (a, b) => a.title.localeCompare(b.title), progress: (a, b) => pr(b) - pr(a), hours: (a, b) => b.minutes - a.minutes,
-      rating: (a, b) => (b.rating || 0) - (a.rating || 0) || (a.last < b.last ? 1 : -1), left: (a, b) => (a.left || 1e9) - (b.left || 1e9),
+    const tie = (a, b) => (a.last < b.last ? 1 : a.last > b.last ? -1 : 0);   // equal? last watched first – no jumping order
+    const tk = (x) => String(x || '').replace(/^(the|a|an)\s+/i, '');
+    const by = { title: (a, b) => tk(a.title).localeCompare(tk(b.title), undefined, { numeric: true, sensitivity: 'base' }), progress: (a, b) => pr(b) - pr(a) || tie(a, b), hours: (a, b) => b.minutes - a.minutes || tie(a, b),
+      rating: (a, b) => (b.rating || 0) - (a.rating || 0) || tie(a, b), left: (a, b) => (a.left || 1e9) - (b.left || 1e9) || tie(a, b),
+      first: (a, b) => ((a.first || '9') < (b.first || '9') ? -1 : (a.first || '9') > (b.first || '9') ? 1 : 0),
       recent: (a, b) => (a.last < b.last ? 1 : -1) }[state.sort] || ((a, b) => (a.last < b.last ? 1 : -1));
     return list.sort(by);
   }
@@ -2535,11 +2694,13 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
     else if (s.plan) note = h('div', { class: 'cx-note' }, s.planSrc === 'watchlist' ? 'On your Crunchyroll watchlist' : 'Added by you');
     else if (s.status === 'unavailable') note = h('div', { class: 'cx-note' }, `${plural(s.count, 'episode')} · removed from Crunchyroll`);
     else if (s.manual) note = h('div', { class: 'cx-note' }, '✓ Marked completed by you');
+    else if (s.droppedByYou) note = h('div', { class: 'cx-note' }, '✕ Dropped by you');
     else if (s.fresh) note = h('div', { class: 'cx-note new' }, `★ ${plural(s.fresh.n, 'new episode')} in ${s.fresh.t}`);
     else if (s.noSeasons && !s.movie && !s.ext) note = h('div', { class: 'cx-note' }, 'Probably removed from Crunchyroll');
     else if (s.newSeason) note = h('div', { class: 'cx-note new' }, `★ ${s.newSeason.t} is out`);
     else if (s.current && s.current.gaps.length) note = h('div', { class: 'cx-note warn' }, `Skipped E${s.current.gaps.slice(0, 4).join(', E')}${s.current.gaps.length > 4 ? '…' : ''}`);
-    else if (s.current && s.current.next) note = h('div', { class: 'cx-note' }, `Up next · E${s.current.next}`);
+    else if (s.status === 'watching' && S.dropDays && s.days >= 30) note = h('div', { class: 'cx-note warn' }, `Paused ${Math.floor(s.days)} days · counts as Dropped in ${Math.max(1, Math.ceil(S.dropDays - s.days))}`);
+    else if (s.current && s.current.next) note = h('div', { class: 'cx-note' }, `Up next · ${epTag(s.current.next)}`);
     else if (otherEps) note = h('div', { class: 'cx-note' }, `+ ${otherEps} eps on ${s.others.map((o) => SERVICES[o.svc].label).join(', ')}`);
     const stop = (fn) => (e) => { e.stopPropagation(); fn(); };
     const btns = [];
@@ -2591,6 +2752,8 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
       h('button', { class: 'cx-btn', onclick: () => { state.series.filter(matches).forEach((s) => state.sel.add(s.sid)); renderGrid(); renderBulk(); } }, 'Select all shown'),
       h('button', { class: 'cx-btn', disabled: n ? null : '', onclick: () => markShows(ids()) }, '✓ Mark complete'),
       h('button', { class: 'cx-btn', disabled: n ? null : '', onclick: () => hideShows(ids()) }, '✕ Didn’t watch'),
+      h('button', { class: 'cx-btn', disabled: n ? null : '', title: 'Add the selected shows to a Crunchylist on Crunchyroll', onclick: () => addToCrunchylist(ids()) }, '☰ Add to Crunchylist'),
+      h('button', { class: 'cx-btn', disabled: n ? null : '', title: 'Copy the titles of the selected shows', onclick: async () => { const tl = ids().map((id) => (state.byId.get(id) || {}).title).filter(Boolean); await copyText(tl.join('\n')); toast(`Copied ${plural(tl.length, 'title')}`, 'ok'); } }, '⧉ Copy titles'),
       h('button', { class: 'cx-btn primary', onclick: () => { state.selecting = false; state.sel.clear(); render(); } }, 'Done'));
   }
 
@@ -2674,12 +2837,14 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
       const isOpen = openSeasons ? openSeasons.has(x.id) : (s.current === x || (!s.current && x === s.newSeason));
       const credits = x.list ? x.list.filter((e) => e.st === 'credit').length : 0;
       const markBtn = x.list && (!x.complete || credits) ? h('button', { class: 'cx-btn xs', title: x.complete ? `${plural(credits, 'episode')} counted here because you watched a later one – send them to Crunchyroll so your phone shows them too` : '', onclick: (e) => { e.preventDefault(); e.stopPropagation(); markEpisodes(x.list, x.t); } }, x.complete ? 'Sync to Crunchyroll' : 'Mark season watched') : null;
-      const body = x.list ? h('div', { class: 'cx-eps' }, ...x.list.map((e) => h('div', { class: 'cx-ep ' + e.st },
-          h('span', { class: 'cx-ep-n' }, e.l ? `E${e.l}` : '•'),
+      const body = x.list ? h('div', { class: 'cx-eps' }, ...x.list.map((e, i) => h('div', { class: 'cx-ep ' + e.st },
+          h('span', { class: 'cx-ep-n' }, e.l ? `${epTag(e.l)}` : '•'),
           h('a', { class: 'cx-ep-t', href: `https://www.crunchyroll.com/watch/${e.id}`, title: 'Play this episode' }, e.t || `Episode ${e.l}`),
           h('span', { class: 'cx-ep-s' }, e.st === 'partial' ? `◐ ${e.pct}%` : stLabel[e.st]),
-          !WATCHED.has(e.st) ? h('button', { class: 'cx-ep-btn', title: 'Mark watched (also on Crunchyroll)', onclick: () => markEpisodes([e], `${x.t} E${e.l}`) }, '✓')
-            : e.st === 'marked' || e.st === 'done' ? h('button', { class: 'cx-ep-btn undo', title: 'Undo – set as not watched (also on Crunchyroll)', onclick: () => unwatchEp(e, `${x.t} E${e.l}`) }, '↺') : h('span', { class: 'cx-ep-btn ghost' }, ''))))
+          h('span', { class: 'cx-ep-acts' },
+            !WATCHED.has(e.st) && x.list.slice(0, i).some((y) => !WATCHED.has(y.st)) ? h('button', { class: 'cx-ep-btn', title: 'Mark up to here – this and every earlier episode of this season', onclick: () => markEpisodes(x.list.slice(0, i + 1), `${x.t} up to ${epTag(e.l)}`) }, '⤒') : null,
+            !WATCHED.has(e.st) ? h('button', { class: 'cx-ep-btn', title: 'Mark watched (also on Crunchyroll)', onclick: () => markEpisodes([e], `${x.t} ${epTag(e.l)}`) }, '✓')
+              : e.st === 'marked' || e.st === 'done' ? h('button', { class: 'cx-ep-btn undo', title: 'Undo – set as not watched (also on Crunchyroll)', onclick: () => unwatchEp(e, `${x.t} ${epTag(e.l)}`) }, '↺') : h('span', { class: 'cx-ep-btn ghost' }, '')))))
         : h('div', { class: 'cx-eps' }, h('div', { class: 'cx-ep none' }, h('span', {}), h('span', { class: 'cx-ep-t' }, x.n ? `${x.n} episodes – loading list…` : 'Episode list not available')));
       return h('details', { class: 'cx-season' + (x.complete ? ' ok' : x.started ? ' go' : ''), 'data-id': x.id, open: isOpen ? '' : null },
         h('summary', {}, h('span', { class: 'cx-sn' }, x.mv ? 'MV' : x.extra ? 'SP' : `S${seasonNo(s, i)}`),
@@ -2694,11 +2859,14 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
     ui.panel.replaceChildren(drawerHero(s),
       h('div', { class: 'cx-dbody' },
         h('div', { class: 'cx-dact' },
-          nx ? h('a', { class: 'cx-btn primary', href: `https://www.crunchyroll.com/watch/${nx.id}` }, `▶ Play E${nx.l}`) : h('a', { class: 'cx-btn primary', href: s.url }, '▶ Open on Crunchyroll'),
+          nx ? h('a', { class: 'cx-btn primary', href: `https://www.crunchyroll.com/watch/${nx.id}` }, `▶ Play ${epTag(nx.l)}`) : h('a', { class: 'cx-btn primary', href: s.url }, '▶ Open on Crunchyroll'),
           nx ? h('a', { class: 'cx-btn', href: s.url }, 'Show page') : null,
           s.status !== 'completed' && s.status !== 'unavailable' && !s.hidden ? h('button', { class: 'cx-btn', onclick: () => markShow(s.sid) }, '✓ Mark whole show watched') : null,
           s.hidden ? h('button', { class: 'cx-btn', onclick: () => unhide(s.sid) }, '↺ Restore to my list') : h('button', { class: 'cx-btn', onclick: () => hideShows([s.sid]) }, '✕ Didn’t watch'),
+          s.droppedByYou ? h('button', { class: 'cx-btn', title: 'Put it back to its normal status', onclick: () => { setMeta(s.sid, { drop: false }); refresh(); openDrawer(s.sid, true); toast(`${s.title} is back`, 'ok'); } }, '↺ Undrop')
+            : (s.status === 'watching' || s.status === 'newseason') && !s.plan && !s.hidden ? h('button', { class: 'cx-btn', title: 'You’ve stopped watching this – mark it Dropped now', onclick: () => { setMeta(s.sid, { drop: true }); refresh(); openDrawer(s.sid, true); toast(`${s.title} dropped`, 'info'); } }, '✕ Drop') : null,
           h('button', { class: 'cx-btn', title: 'Tell the tracker another card is the same anime', onclick: () => mergeModal(s) }, '⇄ Merge'),
+          clOk(s) ? h('button', { class: 'cx-btn', title: 'Add this show to one of your Crunchylists', onclick: () => addToCrunchylist([s.sid]) }, '☰ Crunchylist') : null,
           !s.plan && !s.hidden ? h('button', { class: 'cx-btn' + (profile.top.includes(s.sid) ? ' on' : ''), title: 'Pin to the Top 5 on your profile and ID card', onclick: () => toggleTop(s.sid) }, profile.top.includes(s.sid) ? '★ In your Top 5' : '☆ Top 5') : null),
         h('div', { class: 'cx-dfacts' },
           h('div', {}, h('span', {}, 'First watched'), h('b', {}, niceDate(s.first))),
@@ -2757,6 +2925,19 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
   function renderInsights() {
     const I = insights(), T = state.totals;
     const card = (title, ...kids) => h('section', { class: 'cx-icard' }, h('h3', {}, title), ...kids);
+    // On this day: what you watched on today's date in earlier years (real watching only – no bulk marks)
+    const otdNow = new Date(), otd = new Map();
+    for (const r of allRows()) {
+      if (!r.date || r.bulk || r.dateGuess || r.inferred) continue;
+      const d = new Date(r.date);
+      if (d.getMonth() !== otdNow.getMonth() || d.getDate() !== otdNow.getDate() || d.getFullYear() >= otdNow.getFullYear()) continue;
+      const y = d.getFullYear(), title = (state.byId.get(r.sid) || {}).title || r.series || 'Unknown';
+      const m = otd.get(y) || new Map(); m.set(title, (m.get(title) || 0) + 1); otd.set(y, m);
+    }
+    const OTD = [...otd.entries()].sort((a, b) => b[0] - a[0]).map(([y, m]) => {
+      const top = [...m.entries()].sort((a, b) => b[1] - a[1]), n = top.reduce((a, x) => a + x[1], 0);
+      return h('div', { class: 'cx-irow' }, h('span', {}, String(y)), h('b', {}, top.slice(0, 3).map((x) => x[0]).join(', ') + (top.length > 3 ? ` +${top.length - 3}` : '')), h('em', {}, plural(n, 'episode')));
+    });
     const maxM = Math.max(1, ...I.months.map((m) => m.min));
     const months = h('div', { class: 'cx-mchart' }, ...I.months.map((m, i) => h('div', { class: 'cx-mbar', title: `${m.d.toLocaleDateString('en-GB', { month: 'long', year: 'numeric' })}: ${dur(m.min)} · ${m.eps} eps` },
       h('i', { style: `height:${Math.max(2, (m.min / maxM) * 100)}%` }), h('span', {}, i % 3 === 0 ? m.d.toLocaleDateString('en-GB', { month: 'short' }) + (m.d.getMonth() === 0 || i === 0 ? ` ’${String(m.d.getFullYear()).slice(2)}` : '') : ''))));
@@ -2796,6 +2977,7 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
       card('Watch time by month', months),
       card('When you watch', heat),
       h('div', { class: 'cx-igrid' },
+        OTD.length ? card('On this day', ...OTD) : null,
         card('Biggest days',
           I.bigDay ? h('div', { class: 'cx-irow' }, h('span', {}, 'Most in one day'), h('b', {}, `${dur(I.bigDay.min)} · ${I.bigDay.eps} eps`), h('em', {}, niceDate(I.bigDay.k + 'T12:00:00'))) : null,
           I.binge ? h('div', { class: 'cx-irow' }, h('span', {}, 'Biggest binge'), h('b', {}, `${I.binge.n} eps of ${I.binge.title}`), h('em', {}, niceDate(I.binge.date + 'T12:00:00'))) : null,
@@ -2948,7 +3130,7 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
         title.textContent = pick.title; art.style.backgroundImage = pick.thumb ? `url("${pick.thumb}")` : '';
         if (++i < steps) setTimeout(tick, 35 + i * i * 0.3);
         else {
-          sub.textContent = pick.current && pick.nextEp ? `Next up: ${pick.current.t} E${pick.nextEp.l}${pick.left ? ` · ${dur(pick.left)} left` : ''}` : pick.newSeason ? `${pick.newSeason.t} is waiting` : '';
+          sub.textContent = pick.current && pick.nextEp ? `Next up: ${pick.current.t} ${epTag(pick.nextEp.l)}${pick.left ? ` · ${dur(pick.left)} left` : ''}` : pick.newSeason ? `${pick.newSeason.t} is waiting` : '';
           const href = pick.nextEp ? `https://www.crunchyroll.com/watch/${pick.nextEp.id}` : pick.url;
           act.replaceChildren(h('button', { class: 'cx-btn', onclick: spin }, '🎲 Spin again'), href ? h('a', { class: 'cx-btn primary', href }, '▶ Watch it') : null);
         }
@@ -3916,7 +4098,8 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
   .cx-chev{flex:none;font-size:20px;color:var(--dim);transition:transform .2s}
   .cx-season[open] .cx-chev{transform:rotate(90deg)}
   .cx-eps{display:flex;flex-direction:column;padding:2px 8px 10px}
-  .cx-ep{display:grid;grid-template-columns:46px minmax(0,1fr) auto 32px;align-items:center;gap:10px;min-height:38px;padding:4px 8px;border-radius:10px}
+  .cx-ep-acts{display:flex;gap:4px;justify-content:flex-end}
+  .cx-ep{display:grid;grid-template-columns:46px minmax(0,1fr) auto auto;align-items:center;gap:10px;min-height:38px;padding:4px 8px;border-radius:10px}
   .cx-ep:hover{background:rgba(255,255,255,.035)}
   .cx-ep-n{font-size:12px;font-weight:900;color:var(--dim);font-variant-numeric:tabular-nums}
   .cx-ep-t{font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#e4e4ea}
