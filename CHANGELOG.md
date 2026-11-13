@@ -1,5 +1,8 @@
 # Reaperdex – Changelog
 
+## 1.9.1 – Fix “1s left”
+- **New:** Export ▾ → **Fix “1s left” on Crunchyroll** – episodes marked by older versions (before 1.9.0) were saved 2 seconds short, so Crunchyroll and the phone app showed “1s left”. One click finds them, shows you how many, and saves them as fully played. Nothing else is touched.
+
 ## 1.9.0 – Crunchylists and more
 **New**
 - **Crunchylists** – add any show (or every show you've selected – e.g. *Select all shown* on a filter) to a Crunchylist or make a new list in one go; manage and delete your lists; copy a list into Plan to watch
