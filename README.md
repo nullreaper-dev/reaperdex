@@ -59,6 +59,9 @@ Nothing else. No analytics, no servers of our own, and **no outside code** – R
 ## Bugs & ideas
 Open an [issue](https://github.com/nullreaper-dev/reaperdex/issues) and paste **Export → Copy debug info** (it contains no account ids, tokens or watch dates).
 
+## Found a security issue?
+Please don't post it as a public issue first – email **nullreaperdev@gmail.com** so it can be fixed before it's public. Public issues are fine for anything else.
+
 ## Licence
 **GPL-3.0-or-later** © 2026 [nullreaper](https://greasyfork.org/en/users/1661483-nullreaper), with attribution terms – see [NOTICE.md](NOTICE.md).
 Forks are welcome, but must keep the credit "Reaperdex by nullreaper", be marked as modified, and use their own name.
