@@ -1,5 +1,29 @@
 # Reaperdex – Changelog
 
+## 1.9.0 – Crunchylists and more
+**New**
+- **Crunchylists** – add any show (or every show you've selected – e.g. *Select all shown* on a filter) to a Crunchylist or make a new list in one go; manage and delete your lists; copy a list into Plan to watch
+- **Sort by First watched** – your library in the order you started each show
+- **Copy titles** of selected shows
+- **Paused reminder** on cards – how long it's been and when a show will count as Dropped
+- **On this day** in Insights – what you watched on today's date in earlier years
+- **Drop a show yourself** (✕ Drop / ↺ Undrop in the show panel)
+- **Mark up to here (⤒)** on any episode, and **Undo** right after marking
+
+**Better**
+- Search ignores punctuation and word order – "re zero" finds Re:ZERO, "spy family" finds SPY x FAMILY
+- Search waits until you pause typing, so big libraries stay smooth
+- A–Z sorts naturally (Season 2 before Season 10) and ignores "The"
+- Shows with the same progress, hours or time left keep a steady order
+- Specials are labelled "SP1" instead of "ESP1"
+
+**Fixed**
+- Marked episodes no longer show "1s left" on Crunchyroll – they're saved as fully played
+- Marking no longer re-sends episodes Crunchyroll already has as watched (in any language), so they stay out of "Continue Watching"
+- Episodes without a known length (long specials, some movies) are marked with their real length
+- Marking a whole show is faster (3 episodes at a time)
+- Marking an old show no longer makes it jump to the top as "watched just now"
+
 ## 1.8.2 – Fixes
 - **Fixed:** "Mark complete" no longer undoes itself after a refresh – long specials inside a season (like Attack on Titan's Final Chapters) now count for their show instead of becoming separate movie cards
 - **Fixed:** episodes Reaperdex only counted as watched (because you watched a later one) are now sent to Crunchyroll when you mark a show or season, so your phone shows them too – seasons like that get a **Sync to Crunchyroll** button
