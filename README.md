@@ -24,6 +24,7 @@
 - **Dub & sub merged**, movies split into their own cards.
 - **Mark episodes, seasons or whole shows watched** – syncs back to Crunchyroll (with *Mark up to here* and *Undo*).
 - **Crunchylists** – add shows to your Crunchylists or turn any filter into a new one, manage your lists, and copy a list into Plan to watch.
+- **Fix “1s left”** (Export ▾) – if an older version left episodes showing “1s left” on Crunchyroll, one click saves them as fully watched, keeps your real watch dates and puts Continue Watching back in order. Does nothing if there’s nothing to fix.
 - **Auto-sync** from your phone or TV.
 - **Other services** – Netflix import, Disney+ / Prime Video manual add. One combined list.
 - **Insights** – days of anime, streaks, activity calendar, when you watch, top genres, anime personality, *On this day*.
