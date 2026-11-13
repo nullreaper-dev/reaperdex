@@ -5,7 +5,7 @@
 // @homepageURL  https://github.com/nullreaper-dev/reaperdex
 // @supportURL   https://github.com/nullreaper-dev/reaperdex/issues
 // @license      GPL-3.0-or-later
-// @version      1.9.3
+// @version      1.9.4
 // @copyright    2026, nullreaper (https://greasyfork.org/en/users/1661483-nullreaper)
 // @description  Your whole anime history as a slick tracker: Crunchyroll synced automatically (episode by episode), plus Netflix, Disney+ and Prime. Mark things watched, insights, awards, ratings, and a share card for your mates.
 // @icon         data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAATDElEQVR42t2beZRcVZ3HP797X629pNNJN0SQ9UjYkpjE8TDDDCDjxnEBkSCujB5EBgQFRCKMdHrAEUZHB49yDggygookCApCQKOEVRYDIYGEJQKJIStJp9Pdtb337m/+eK+qXlVXNyEkuFSfd96rV9X17vf723/3XmEnXtrXZwDDMcDz64W/5OugKcpiAJz097vd9hxVFb23z1PlLwv4tYXjqeoOj3GHvqjz51s5+eSw9v5XF+9PGB6GyP6E2o2q0Ip7Z+Jz8/3qhWlxr+l/mz9vvi8yAOYl1Fshn79oVXLMnHyyE9CdJkD7+gzz+lUE1flf6yHrPoWaOYRuJpl0Fmuin1DqR/UnVVrcIzGcxNC0aZgN75O/P8b3Qgdlv4KYp4BfUPRvlLP711UxjGcaMrbK9xmRfqcg3H7hl4ELyWb2oBJCOQAlRFVrknkt8A1SThLSDCq+1wyeVt8z1WtBxJJKgedBubIF1e/wxz9/S665xtf5c6ycvCDcYQKq/6A3nr03E9p+TC59LCMV8MMAMIgRFKlL8E2Q/ChzGPXd6p/DGo9cDorlPzBc+Yyc37+q2YzHJKAm+ZvOO4j29D2kU/sxVPJRPESkUSp/NeAb3ztVlIBcLoUfbqBYOk7O7V+qc+ZYWdCoCWZ0eOtX/eUFb6Et9Rus3Y/txQAk9TcDXgERQUyKQinAmD3JZu/RKy89UBYsCOMQPpoABeGwFQJ9Qqg3kUnvy0g5wBiv5cP+WsFHGUFMhPEoVwI8rxcx8/XKszOsWCGa0Pw6G/PnGzl5QchthbOZkD+KoZKPGK/BAf2tgKdhnB6Fkk9bfha6x1xZsCBk/nzT4ANUVRCBW+d2Q/g81nbhh4CYv1nwjeFZMUZRSmh5qnypf201PEZMLJ5nBRRxn6Y9100ldH9H4KMboTpyuTya+nxS+xs14JavPko29Q5KvgOxfyfgq/ccnidU/OcY9Kcxrz9EwGhfnxER5bYL90WYQTkQVMzfFXinoBgqAYiZysT0wSIo2ieGY2JHGAbTyGbSKCHsjiSHNx+8xuDrzw9JZ4QKbwdgHtUQB+AdgLWgqrVB7QR4rYGS+E01xsqbD1418ZlGv68AeiAA69eLV6vnlYm1QcjrB68K6jQqDP0KGviIl0ZsClEQUQQTO53dDZ5G8E7rBDgHQRhhnTJF63mAc+xwYdNK8g6cE/xSmbCtG7fP4VRMltLgIL4f4FRwTlEHutvBJ2zfuRh8PMjQRfeqet9UCSQeqrQ2hdZqrwphxSdI5cl/+N8xbZ24ke2Unryf0pMPYAvbSbd1YEUwKIgkCpFdDL6q/hrjcS4mIy6dQ0frjoTTJs9fvRjf4VUJ9ksltGcfTFsnuBDT1kn+nz9I+8fPRfefTmFwiHKhQKDgnIs1YleDpw7eaQxYoyMIIAijYxQBjkhFNEGENp/H8PaxlgVBiEvlEvYXqaA3eU86T/gc+RNOw+/spTAwQKUcEKpERGhsFg3PYOfBVyVeVffQ1YEHIfhBCxMIqvahERtiYhPQFk2MSIWr/kGJHGAYOkxUjdW/I/VokHnb4aT3P5jiH++n9Ni92IFB0h0deBZEFUOUj9WIHZXbt/DsNXWnyeHFkq/6gSoJJmjQgDoBLoi/GIIxCbs31LxcFXSCCI0HUH2muBYtuCoqdYjnkT/iWDKHzKTwwN0Un3mClBHS+TZUFKPUo0XSF2nCR2kytrsYeMIWXZKAMFb/MMImdgwNcA7CIPoHbRp4Uvo1NUyouSYJGa8DaWrPshMm0vHBj1OZ9k6K991FYc2LpHM5UpksBofU/poBNx1Vc01Kvmb78XUQ1jVAgoiI0SYQREcYRnhF69KXuPnZcJiERKh72fGbsLHnMdWMifS+B5L+zNkUn3iE0oOLCAa2km5vx7Meoi7SBZFoOA1kJ0E3H65OQPIIQpAwMvcxCQgCIkM2cUEYA8XEGiGJTCn2E841OssdasgnskURcrOOIHPwNAoPLKK45GG8cCQOm5FZQEwCTYmNJkA3Sz4ME1EgBi5jOsEAAj82A02Ab3GuklDlwVHPsnRHGWgyM+cw+Tba33c8/vTZFBbdReH5Z0inM6RyOaw6xCWUs6butPD6Olr6ztUJaKkBrgKBjYiQqBquk2Cje7VzTIK4WhiMDn39BDSbhSqpKXsz4dOnU1r+JKVFdxFsWEe6rR3P8zBOEQVTy76aw16zFjSRYrReILU2AR+MjUNhTELt2iU0QepEVAmoas/OvprCZnbaTDJTD6Vw3+8p3f87vG3bSbdHZoGLQqc4HQ2+FgGaQ6GCiXOdGgFLliTygNgJuqrNJ03BNZpA8trF8ToIG/LsN0REbBaSztD2nuPIvH02xbtup7TkMdLpNCnPw6hGMqlpQHMITPoHEu8ZIw8IvIgEbGxoseQb/ICM1oIqAdUwuqteph42vZ5eOk49jfL0mZRvvB4plEhZD1VFVMcAXM1qZXSUaJkJuthrSjU3TobBFpKvZosaT1r6wa7RgLH8gwvJzJwNhQL+tVdj2zuQ2Dk2AKyVvoliqCFnMGMkQjV2EjlAPejWTaGqAeoSNbeJfIhzu3HuOz5bS1jx4+dpPTS6RNNDNZ4f0MY5SZW6D1jcQECChIbOSKK5UNMKVzeFpAYEfkOpuctwhyFiLXgexWVPMXz9j8im0mj1WdUZ4lpKTKPka0JilJNu7Ac4He3Fq1KuHposJLXuBNU1OUF948idA2MQa/EHBtg6/2bKv7mHvAjiWbRQRI1FrYd4qSh6NVSzkqh0E8VTSxNoKHO1fsYk8n6pg65pRTUKmDiCuF2xHCU6jEGdY+vCuxi44QZ4ZS0de+1N2157kevtgXwblEqw+VXCdRtgaBCTySLZXGNDRKWxwmypAS6Rz4skVKdVk4RGUqqMh+6N5QGqqHORuoswvPRJNv/oOspLltA9eza9Z54J06ZT8lKsHRmhWKmQSaXoaW8j5xw8/QzceTfh0yuxuRx4qYSPkKaOVysNUGlsKNK0OKGmHRovTtCE3bmdS4VrluaQWN3Lr7zCqzf9lJG7F5Lu6ODgK64gfOcR/HLxA9z61YtZ+vgSNm/cRKVSIZVKMbm3h2mzZnLCnBM5oe9iMkuXE171Q+zgUKQl1fpf6w2c1hqgtenlps6qtlitkWDTxYTsTCrsIocqxuBKJV79xQK23/ErzMaNTJg+gz0u/Qb3P/sCFx7zXh5/5DFEDNlcFi+VwoihXKmw+uXVPLfyWebf8BNmzprJZd+5gvdf9V3Ced/ErlwFHR0RCS1MwLQMM83LUlQa42jStrS5c/z61B0TJVeD99/Hy186i6Gf/Jh8sUDXzJns8d3v8YObb+W9Rx7L0iefYlJPDxMndZPJZrHWgoC1lkwmw8Tubib39rLy2ef48LHv54prrsN++zLCgw+C4ZHYQTKOE3RNragk+ObWtSadlSTOO0aCuhAxFhGhuOoFNt/wf5Qff5RsNkuueyLWWCZe+l9cdf2NfPH0LzBpUi/GGIIgaLV8L5rYCkMMQr4tj7TlmXv+VwC48PJLCE89G1sogvVGjc80XKqMlvwo8DL680SuNC4BcZIlxhIMDrLh6qtYe8GXcU88xoSJXXR0dJAaGmbiWefw0Asvcd4ZX2TSpN4awPFeVoQRF+BCRyUM6Zzcy3+cP5eFjzyK/eoXCYeLMcZxneCOgKf1te5gWAMGFt7JwM9/ChvX09HVRaa9DU8Er1LGO+RQKkf8Excc+S7E8zDGvCZ4T4SBsMK/5Hu46q3/yNagyGmvPMaqfJavnXUuRy19hPys6bhlKzETuhsarabl7MzrBR+bjpBoXVXtPAwjp2oMI8uWsvqCL7Plym+THdlOV08P+ZRHVoSMl8KUy6Q+9GHu+d19PPbwI3R2dtbAyziSHwoDpmY6uXm/o5ma7eQfJ+zDqV374XIZVix/mttuvwM56YOExcqoX/JGTVEls94dAC/Uz0YMOjISAQ4VPEGspbJxA5t/dgOFexeREaGrZzJpBE/AE4sVg3EO19YOM2ay4Ly5iLE1+zYIIYpF4pVw1O6XnaPTppi/71FMTuUohxWMOhYPbyKDEKZS/OJn8/nU9ddiuidE9QNjZoLUM7txwTdOjAhRSeplc5T+9CxueBjT3k44MsK2hXcwcOt87OA2Oru6SFtLCsEzgofBiCBioFLB23Mvysay9LE/ks1lcXFWOex8OmyK4TAgYww2lqJDCXD8dJ+jOCTfTTkok7EZzljzEHcPraMnlaWUy7L8iafYHvh07rMPrFoLtmUeMI4THAu8q0cMo4qXSmO3DbDl0rmYvfeluOIZ/DWraWvvIDN5EikFzxg8iTr/9T+D+iH09LJpaJjNGzeRSqUwwJAL+Fz3gXxlzxk8PLSOs9Y+TihKRiybgxLXvfUI/nXCPpT8AtlUnm+uf4Krt75Ar5clcA7P89i6ZQvrtg3QOaUXVr4MqfQ4TrA5b34t8AoSm4BFyeZyVP78Mv6q58mkMrT1TMZq5Kg8YzBIJPValzeenQ8VyeUolMtUymXEGAJVOkyKy/acwcRUnv0nT6XNeHxyzUNsC8rM23MG/zb5YEpBgWwqx01bnufrG5bR42UJYvMREfyKT7FUgnyu3u2qETClXeNsbnDcdbtjgK/avyB4IogoNp8nk2+DuIFpjWAwcRslnu5oWv8rIlAskUunSaXTVHwfzxiGw4CFQ+v4xKSDKFYKnNB9IN8Pyiwe2UTflJlUghJZL8uD21/h9LWP0mlTuEQ2qqp4nkc2k4FiudrTGIxsa72YxKzNi3ElJ6NNYGzwDRFABCuRiqeBtBjSxuCJwUq8gLMZfDV/sB5sepXejnYm9/bg+z4KZI3l82sf5datfyKXylPxi3x20kH8eJ8jCUOftE2xqriNU9Y8GGuhJCa2hCAImDi5myldE+GVzVFG6OyLALRPUQPHVHPApykFQbw6TF8PeLTaHYzU28ZEWCMYMbG9G0RbgI/rCvEyhOvXk1Vl+uxZlIpFJHZ4aTGc+uc/cOe2l0h7WSrOJ3ABxli2BWVOfvk+tgRlcsbiEipsjKFULHHojGl0pTK4l9dajChOlgLQu0KN9MdL4r/1yxdRluPZaMX16wDfSITUfIJows6V1uCrRZi16PZhWP4MHz3lJFwYIhKFP49Iq05Z/SCLBteQ9nJ48SLWT69+kGWlQSbYdM3u6wQIvl/mI6ecBCtfdDIwJFj5ExsqKxSEBQviqqDvaCuCgtyM9QQVbcjrdxB8PYQ2fz4O+MQ6HpvNobf/mg+87z3MnD2L4aFhPBtJ1SPSpE+ueYjfDq5mo/M5Z+2j3Dm0jsleBl9dE3jDyEiBqVOnctKJH4GbFzrJ5gG5RZZc43N0n63NdasiIqiec8oemMrzIO2Esbd6Q+Blx8BX74khHBjEXnoJi8pljjvyXXRNnow6h8brByoaZWudNs2rQZl24zWofdX2rbVs3rSBW+75NSe+5QANzpinXlenT6VyiPz22peUPiPES2WjLTFzrHzv5xsJuZxMxoAGO5IE7TLwVS1oayf87g949+xZfOM7/82rm9djjMEag0NJiZASw1DotwRvjMFay6ZN67h43iWc+O73EPR/P/Q6uwwhV8pvr31J58yxQr9rSLEVhDlzDBMnGjJbHiKd/gdKlQARr64FuxF8lWCxMFIgfNuB2G9fxuX/8798/SsXkWnL09bWFu3SiTNETcR6YwwiQqFQYGR4iIv6LuayeV8nOO+K0Fu6ypLPrET8dzB7Son+/tpITUM79NBDVa65xkfNxwjCjXgpj1CCNw18ta+Yb8OuXEV4/iXMPeML3LboTg48YH82b9rE4LZt+BU/mhGKp9B832dw2yCbN21k773ews133MplX5sbgV/ynKUtP0hQniO/vqbQYk1aU+UabyvRM49/OzZ7N9buQdn3UfGiFZG7EXyyCrUeDI0QTuzCnnM6hWlTWXDnQm67+RaefnIZW1/dgu/7pFIeXd3dHDrjcI6fcyIfO/5DdD63RsPLrw3s5u0p2vPbGCl+QO794cOttsy03jRVJeG0Ew4ik7mRdPqdlCoQaoBiaoX9bgGfuGcsVHzCkRJ25jQ44Tg47CC2uYANg9solkpkMxn2mNBFt03Bsy85bvmNc48+5Zm2CeCZ5RRGPiW/v25ZK/Djb5urkjBnTprJ5iKQc/FSnQSOaDMFYa02VRndHapNQ2lTb1EaFz69VpMlnoR1I0XCoo/pnoB9694wpTfK7QtlWLdJ3Op11gwMQzYH6XQB9PusHfxPWfaTkbHA79DGyeqmQz3zE/ui+llCPopyOF569HLaBgm28Bn6Gmo/VgqusXNEonq+HEQTsWE8cWstGAHPexaxt1EoXy+Lrn7hDW2cbI4OVQa1r8+w/oXDcDodNQeg2k2Y+B1HU+8t4SuSW2ZdU9HlzPjbZGult0lMnRtQBhD7IpjlbOt6Wu7rD6oazIIFr7l19nXtGNejj/b4K3/p0X2e0md26ebpURrR1yew2MAxb2y0i3ch8t4VujMS/3/fNZVKwTXkoAAAAABJRU5ErkJggg==
@@ -46,6 +46,7 @@
  */
 
 /*  CHANGELOG
+ *  1.9.4 – One button: Fix “1s left” also repairs Continue Watching; it now uses only real watch dates (no guessed or just-saved dates).
  *  1.9.3 – Fix “1s left” no longer scrambles Continue Watching or your watch dates; new “Fix Continue Watching order”.
  *  1.9.2 – Long menus (Export ▾) scroll instead of running off the bottom of the screen.
  *  1.9.1 – Fix “1s left”: one click saves episodes marked by older versions as fully played.
@@ -85,8 +86,13 @@
 (function () {
   'use strict';
 
-  const VERSION = '1.9.3';
+  const VERSION = '1.9.4';
   const CHANGELOG = [
+    { v: '1.9.4', items: [
+      'Fixed: “Fix 1s left” now does everything in one go – fixes the episodes, keeps their real watch dates and puts Continue Watching back in the order you really watched. Run it again if Continue Watching is still out of order',
+      'Fixed: Continue Watching could put barely-started first episodes at the front – only real watch dates are used now',
+      'Removed the separate “Fix Continue Watching order” button (the one button does it)',
+    ] },
     { v: '1.9.3', items: [
       'Fixed: “Fix 1s left” made Crunchyroll treat every fixed episode as watched just now – old shows jumped to the front of Continue Watching and Reaperdex showed today as their date. Real dates are now kept, and Continue Watching is put back in order afterwards',
       'New: Export ▾ → “Fix Continue Watching order” – if old shows jumped to the front of Crunchyroll’s Continue Watching, one click puts it back in the order you really watched',
@@ -773,7 +779,7 @@
     return [...state.rows, ...Object.values(state.phRows || {}).filter((r) => !have.has(r.id))];
   }
   function buildSeries() {
-    applyKeep(state.rows);
+    applyKeep([...state.rows, ...Object.values(state.phRows || {})]);
     const rows = (state._cr = allCrRows()), { seasons, eps: epLists, shows, marks } = state;
     // "mark as watched" in bulk saves dozens of episodes within seconds – flag those (real watching can't)
     { const t = rows.filter((r) => r.date).map((r) => [new Date(r.date).getTime(), r]).sort((a, b) => a[0] - b[0]);
@@ -1543,7 +1549,8 @@
     for (const r of rows) {
       const k = K[r.id];
       if (!k || r.crd || !r.date) continue;
-      const hit = k.at ? r.date === k.at : Math.abs(new Date(r.date).getTime() - k.t) < 30 * 60000;
+      const tm = new Date(r.date).getTime();
+      const hit = k.at ? Math.abs(tm - new Date(k.at).getTime()) < 120000 : tm >= k.t - 60000 && tm - k.t < 30 * 60000;   // a re-save can't be older than when we sent it
       if (!hit) continue;
       if (!k.at) { k.at = r.date; ch = true; }
       r.crd = r.date; r.date = k.d || r.date;
@@ -1555,47 +1562,50 @@
     for (const x of list) { if (!x.id || !x.d) continue; const o = K[x.id]; K[x.id] = { d: o && o.d && o.d < x.d ? o.d : x.d, t }; }
     await store.set('keepdate3', K);
   }
-  // Crunchyroll's Continue Watching is ordered by when progress was last saved. Put it back in the order you really
-  // watched: re-save each show's latest real episode (same position), oldest first.
-  async function cwPlan() {
-    const best = new Map();
-    for (const r of allCrRows()) {
-      if (!r.date || !r.sid || state.hidden[r.sid]) continue;
-      const c = best.get(r.sid), score = (r.bulk ? 0 : 1);
-      if (!c || score > c.score || (score === c.score && r.date > c.r.date)) best.set(r.sid, { r, score });
-    }
-    let cw = [];
-    try { const j = await api(`/content/v2/discover/${state.acc}/history?locale=${LOCALE}&n=300`); cw = j.data || []; } catch (_) {}
-    const out = [];
-    for (const x of cw) {
-      const p = x.panel || {}, e = p.episode_metadata || {}, sid = e.series_id || (p.movie_listing_metadata || {}).movie_listing_id || p.id;
-      const b = best.get(sid) || best.get('mv:' + p.id);
-      if (b) out.push({ id: b.r.id, d: b.r.date });
-    }
-    return out.sort((a, b) => (a.d < b.d ? -1 : 1));
+  // Crunchyroll's Continue Watching is ordered by when progress was last saved. To put it back in the order you really
+  // watched, re-save each show's latest really-watched episode (same position, nothing else changes), oldest first.
+  // Only trusted dates count: Crunchyroll's history (real dates restored), never guesses, and never the big
+  // "stamped just now" batches a repair leaves behind.
+  function realDates() {
+    const rows = [...state.rows, ...Object.values(state.phRows || {})];
+    applyKeep(rows);
+    const hist = new Set(state.rows);   // found-by-progress rows only count with a kept real date (their date moves with every save)
+    const ok = rows.filter((r) => r.id && r.sid && r.date && !r.dateGuess && !r.inferred && !state.hidden[r.sid] && (hist.has(r) || r.crd));
+    // batches of 200+ episodes saved within seconds of each other are repair stamps, not watching
+    const t = ok.filter((r) => !r.crd).map((r) => [new Date(r.date).getTime(), r]).sort((a, b) => a[0] - b[0]);
+    const stamp = new Set();
+    for (let i = 0; i < t.length;) { let j = i; while (j + 1 < t.length && t[j + 1][0] - t[j][0] < 90000) j++; if (j - i + 1 >= 200) for (let k = i; k <= j; k++) stamp.add(t[k][1]); i = j + 1; }
+    return ok.filter((r) => !stamp.has(r));
   }
-  async function cwRestore(plan, t) {
+  async function cwPlan() {
+    // Continue Watching holds about 100 shows: re-save the 120 you watched most recently, oldest first, so they fill it
+    // in the right order and anything pushed in by a repair drops out
+    const best = new Map();
+    for (const r of realDates()) {
+      const sid = r.sid, c = best.get(sid), score = r.bulk && !r.crd ? 0 : 1;
+      if (!c || score > c.score || (score === c.score && r.date > c.r.date)) best.set(sid, { r, score });
+    }
+    return [...best.values()].map((b) => ({ id: b.r.id, d: b.r.date }))
+      .sort((a, b) => (a.d > b.d ? -1 : a.d < b.d ? 1 : 0)).slice(0, 120).reverse();
+  }
+  async function cwRestore(plan, t, fixed) {
     if (!plan.length) return 0;
     const ph = await fetchPlayheads([...new Set(plan.map((x) => x.id))]);
     await keepDates(plan);
     let n = 0;
-    for (const x of plan) {
+    for (const x of plan) {   // one at a time, in order – the last one saved ends up first
       const p = ph[x.id];
       if (!p) continue;
-      try { await crMarkWatched(x.id, 0, p.playhead || 0); n++; } catch (_) {}
+      const at = Math.max(p.playhead || 0, (fixed && fixed.get(x.id)) || 0);   // never undo a fix that's still settling
+      try { await crMarkWatched(x.id, 0, at); n++; } catch (_) {}
       if (t) t.set(`Putting Continue Watching back in order… ${n}/${plan.length}`);
       await sleep(120);
     }
     return n;
   }
-  async function fixContinueWatching() {
-    if (!(await confirmModal('Fix Continue Watching order?', 'Puts Crunchyroll’s Continue Watching back in the order you really watched, by re-saving each show’s latest episode at the same spot. Nothing is marked watched or unwatched.', 'Fix order'))) return;
-    const t = toast('Reading Continue Watching…', 'info', true);
-    try { const n = await cwRestore(await cwPlan(), t); t.close(); toast(`✓ Continue Watching back in order (${plural(n, 'show')})`, 'ok'); }
-    catch (e) { t.close(); toast(`Couldn’t fix it (${e.message})`, 'bad'); }
-  }
   // Fix "1s left": versions before 1.9.0 saved marked episodes 2 seconds short of the end, so Crunchyroll
-  // (and the phone app) show "1s left". Find those and save them as fully played. Nothing else is touched.
+  // (and the phone app) show "1s left". Save those as fully played, keep their real dates, then put Crunchyroll's
+  // Continue Watching back in the order you really watched (also repairs it if an earlier version scrambled it).
   async function fixShortMarks() {
     if (!state.acc) { const me = await api('/accounts/v1/me'); state.acc = me.account_id; }
     const lenOf = new Map(), nameOf = new Map();
@@ -1621,27 +1631,29 @@
       const guessed = d > 0 && [24, S.epMin].some((m) => p.playhead === m * 60 - 2) && p.playhead < d;  // old 24-min guess on a longer episode
       if (id && (short || guessed)) todo.push({ id, d });
     }
+    t.set('Reading your Continue Watching…');
+    let plan = [];
+    try { plan = await cwPlan(); } catch (_) {}
     t.close();
-    if (!todo.length) return toast('✓ No “1s left” episodes found – everything is fully played', 'ok');
     const shows = [...new Set(todo.map((x) => nameOf.get(x.id)).filter(Boolean))];
-    const ok = await confirmModal(`Fix ${plural(todo.length, 'episode')}?`,
-      `These were marked by an older Reaperdex and show “1s left” (or a few minutes left) on Crunchyroll. They’ll be saved as fully played. Crunchyroll may briefly list a show in Continue Watching.`,
-      'Fix them', shows.length ? h('p', { style: 'opacity:.8;font-size:13px' }, shows.slice(0, 8).join(', ') + (shows.length > 8 ? ` +${shows.length - 8} more` : '')) : null);
+    const ok = await confirmModal(todo.length ? `Fix ${plural(todo.length, 'episode')}?` : 'No “1s left” episodes',
+      (todo.length ? `These show “1s left” (or a few minutes left) on Crunchyroll because an older Reaperdex saved them a little short. They’ll be saved as fully played and keep their real watch dates. ` : 'Everything is already fully played. ')
+        + `Then Continue Watching is put back in the order you really watched (${plural(plan.length, 'show')}). Nothing is marked watched or unwatched. Takes a few minutes – keep this tab open.`,
+      todo.length ? 'Fix everything' : 'Fix Continue Watching', shows.length ? h('p', { style: 'opacity:.8;font-size:13px' }, shows.slice(0, 8).join(', ') + (shows.length > 8 ? ` +${shows.length - 8} more` : '')) : null);
     if (!ok) return;
-    const plan = await cwPlan();   // Continue Watching order before we touch anything
-    const realDate = new Map(allCrRows().filter((r) => r.date).map((r) => [r.id, r.date]));
+    const realDate = new Map(realDates().map((r) => [r.id, r.date]));
     await keepDates(todo.map((x) => ({ id: x.id, d: realDate.get(x.id) })));
-    const t2 = toast(`Fixing… 0/${todo.length}`, 'info', true);
-    let done = 0, fails = 0;
+    const t2 = toast(todo.length ? `Fixing… 0/${todo.length}` : 'Putting Continue Watching back in order…', 'info', true);
+    let done = 0, fails = 0, put = 0;
     await pool(todo, 3, async (x) => {
       try { await crMarkWatched(x.id, x.d); } catch (_) { fails++; }
       t2.set(`Fixing… ${++done}/${todo.length}`);
       await sleep(100);
     });
-    t2.set('Putting Continue Watching back in order…');
-    try { await cwRestore(plan, t2); } catch (_) {}
+    try { put = await cwRestore(plan, t2, new Map(todo.map((x) => [x.id, Math.ceil(x.d)]))); } catch (_) {}
     t2.close();
-    toast(fails ? `Fixed ${todo.length - fails}/${todo.length} · ${fails} failed – try again later` : `✓ ${plural(todo.length, 'episode')} fixed – no more “1s left”`, fails ? 'bad' : 'ok');
+    refresh();
+    toast(fails ? `Fixed ${todo.length - fails}/${todo.length} · ${fails} failed – run it again later` : `✓ ${todo.length ? `${plural(todo.length, 'episode')} fixed · ` : ''}Continue Watching back in order (${plural(put, 'show')})`, fails ? 'bad' : 'ok');
   }
   // Undo straight after marking: back to "not watched" in the tracker and on Crunchyroll
   async function undoMarks(list) {
@@ -2417,8 +2429,7 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
       ['Restore a backup', null, () => pickFile('.json,application/json', restore)],
       ['Deep scan', 'Ask Crunchyroll for your progress on every show + watchlist', () => runDeep()],
       ['Full rescan', 'Re-read your whole Crunchyroll history', () => load('full')],
-      ['Fix “1s left” on Crunchyroll', 'Episodes marked by an older version show 1s left – save them as fully played', () => fixShortMarks()],
-      ['Fix Continue Watching order', 'If old episodes jumped to the front of Crunchyroll’s Continue Watching, put it back in the order you watched', () => fixContinueWatching()],
+      ['Fix “1s left” on Crunchyroll', 'Saves episodes an older version left 1s short as fully played, and puts Continue Watching back in order', () => fixShortMarks()],
       ['Copy debug info', 'If something looks wrong, send this to nullreaper', copyDebug],
     ], 'right');
     ui.main = h('main', { class: 'cx-main' });
