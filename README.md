@@ -19,13 +19,14 @@
 
 ## Features
 - **Every show checked episode by episode, season by season** – ✓ watched, partly watched, skipped. Credits-only leftovers count as watched.
-- **Smart statuses** – Watching, New season out, Completed, Dropped, Almost done, New episodes.
+- **Smart statuses** – Watching, New season out, Completed, Dropped, Almost done, New episodes – plus a *Paused* reminder, and you can drop a show yourself.
 - **Finds what Crunchyroll's history forgot** – an automatic *Library check* compares every show (plus your watchlist and Crunchylists) with Crunchyroll's saved progress; *Find a missing show* pulls any show on demand.
 - **Dub & sub merged**, movies split into their own cards.
-- **Mark episodes, seasons or whole shows watched** – syncs back to Crunchyroll.
+- **Mark episodes, seasons or whole shows watched** – syncs back to Crunchyroll (with *Mark up to here* and *Undo*).
+- **Crunchylists** – add shows to your Crunchylists or turn any filter into a new one, manage your lists, and copy a list into Plan to watch.
 - **Auto-sync** from your phone or TV.
 - **Other services** – Netflix import, Disney+ / Prime Video manual add. One combined list.
-- **Insights** – days of anime, streaks, activity calendar, when you watch, top genres, anime personality.
+- **Insights** – days of anime, streaks, activity calendar, when you watch, top genres, anime personality, *On this day*.
 - **Awards** – yearly medals, milestone badges, watch goals.
 - **Ratings, notes, tags, favourites**, "What should I watch?", compare with a friend.
 - **Profiles** – your own picture (or your Crunchyroll avatar), banner, 35 titles to earn from Common to Mythic, unlockable frames and a Top 5.
@@ -48,7 +49,7 @@
 ## Privacy – what the code talks to
 | Where | Why |
 |---|---|
-| `www.crunchyroll.com` (its own API, with your existing login) | history, seasons, episodes, saved progress, watchlist, marking episodes watched |
+| `www.crunchyroll.com` (its own API, with your existing login) | history, seasons, episodes, saved progress, watchlist, your Crunchylists, marking episodes watched |
 | `static.crunchyroll.com`, `imgsrv.crunchyroll.com` | show posters and your Crunchyroll avatar (Crunchyroll's own image servers) |
 | `graphql.anilist.co` – **only for the MAL/AniList export, or airing countdowns if you turn them on** | looks up MyAnimeList IDs and next-episode times by show title (titles only) |
 
