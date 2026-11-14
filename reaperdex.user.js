@@ -5,7 +5,7 @@
 // @homepageURL  https://github.com/nullreaper-dev/reaperdex
 // @supportURL   https://github.com/nullreaper-dev/reaperdex/issues
 // @license      GPL-3.0-or-later
-// @version      1.9.6
+// @version      1.9.7
 // @copyright    2026, nullreaper (https://greasyfork.org/en/users/1661483-nullreaper)
 // @description  Your whole anime history as a slick tracker: Crunchyroll synced automatically (episode by episode), plus Netflix, Disney+ and Prime. Mark things watched, insights, awards, ratings, and a share card for your mates.
 // @icon         data:image/png;base64,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
@@ -88,7 +88,7 @@
 (function () {
   'use strict';
 
-  const VERSION = '1.9.6';
+  const VERSION = '1.9.7';
   const CHANGELOG = [
     { v: '1.9.6', items: [
       'Better: Fix “1s left” only changes anything when there’s something to fix – otherwise it just says everything is fine',
@@ -373,7 +373,21 @@
   }
   const rel = (u) => { if (!u) return null; try { const x = new URL(u, API); return x.pathname + x.search; } catch (_) { return null; } };
 
+  // Every single request Reaperdex makes to Crunchyroll goes through this one function - so this is
+  // the one place a rate-limit circuit breaker needs to live to protect the WHOLE app, not just one
+  // feature. Getting 429'd repeatedly risks escalating from a brief block into a real account ban,
+  // so this is the one place a rate-limit guard needs to live to protect the WHOLE app. Community
+  // reports on Crunchyroll's 429 behaviour agree on one thing in particular: continuing to ping an
+  // endpoint while it's rate-limiting you resets or extends the cooldown, rather than helping. So
+  // this NEVER retries the same request on a 429 - one 429 is enough to go quiet immediately, for
+  // a conservative cooldown (their own Retry-After header if given, else 15 minutes), and repeated
+  // 429s without a clean request in between make that cooldown longer each time, up to an hour.
+  let rateLimitStreak = 0, rateLimitUntil = 0;
+  function rateLimitedError(msg) { const e = new Error(msg); e.status = 429; e.rateLimited = true; return e; }
   async function api(path, retry = 2, opts = {}) {
+    if (Date.now() < rateLimitUntil) {
+      throw rateLimitedError(`Crunchyroll rate-limited us – pausing all requests for ${Math.ceil((rateLimitUntil - Date.now()) / 60000)} more minute(s) to avoid risking a ban.`);
+    }
     const res = await origFetch.call(window, API + path, {
       method: opts.method || 'GET', body: opts.body, credentials: 'include',
       headers: { authorization: token, accept: 'application/json', ...(opts.body ? { 'content-type': 'application/json' } : {}) },
@@ -383,15 +397,32 @@
       while (token === old && Date.now() - t0 < 8000) await sleep(300);
       return api(path, retry - 1, opts);
     }
-    if ((res.status === 429 || res.status >= 500) && retry) { await sleep(2500); return api(path, retry - 1, opts); }
+    if (res.status === 429) {
+      rateLimitStreak++;
+      let retryAfterMs = 0;
+      try { const ra = Number(res.headers && res.headers.get && res.headers.get('retry-after')); if (ra > 0) retryAfterMs = ra * 1000; } catch (_) {}
+      const base = retryAfterMs || 15 * 60000;   // Crunchyroll's own cooldown if it gives one, else a conservative 15 minutes
+      rateLimitUntil = Date.now() + Math.min(base * Math.min(rateLimitStreak, 4), 60 * 60000);   // escalates on repeat hits, capped at 1 hour
+      throw rateLimitedError(`Crunchyroll rate-limited us – pausing all requests for ${Math.ceil((rateLimitUntil - Date.now()) / 60000)} minute(s) to avoid risking a ban.`);
+    }
+    rateLimitStreak = 0;
+    if (res.status >= 500 && retry) { await sleep(2500); return api(path, retry - 1, opts); }
     if (!res.ok) { const err = new Error(`Crunchyroll said ${res.status}`); err.status = res.status; throw err; }
     const txt = await res.text();
     return txt ? JSON.parse(txt) : {};
   }
   async function pool(list, n, fn) {
     const q = list.slice();
-    await Promise.all(Array.from({ length: n }, async () => { while (q.length) { await fn(q.shift()); await sleep(90); } }));
+    await Promise.all(Array.from({ length: n }, async () => { while (q.length) { await fn(q.shift()); await sleep(1000 + Math.random() * 2000); } }));
   }
+  // Bulk playhead-write loops (fixing "1s left" episodes, putting Continue Watching back in order)
+  // used to fire several writes a second. That's enough to trip Crunchyroll's rate limiter, and
+  // repeated rate-limit hits risk escalating into a real account ban, not just a temporary block.
+  // So these specific loops go one write at a time, wait a randomised 5-10s between each one, and
+  // give up on the whole batch the moment 3 writes in a row fail - that's Crunchyroll telling us to
+  // back off, not something worth pushing through.
+  const GENTLE_MIN_MS = 5000, GENTLE_MAX_MS = 10000;
+  const gentleGap = () => sleep(GENTLE_MIN_MS + Math.random() * (GENTLE_MAX_MS - GENTLE_MIN_MS));
 
   async function fetchHistory(acc, say, known) {
     const all = [], seen = new Set();
@@ -400,9 +431,9 @@
       let j = null, err = null;
       for (let a = 0; a < 4 && !j; a++) {
         try { j = await api(url, 1); }
-        catch (e) { err = e; if (a < 3) await sleep(1200 * 2 ** a); }
+        catch (e) { err = e; if (e.rateLimited) break; if (a < 3) await sleep(1200 * 2 ** a); }
       }
-      if (!j) { if (!all.length) throw err; break; }
+      if (!j) { if (err && err.rateLimited) throw err; if (!all.length) throw err; break; }
       pages++;
       const items = j.data || j.items || [];
       let fresh = 0, changed = 0;
@@ -419,7 +450,7 @@
       const next = rel(j.meta && j.meta.next_page) || rel(j.next_page) ||
         rel(j.links && j.links.next && j.links.next.href) || rel(j.__links__ && j.__links__.next && j.__links__.next.href);
       url = next || `/content/v2/${acc}/watch-history?page_size=${PAGE_SIZE}&page=${page}&locale=${LOCALE}`;
-      await sleep(150);
+      await sleep(1000 + Math.random() * 2000);
     }
     return { items: all, pages };
   }
@@ -440,7 +471,7 @@
       }
       if (say) say(`${label}… ${Math.min(done, ids.length).toLocaleString()}/${ids.length.toLocaleString()}`);
     };
-    await pool(batches, 3, get);
+    await pool(batches, 2, get);
     return out;
   }
 
@@ -485,7 +516,7 @@
     const cache = (await store.get('seasons5')) || {}, out = {}, todo = [];
     for (const id of ids) { const c = cache[id]; if (c && !force && Date.now() - c.at < 7 * DAY) out[id] = c.s; else todo.push(id); }
     let n = 0;
-    await pool(todo, 4, async (id) => {
+    await pool(todo, 2, async (id) => {
       try { const j = await api(`/content/v2/cms/series/${id}/seasons?locale=${LOCALE}`); out[id] = slimSeasons(j.data || []); cache[id] = { at: Date.now(), s: out[id] }; }
       catch (_) { out[id] = cache[id] ? cache[id].s : null; }
       if (say) say(`Checking your shows for new seasons… ${++n}/${todo.length}`);
@@ -501,7 +532,7 @@
       if (c && Date.now() - c.at < maxAge) out[id] = c.e; else todo.push(id);
     }
     let n = 0;
-    await pool(todo, 4, async (id) => {
+    await pool(todo, 2, async (id) => {
       const before = cache[id] && cache[id].e;
       try {
         const j = await api(`/content/v2/cms/seasons/${id}/episodes?locale=${LOCALE}`);
@@ -555,7 +586,7 @@
     let n = 0;
     await playheadOwner();
     state.debug.playheads = state.debug.playheads || { calls: 0, ok: 0, fails: 0 };
-    await pool(batches, 3, async (b) => {
+    await pool(batches, 2, async (b) => {
       for (const owner of [state.phOwner, ...(state.phOwners || []).filter((o) => o !== state.phOwner)]) {
         try {
           const j = await api(`/content/v2/${owner}/playheads?content_ids=${b.join(',')}&locale=${LOCALE}`);
@@ -1456,17 +1487,29 @@
         }
       } catch (_) {}
     }
-    let fails = 0, done = 0, lastErr = '';
+    let fails = 0, done = 0, lastErr = '', streak = 0, stoppedEarly = false;
     const sent = [];
     const t = toast(`Updating Crunchyroll… 0/${list.length}`, 'info', true);
-    await pool(list, 3, async (e) => {   // 3 at a time – a whole show used to take a long while
-      try { await crMarkWatched(e.cid || e.id, e.d); sent.push(e); } catch (err) { fails++; lastErr = err.message; if (err.retry) await enqueue('mark', e.cid || e.id, e.d); }
-      t.set(`Updating Crunchyroll… ${++done}/${list.length}`);
-      await sleep(100);
-    });
+    // One at a time, with a long randomised gap between writes (not just the first few at once) - this
+    // writes playheads to Crunchyroll, the same sensitive endpoint the bulk repair tools write to, and
+    // marking a whole show/season can be dozens of writes in one go.
+    for (let i = 0; i < list.length; i++) {
+      const e = list[i];
+      try { await crMarkWatched(e.cid || e.id, e.d); sent.push(e); streak = 0; }
+      catch (err) { fails++; lastErr = err.message; streak++; if (err.retry) await enqueue('mark', e.cid || e.id, e.d); }
+      done++;
+      t.set(`Updating Crunchyroll… ${done}/${list.length}`);
+      if (streak >= 3) {
+        stoppedEarly = true;
+        for (let j = i + 1; j < list.length; j++) { const r = list[j]; try { await enqueue('mark', r.cid || r.id, r.d); } catch (_) {} }
+        break;
+      }
+      if (i < list.length - 1) await gentleGap();
+    }
     t.close();
     const undo = sent.length ? { label: 'Undo', fn: () => undoMarks(sent) } : null;
-    if (fails === list.length && (state.queue || []).length) toast(`Saved in the tracker. Crunchyroll didn't answer (${lastErr}) – Reaperdex will send it again automatically on the next sync.`, 'info');
+    if (stoppedEarly) toast(`Stopped early – Crunchyroll failed 3 times in a row (${done - fails}/${list.length} marked before stopping, to avoid hammering it). The rest are queued and will be sent automatically later.`, 'bad');
+    else if (fails === list.length && (state.queue || []).length) toast(`Saved in the tracker. Crunchyroll didn't answer (${lastErr}) – Reaperdex will send it again automatically on the next sync.`, 'info');
     else if (fails === list.length) toast(`Saved in the tracker, but Crunchyroll didn't accept it (${lastErr}). Play any episode for a few seconds, then try again – Reaperdex learns Crunchyroll's format from the player.`, 'bad');
     else if (fails) toast(`Marked ${list.length - fails}/${list.length} on Crunchyroll · all saved in the tracker`, 'ok', false, undo);
     else toast(`✓ ${plural(list.length, 'episode')} marked watched on Crunchyroll${skipped ? ` · ${skipped} already watched there, left alone` : ''}`, 'ok', false, undo);
@@ -1607,19 +1650,21 @@
       .sort((a, b) => (a.d > b.d ? -1 : a.d < b.d ? 1 : 0)).slice(0, 120).reverse();
   }
   async function cwRestore(plan, t, fixed) {
-    if (!plan.length) return 0;
+    if (!plan.length) return { n: 0, stoppedEarly: false };
     const ph = await fetchPlayheads([...new Set(plan.map((x) => x.id))]);
     await keepDates(plan);
-    let n = 0;
-    for (const x of plan) {   // one at a time, in order – the last one saved ends up first
+    let n = 0, streak = 0, stoppedEarly = false;
+    for (let i = 0; i < plan.length; i++) {   // one at a time, in order – the last one saved ends up first
+      const x = plan[i];
       const p = ph[x.id];
       if (!p) continue;
       const at = Math.max(p.playhead || 0, (fixed && fixed.get(x.id)) || 0);   // never undo a fix that's still settling
-      try { await crMarkWatched(x.id, 0, at); n++; } catch (_) {}
+      try { await crMarkWatched(x.id, 0, at); n++; streak = 0; } catch (_) { streak++; }
       if (t) t.set(`Putting Continue Watching back in order… ${n}/${plan.length}`);
-      await sleep(120);
+      if (streak >= 3) { stoppedEarly = true; break; }
+      if (i < plan.length - 1) await gentleGap();
     }
-    return n;
+    return { n, stoppedEarly };
   }
   // Fix "1s left": versions before 1.9.0 saved marked episodes 2 seconds short of the end, so Crunchyroll
   // (and the phone app) show "1s left". Save those as fully played, keep their real dates, then put Crunchyroll's
@@ -1659,23 +1704,30 @@
     const shows = [...new Set(todo.map((x) => nameOf.get(x.id)).filter(Boolean))];
     const ok = await confirmModal(todo.length ? `Fix ${plural(todo.length, 'episode')}?` : 'No “1s left” episodes',
       (todo.length ? `These show “1s left” (or a few minutes left) on Crunchyroll because an older Reaperdex saved them a little short. They’ll be saved as fully played and keep their real watch dates. ` : 'Everything is already fully played. ')
-        + `Then Continue Watching is put back in the order you really watched (${plural(plan.length, 'show')}). Nothing is marked watched or unwatched. Takes a few minutes – keep this tab open.`,
+        + `Then Continue Watching is put back in the order you really watched (${plural(plan.length, 'show')}). Nothing is marked watched or unwatched. Goes slowly on purpose (a long pause between each save) to stay well clear of Crunchyroll's rate limits – can take a while for a lot of episodes, keep this tab open.`,
       todo.length ? 'Fix everything' : 'Fix Continue Watching', shows.length ? h('p', { style: 'opacity:.8;font-size:13px' }, shows.slice(0, 8).join(', ') + (shows.length > 8 ? ` +${shows.length - 8} more` : '')) : null);
     if (!ok) return;
     const realDate = new Map(realDates().map((r) => [r.id, r.date]));
     await keepDates(todo.map((x) => ({ id: x.id, d: realDate.get(x.id) })));
     const t2 = toast(todo.length ? `Fixing… 0/${todo.length}` : 'Putting Continue Watching back in order…', 'info', true);
-    let done = 0, fails = 0, put = 0;
-    await pool(todo, 3, async (x) => {
-      try { await crMarkWatched(x.id, x.d); } catch (_) { fails++; }
-      t2.set(`Fixing… ${++done}/${todo.length}`);
-      await sleep(100);
-    });
-    try { put = await cwRestore(plan, t2, new Map(todo.map((x) => [x.id, Math.ceil(x.d)]))); } catch (_) {}
-    if (put && !fails) { state.cwOk = Date.now(); await store.set('cwok3', state.cwOk); }
+    let done = 0, fails = 0, put = 0, streak = 0, stoppedEarly = false;
+    for (let i = 0; i < todo.length; i++) {
+      const x = todo[i];
+      try { await crMarkWatched(x.id, x.d); streak = 0; } catch (_) { fails++; streak++; }
+      done++;
+      t2.set(`Fixing… ${done}/${todo.length}`);
+      if (streak >= 3) { stoppedEarly = true; break; }
+      if (i < todo.length - 1) await gentleGap();
+    }
+    let cwResult = { n: 0, stoppedEarly: false };
+    if (!stoppedEarly) { try { cwResult = await cwRestore(plan, t2, new Map(todo.map((x) => [x.id, Math.ceil(x.d)]))); } catch (_) {} }
+    put = cwResult.n;
+    if (put && !fails && !stoppedEarly && !cwResult.stoppedEarly) { state.cwOk = Date.now(); await store.set('cwok3', state.cwOk); }
     t2.close();
     refresh();
-    toast(fails ? `Fixed ${todo.length - fails}/${todo.length} · ${fails} failed – run it again later` : `✓ ${todo.length ? `${plural(todo.length, 'episode')} fixed · ` : ''}Continue Watching back in order (${plural(put, 'show')})`, fails ? 'bad' : 'ok');
+    if (stoppedEarly) toast(`Stopped early – Crunchyroll failed 3 times in a row (${done - fails}/${todo.length} episodes fixed before stopping, to avoid hammering Crunchyroll). Give it a while and run it again.`, 'bad');
+    else if (cwResult.stoppedEarly) toast(`${todo.length ? `${plural(todo.length, 'episode')} fixed · ` : ''}Stopped putting Continue Watching back in order – Crunchyroll failed 3 times in a row (${put}/${plan.length} done). Run it again later to finish.`, 'bad');
+    else toast(fails ? `Fixed ${todo.length - fails}/${todo.length} · ${fails} failed – run it again later` : `✓ ${todo.length ? `${plural(todo.length, 'episode')} fixed · ` : ''}Continue Watching back in order (${plural(put, 'show')})`, fails ? 'bad' : 'ok');
   }
   // Undo straight after marking: back to "not watched" in the tracker and on Crunchyroll
   async function undoMarks(list) {
