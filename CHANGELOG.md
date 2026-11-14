@@ -1,25 +1,32 @@
 # Reaperdex – Changelog
 
-## 1.9.6 – Leaves you alone when nothing’s wrong
-- **Better:** *Fix “1s left”* only changes anything when there’s something to fix – otherwise it just says everything is fine.
+## 1.9.7 – Backs off from Crunchyroll's rate limits instead of hammering through them
+This exists because repeated rate-limit (429) hits can escalate from a brief block into a real account ban – so the goal here isn't just "retry smarter", it's "never give Crunchyroll a reason to escalate" in the first place.
+- **New (the main fix):** every single request Reaperdex makes to Crunchyroll now goes through one shared rate-limit guard. On a 429, Reaperdex never retries that request – continuing to ping an endpoint while it's rate-limiting you is known to reset or extend the cooldown, not help – it immediately goes completely quiet for a cooldown period instead: Crunchyroll's own `Retry-After` time if it gives one, otherwise a conservative 15 minutes, escalating (up to an hour) if it keeps happening without a clean request in between. This applies everywhere, including the very first sync when Reaperdex reads your whole history – that's where this was actually getting triggered.
+- **Changed:** normal syncing (reading your history, show/season/episode lookups) now spaces requests out by roughly 1-3 seconds instead of under 200ms, and runs at most 2 at a time instead of 3-4 – both in line with pacing the Crunchyroll community has found keeps you clear of rate limits in the first place.
+- **Changed:** *Fix "1s left"*, putting Continue Watching back in order, and marking a whole show/season watched in one go now all save one episode at a time with a random 5-10 second pause between each save, and stop completely if a save fails 3 times in a row – these are the heaviest writes Reaperdex makes (dozens or hundreds of playhead saves in one run), so they get the most cautious pacing of all.
+- Marking a single episode watched as you go is unaffected – this only slows down bulk actions.
+
+## 1.9.6 – Leaves you alone when nothing's wrong
+- **Better:** *Fix "1s left"* only changes anything when there's something to fix – otherwise it just says everything is fine.
 
 ## 1.9.5 – Continue Watching shows your real next episode
-- **Fixed:** after *Fix “1s left”*, Continue Watching could show an episode you’d already watched (marked “Watched”) instead of your real next one. Run the button again to put it right.
+- **Fixed:** after *Fix "1s left"*, Continue Watching could show an episode you'd already watched (marked "Watched") instead of your real next one. Run the button again to put it right.
 
 ## 1.9.4 – One button
-- **Fixed:** *Fix “1s left”* now does everything in one go – fixes the episodes, keeps their real watch dates and puts Continue Watching back in the order you really watched. If Continue Watching is still out of order from an earlier version, just run it again.
+- **Fixed:** *Fix "1s left"* now does everything in one go – fixes the episodes, keeps their real watch dates and puts Continue Watching back in the order you really watched. If Continue Watching is still out of order from an earlier version, just run it again.
 - **Fixed:** Continue Watching could put barely-started first episodes at the front – only real watch dates are used now.
 - **Removed:** the separate *Fix Continue Watching order* button (the one button does it).
 
 ## 1.9.3 – Continue Watching fix
-- **Fixed:** *Fix “1s left”* made Crunchyroll treat every fixed episode as watched just now, so old shows jumped to the front of Continue Watching and Reaperdex showed today as their date. Real watch dates are now kept, and Continue Watching is put back in order automatically afterwards.
-- **New:** Export ▾ → **Fix Continue Watching order** – if old shows jumped to the front of Crunchyroll’s Continue Watching, one click puts it back in the order you really watched.
+- **Fixed:** *Fix "1s left"* made Crunchyroll treat every fixed episode as watched just now, so old shows jumped to the front of Continue Watching and Reaperdex showed today as their date. Real watch dates are now kept, and Continue Watching is put back in order automatically afterwards.
+- **New:** Export ▾ → **Fix Continue Watching order** – if old shows jumped to the front of Crunchyroll's Continue Watching, one click puts it back in the order you really watched.
 
 ## 1.9.2 – Menu fix
-- **Fixed:** long menus like Export ▾ now scroll instead of running off the bottom of the screen (so *Fix “1s left”* is reachable on smaller screens).
+- **Fixed:** long menus like Export ▾ now scroll instead of running off the bottom of the screen (so *Fix "1s left"* is reachable on smaller screens).
 
-## 1.9.1 – Fix “1s left”
-- **New:** Export ▾ → **Fix “1s left” on Crunchyroll** – episodes marked by older versions (before 1.9.0) were saved 2 seconds short, so Crunchyroll and the phone app showed “1s left”. One click finds them, shows you how many, and saves them as fully played. Nothing else is touched.
+## 1.9.1 – Fix "1s left"
+- **New:** Export ▾ → **Fix "1s left" on Crunchyroll** – episodes marked by older versions (before 1.9.0) were saved 2 seconds short, so Crunchyroll and the phone app showed "1s left". One click finds them, shows you how many, and saves them as fully played. Nothing else is touched.
 
 ## 1.9.0 – Crunchylists and more
 **New**
@@ -98,14 +105,14 @@
 - **Big libraries load faster** – cards are drawn as you scroll, and the 600-card limit is gone
 
 ## 1.6.3
-- **Fixed: rewatches in another language count again** – only copies saved together (bulk “mark as watched”, or within one episode’s length) count once
-- **Fixed: dateless movies** are counted again and get a date instead of “NaN”
-- **Fixed: “First anime”** uses your truly first episode again
+- **Fixed: rewatches in another language count again** – only copies saved together (bulk "mark as watched", or within one episode's length) count once
+- **Fixed: dateless movies** are counted again and get a date instead of "NaN"
+- **Fixed: "First anime"** uses your truly first episode again
 
 ## 1.6.2
 - **Undo any watched episode (↺)** – sets it back to not watched in the tracker *and* on Crunchyroll, including episodes that were marked in the wrong language
 - **Fixed: totals dropping after 1.6.0** – the dub-duplicate fix could merge *different* episodes; now only true language versions of the same episode are merged
-- **Fixed: “NaN year ago” cards** – guessed movie-length items are no longer counted as watched
+- **Fixed: "NaN year ago" cards** – guessed movie-length items are no longer counted as watched
 - **Fixed: Refresh in Airing soon wiping countdowns** when AniList hiccups
 - **Airing soon** can be collapsed (remembered), switched between **Week** and **List**, and the list shows everything coming up
 
@@ -115,7 +122,7 @@
 
 ## 1.6.0
 - **Fixed: episodes counted once per language** – Crunchyroll gives every dub its own episode ID, so shows with lots of dubs (e.g. Tokyo Ghoul) showed 10× the real hours. Each episode now counts once
-- **Fixed: “Most in one day” / “Biggest binge”** ignore episodes marked watched in bulk (dozens saved within seconds)
+- **Fixed: "Most in one day" / "Biggest binge"** ignore episodes marked watched in bulk (dozens saved within seconds)
 - **Fixed: marking episodes watched on Crunchyroll** – Reaperdex now learns the exact format from Crunchyroll's own player, tries every known format, and tells you why if Crunchyroll refuses
 - **Redesigned themes** with their own backgrounds, glows and textures: Sunset, Cyberpunk, Sakura, Ocean, Midnight – plus new **Aurora** and **Reaper**
 - **Theme picker** with live previews
@@ -127,9 +134,9 @@
 - Added links to the GitHub page (source code, bug reports) in the script header and the About screen
 
 ## 1.5.1
-- **Hide the whole Library check box** – it shrinks to one slim line (status, verified count, “need a look” link, progress while running) and remembers your choice
-- **Faster “Needs a look” filter** on big libraries (worked out once, not per show)
-- **Backups include “Looks right” choices**
+- **Hide the whole Library check box** – it shrinks to one slim line (status, verified count, "need a look" link, progress while running) and remembers your choice
+- **Faster "Needs a look" filter** on big libraries (worked out once, not per show)
+- **Backups include "Looks right" choices**
 
 ## 1.5.0
 - **"Needs a look" can be hidden/shown** – collapses to one line and remembers your choice
