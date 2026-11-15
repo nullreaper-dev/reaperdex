@@ -1,5 +1,21 @@
 # Reaperdex – Changelog
 
+## 1.9.8 – Fast again, without risking your account
+1.9.7 made Reaperdex stop on Crunchyroll's rate limits, but it was slow – a big first load could take 15 minutes or more – and it still synced every 10 minutes, even while you were watching. 1.9.8 keeps every safety rule, makes it quick again, and makes it far quieter day to day.
+- **New – one speed limit for everything.** Every request Reaperdex makes goes through one guard: evenly spaced, about 3–4 a second at most (*Gentle* mode: 1.5), with a little randomness, never in bursts. It speeds up slightly while every answer is clean and halves its pace by itself if Crunchyroll pushes back, remembering that for next time.
+- **Never pushes through a block.** On a rate-limit answer (429) – or a non-JSON 403, which is what Crunchyroll's security check looks like – Reaperdex stops at once (no retries) and waits Crunchyroll's own wait time or 15 minutes, whichever is longer, up to an hour if it keeps happening. The pause is saved, so **reloading can't skip it**, and Reaperdex **carries on by itself** afterwards, keeping everything it already loaded.
+- **New – syncs when it's useful, not on a timer.** About 25 seconds after you finish watching (so Crunchyroll has saved first), and when you come back to Crunchyroll or open the tracker after 30+ minutes. The old every-10-minutes sync is gone; a timed check is optional in Settings (at most hourly).
+- **New – quiet while you watch.** With the player open, Reaperdex drops to at most 1 request a second and its background jobs (Library check, waiting updates) wait until you're done.
+- **New – one tab at a time.** With several Crunchyroll tabs open, only one syncs, and all of them share the same speed limit, budgets and pauses.
+- **New – hourly and daily budgets** (2,000 an hour, 8,000 a day). A huge first load takes a break instead of hammering; everyday use is nowhere near them.
+- **Changed – fewer requests per sync.** Your account details are checked once per visit, your watchlist once a day, and "where you're up to" uses one request per show instead of two.
+- **Changed – longer, staggered caches.** Finished shows are re-checked about once a month instead of weekly, episode lists about every two months (current seasons still twice a day), show details every ~2 months, and the Library check re-checks each show about every 3 weeks. Refreshes are spread out so they never all land on the same day.
+- **Changed – the first load saves as it goes**, so closing the tab halfway (or a pause) never starts it over.
+- **Changed – updates waiting to be sent to Crunchyroll** now go one at a time with a 5–10 second gap, stop after 3 failures in a row, and wait while you're watching.
+- **New in Settings:** *Speed* (Normal / Gentle) and **Pause Reaperdex**, which stops every request to Crunchyroll until you switch it back.
+- **New:** *Copy debug info* shows how many requests Reaperdex sent in the last hour and today, its current pace and any pause.
+- Bulk fixes (*Fix "1s left"*, marking whole shows) keep their careful one-at-a-time pacing from 1.9.7.
+
 ## 1.9.7 – Backs off from Crunchyroll's rate limits instead of hammering through them
 This exists because repeated rate-limit (429) hits can escalate from a brief block into a real account ban – so the goal here isn't just "retry smarter", it's "never give Crunchyroll a reason to escalate" in the first place.
 - **New (the main fix):** every single request Reaperdex makes to Crunchyroll now goes through one shared rate-limit guard. On a 429, Reaperdex never retries that request – continuing to ping an endpoint while it's rate-limiting you is known to reset or extend the cooldown, not help – it immediately goes completely quiet for a cooldown period instead: Crunchyroll's own `Retry-After` time if it gives one, otherwise a conservative 15 minutes, escalating (up to an hour) if it keeps happening without a clean request in between. This applies everywhere, including the very first sync when Reaperdex reads your whole history – that's where this was actually getting triggered.
