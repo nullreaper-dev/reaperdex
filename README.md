@@ -25,7 +25,7 @@
 - **Mark episodes, seasons or whole shows watched** – syncs back to Crunchyroll (with *Mark up to here* and *Undo*).
 - **Crunchylists** – add shows to your Crunchylists or turn any filter into a new one, manage your lists, and copy a list into Plan to watch.
 - **Fix “1s left”** (Export ▾) – if an older version left episodes showing “1s left” on Crunchyroll, one click saves them as fully watched, keeps your real watch dates and puts Continue Watching back in order. Does nothing if there’s nothing to fix.
-- **Auto-sync** from your phone or TV.
+- **Auto-sync** – picks up what you watched on your phone or TV shortly after you finish an episode, without constantly polling.
 - **Other services** – Netflix import, Disney+ / Prime Video manual add. One combined list.
 - **Insights** – days of anime, streaks, activity calendar, when you watch, top genres, anime personality, *On this day*.
 - **Awards** – yearly medals, milestone badges, watch goals.
@@ -41,6 +41,20 @@
 | Show panel | Insights | Anime Recap |
 |---|---|---|
 | ![Show panel](2-show-panel.jpg) | ![Insights](3-insights.jpg) | ![Anime Recap](4-anime-recap.jpg) |
+
+## Gentle on your account
+Reaperdex uses your normal Crunchyroll login and Crunchyroll's own website API, so it's built to behave like a careful visitor, not a bot:
+- **One speed limit for everything** – about 3–4 requests a second at most, evenly spaced (Settings → *Gentle* for slower). Shared across all your Crunchyroll tabs, and only one tab syncs at a time.
+- **Stops the moment Crunchyroll says "slow down"** – no retries. It waits at least 15 minutes (up to an hour if it keeps happening), even if you reload, then carries on by itself.
+- **Hourly and daily budgets**, so even a huge first load takes breaks instead of hammering.
+- **Quiet while you watch** – with the player open it slows right down and background checks wait until you're done.
+- **No constant polling** – it syncs after you watch and when you come back after a while; a timed check is optional (at most hourly).
+- **Long caches** – finished shows are re-checked about once a month, so day-to-day use only sends a handful of requests.
+- **Pause switch** – Settings → *Pause Reaperdex* stops all requests to Crunchyroll.
+
+Your first load reads your whole history once (a few minutes for a big library); after that, it's quick.
+
+> **Use at your own risk.** Reaperdex is an unofficial tool. Crunchyroll's Terms of Use don't allow accessing the site with third-party software, and Crunchyroll can suspend accounts at its discretion. Reaperdex is designed to keep its traffic low and to back off immediately, but no unofficial tool can guarantee your account won't be affected.
 
 ## Install
 1. Install a userscript manager: [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/).
