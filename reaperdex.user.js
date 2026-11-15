@@ -5,7 +5,7 @@
 // @homepageURL  https://github.com/nullreaper-dev/reaperdex
 // @supportURL   https://github.com/nullreaper-dev/reaperdex/issues
 // @license      GPL-3.0-or-later
-// @version      1.9.7
+// @version      1.9.8
 // @copyright    2026, nullreaper (https://greasyfork.org/en/users/1661483-nullreaper)
 // @description  Your whole anime history as a slick tracker: Crunchyroll synced automatically (episode by episode), plus Netflix, Disney+ and Prime. Mark things watched, insights, awards, ratings, and a share card for your mates.
 // @icon         data:image/png;base64,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
@@ -46,6 +46,8 @@
  */
 
 /*  CHANGELOG
+ *  1.9.8 – Adaptive, account-safe request pacing shared across tabs; quiet while watching; syncs after watching instead of on a timer; pause survives reloads; longer caches; Gentle mode + Pause switch.
+ *  1.9.7 – Stops on Crunchyroll rate limits instead of retrying; gentle bulk writes.
  *  1.9.6 – Fix “1s left” leaves your account alone when there’s nothing to fix.
  *  1.9.5 – Continue Watching shows your real next episode again (not one you’ve already watched).
  *  1.9.4 – One button: Fix “1s left” also repairs Continue Watching; it now uses only real watch dates (no guessed or just-saved dates).
@@ -88,8 +90,25 @@
 (function () {
   'use strict';
 
-  const VERSION = '1.9.7';
+  const VERSION = '1.9.8';
   const CHANGELOG = [
+    { v: '1.9.8', items: [
+      'Fast again, still safe: one speed limit paces everything Reaperdex asks Crunchyroll for – evenly spaced, about 3–4 a second at most, and it slows down by itself if Crunchyroll ever pushes back',
+      'If Crunchyroll says “slow down” (or its security check steps in), Reaperdex stops at once, waits at least 15 minutes – even if you reload – and then carries on by itself where it left off',
+      'No more syncing every 10 minutes: Reaperdex syncs about 25 seconds after you finish watching and when you come back after 30+ minutes. A timed check is optional (Settings, at most hourly)',
+      'Never gets in the way of watching: while the player is open Reaperdex slows right down and its background checks wait until you’re done',
+      'Several Crunchyroll tabs open? Only one of them syncs, and they all share the same speed limit and pauses',
+      'Hourly and daily request budgets, so even a huge first load takes breaks instead of hammering',
+      'The first load saves as it goes – close the tab halfway and it continues where it stopped',
+      'Finished shows are re-checked about once a month, episode lists about every two months, and the Library check re-checks each show about every 3 weeks – so everyday use only needs a handful of requests',
+      'Updates waiting to be sent to Crunchyroll go one at a time with a pause in between, and wait while you’re watching',
+      'New in Settings: Gentle speed mode and a “Pause Reaperdex” switch',
+      'Copy debug info now shows how many requests Reaperdex sent this hour and today',
+    ] },
+    { v: '1.9.7', items: [
+      'Safer: Reaperdex stops completely when Crunchyroll rate-limits it, instead of retrying – to avoid account bans',
+      'Bulk fixes (Fix “1s left”, marking whole shows) save one episode at a time with a short pause, and stop after 3 failures in a row',
+    ] },
     { v: '1.9.6', items: [
       'Better: Fix “1s left” only changes anything when there’s something to fix – otherwise it just says everything is fine',
     ] },
@@ -289,7 +308,8 @@
   const LOCALE = 'en-US';
   const PAGE_SIZE = 100;
   const DAY = 86400000;
-  const S = { airing: false, airOpen: true, airView: 'week', checkOpen: true, lookOpen: true, movieMin: 60, dropDays: 180, donePct: 85, syncMin: 10, epMin: 24, theme: 'crunchy', layout: 'grid', goal: 0, goalUnit: 'episodes', goalPeriod: 'week', notify: false };     // user settings (Settings panel)
+  const OPEN_SYNC_MS = 30 * 60000;   // coming back to Crunchyroll / opening the tracker syncs only if the last sync is older than this
+  const S = { airing: false, airOpen: true, airView: 'week', checkOpen: true, lookOpen: true, movieMin: 60, dropDays: 180, donePct: 85, syncMin: 0, syncMig: 0, pace: 'normal', paused: false, epMin: 24, theme: 'crunchy', layout: 'grid', goal: 0, goalUnit: 'episodes', goalPeriod: 'week', notify: false };     // user settings (Settings panel)
   const EXTRA_SEASON = /\b(specials?|ova|oad|recaps?|compilation|picture drama)\b/i;
   const SERVICES = {
     crunchyroll: { label: 'Crunchyroll', short: 'CR', color: '#ff8a1f' },
@@ -373,21 +393,95 @@
   }
   const rel = (u) => { if (!u) return null; try { const x = new URL(u, API); return x.pathname + x.search; } catch (_) { return null; } };
 
-  // Every single request Reaperdex makes to Crunchyroll goes through this one function - so this is
-  // the one place a rate-limit circuit breaker needs to live to protect the WHOLE app, not just one
-  // feature. Getting 429'd repeatedly risks escalating from a brief block into a real account ban,
-  // so this is the one place a rate-limit guard needs to live to protect the WHOLE app. Community
-  // reports on Crunchyroll's 429 behaviour agree on one thing in particular: continuing to ping an
-  // endpoint while it's rate-limiting you resets or extends the cooldown, rather than helping. So
-  // this NEVER retries the same request on a 429 - one 429 is enough to go quiet immediately, for
-  // a conservative cooldown (their own Retry-After header if given, else 15 minutes), and repeated
-  // 429s without a clean request in between make that cooldown longer each time, up to an hour.
-  let rateLimitStreak = 0, rateLimitUntil = 0;
-  function rateLimitedError(msg) { const e = new Error(msg); e.status = 429; e.rateLimited = true; return e; }
-  async function api(path, retry = 2, opts = {}) {
-    if (Date.now() < rateLimitUntil) {
-      throw rateLimitedError(`Crunchyroll rate-limited us – pausing all requests for ${Math.ceil((rateLimitUntil - Date.now()) / 60000)} more minute(s) to avoid risking a ban.`);
+  // ---- Crunchyroll request guard ------------------------------------------------------------
+  // Every request Reaperdex makes to Crunchyroll goes through api(), and api() goes through this
+  // guard – so ONE place decides how fast Reaperdex talks to Crunchyroll, however many things are
+  // loading at once and however many Crunchyroll tabs are open. The aim: quick, but never give
+  // Crunchyroll a reason to block (or ban) the account.
+  //  * Pace: requests are spread out evenly (about 3 a second to start, with random jitter, never
+  //    more than 4 a second – or 1.5 a second in Gentle mode) instead of being fired in bursts.
+  //  * While you're watching (player page open) Reaperdex drops to at most 1 request a second and
+  //    its background jobs wait, so it never competes with the player.
+  //  * Adapts: every clean answer nudges the pace up a little (up to the cap). A rate-limit answer
+  //    (HTTP 429) or Crunchyroll's security check (non-JSON 403) halves it, and the slower pace is
+  //    remembered.
+  //  * Never pushes through a block: the request is NOT retried (retrying is known to make blocks
+  //    longer). Everything goes quiet for Crunchyroll's Retry-After time or 15 minutes, whichever is
+  //    longer, growing to at most 1 hour if it keeps happening. The pause is saved (reloading can't
+  //    skip it), shared with every open Crunchyroll tab, and Reaperdex carries on by itself after.
+  //  * Budgets: at most RL_HOUR_CAP requests in any hour and RL_DAY_CAP in a day. A huge first load
+  //    simply takes a break instead of hammering.
+  //  * Settings → "Pause Reaperdex" stops every Crunchyroll request until it's switched off again.
+  const RL_START = 3, RL_MAX = 4, RL_GENTLE_MAX = 1.5, RL_PLAYER_MAX = 1, RL_MIN = 0.5, RL_HOUR_CAP = 2000, RL_DAY_CAP = 8000;
+  const RL = { rate: RL_START, until: 0, capUntil: 0, streak: 0, next: 0, hour: [], day: { d: '', n: 0 }, pauses: 0, ok: 0, loaded: null };
+  const onPlayer = () => location.pathname.includes('/watch/');
+  const dayKey = () => new Date().toDateString();
+  function rateLimitedError(msg, resumeAt) { const e = new Error(msg); e.status = 429; e.rateLimited = true; e.resumeAt = resumeAt || RL.until; return e; }
+  const rlLoad = () => RL.loaded || (RL.loaded = (async () => {
+    try {
+      const v = await store.get('ratelimit1');
+      if (v) {
+        if (v.rate > 0) RL.rate = Math.min(RL_MAX, Math.max(RL_MIN, v.rate));
+        RL.until = Math.max(RL.until, v.until || 0); RL.capUntil = Math.max(RL.capUntil, v.capUntil || 0); RL.streak = v.streak || 0; RL.pauses = v.pauses || 0;
+        if (Array.isArray(v.hour)) RL.hour = [...new Set([...RL.hour, ...v.hour.filter((t) => Date.now() - t < 3600000)])].sort((x, y) => x - y);
+        if (v.day && v.day.d === dayKey()) RL.day = { d: v.day.d, n: Math.max(RL.day.d === v.day.d ? RL.day.n : 0, v.day.n || 0) };
+      }
+    } catch (_) {}
+  })());
+  const rlSave = () => store.set('ratelimit1', { rate: RL.rate, until: RL.until, capUntil: RL.capUntil, streak: RL.streak, pauses: RL.pauses, hour: RL.hour.slice(-RL_HOUR_CAP), day: RL.day, at: Date.now() });
+  // other Crunchyroll tabs running Reaperdex share the pace, the budgets and any pause
+  let rlChan = null;
+  try {
+    rlChan = new BroadcastChannel('nullreaper-reaperdex-rl1');
+    rlChan.onmessage = (ev) => {
+      const m = ev.data || {};
+      if (m.t === 'req' && m.at) { RL.hour.push(m.at); if (RL.day.d !== dayKey()) RL.day = { d: dayKey(), n: 0 }; RL.day.n++; RL.next = Math.max(RL.next, m.at + 1000 / Math.max(RL_MIN, RL.rate)); }
+      else if (m.t === 'pause') { RL.until = Math.max(RL.until, m.until || 0); RL.capUntil = Math.max(RL.capUntil, m.capUntil || 0); if (m.rate) RL.rate = Math.min(RL.rate, m.rate); if (m.streak) RL.streak = Math.max(RL.streak, m.streak); setSyncLabel(); }
+    };
+  } catch (_) {}
+  const rlShare = (m) => { try { if (rlChan) rlChan.postMessage(m); } catch (_) {} };
+  const rlBlockedUntil = () => Math.max(RL.until, RL.capUntil);
+  const rlPaused = () => Date.now() < rlBlockedUntil();
+  const rlBlocked = () => S.paused || rlPaused();   // nothing should be started in the background while this is true
+  const rlMins = (at) => Math.max(1, Math.ceil((at - Date.now()) / 60000));
+  const rlPauseMsg = () => `Crunchyroll asked Reaperdex to slow down – paused to keep your account safe. Carries on by itself in about ${rlMins(RL.until)} min.`;
+  function rlCap() {   // the pace limit right now
+    let cap = S.pace === 'gentle' ? RL_GENTLE_MAX : RL_MAX;
+    if (onPlayer()) cap = Math.min(cap, RL_PLAYER_MAX);
+    return Math.min(cap, RL.rate);
+  }
+  function rlHit(retryAfterMs) {   // Crunchyroll pushed back: slow down, go quiet, tell the other tabs
+    RL.streak++; RL.pauses++;
+    RL.rate = Math.max(RL_MIN, RL.rate / 2);
+    const base = Math.max(retryAfterMs || 0, 15 * 60000);
+    RL.until = Date.now() + Math.min(base * Math.min(RL.streak, 4), 60 * 60000);
+    rlShare({ t: 'pause', until: RL.until, rate: RL.rate, streak: RL.streak });
+    return rlSave();
+  }
+  async function rlTake() {
+    if (S.paused) { const e = new Error('Reaperdex is paused (Settings → Pause Reaperdex) – it isn’t talking to Crunchyroll right now.'); e.userPaused = true; throw e; }
+    await rlLoad();
+    const now = Date.now();
+    if (now < RL.until) throw rateLimitedError(rlPauseMsg());
+    if (now < RL.capUntil) throw rateLimitedError(`Reaperdex is taking a break to keep your account safe – carries on by itself in about ${rlMins(RL.capUntil)} min.`, RL.capUntil);
+    while (RL.hour.length && now - RL.hour[0] > 3600000) RL.hour.shift();
+    if (RL.day.d !== dayKey()) RL.day = { d: dayKey(), n: 0 };
+    let capAt = 0;
+    if (RL.hour.length >= RL_HOUR_CAP) capAt = RL.hour[RL.hour.length - RL_HOUR_CAP] + 3600000 + 5000;
+    if (RL.day.n >= RL_DAY_CAP) { const t = new Date(); t.setHours(24, 5, 0, 0); capAt = Math.max(capAt, t.getTime()); }
+    if (capAt) {
+      RL.capUntil = capAt; rlShare({ t: 'pause', capUntil: capAt }); rlSave();
+      throw rateLimitedError(`Reaperdex has talked to Crunchyroll a lot ${RL.day.n >= RL_DAY_CAP ? 'today' : 'this hour'} – taking a break to keep your account safe. Carries on by itself in about ${rlMins(capAt)} min.`, capAt);
     }
+    const t = Math.max(now, RL.next);
+    RL.next = t + (1000 / rlCap()) * (0.75 + Math.random() * 0.5);
+    RL.hour.push(t); RL.day.n++;
+    rlShare({ t: 'req', at: t });
+    if (t > now) await sleep(t - now);
+    if (Date.now() < RL.until) throw rateLimitedError(rlPauseMsg());
+  }
+  async function api(path, retry = 2, opts = {}) {
+    await rlTake();
     const res = await origFetch.call(window, API + path, {
       method: opts.method || 'GET', body: opts.body, credentials: 'include',
       headers: { authorization: token, accept: 'application/json', ...(opts.body ? { 'content-type': 'application/json' } : {}) },
@@ -397,24 +491,36 @@
       while (token === old && Date.now() - t0 < 8000) await sleep(300);
       return api(path, retry - 1, opts);
     }
-    if (res.status === 429) {
-      rateLimitStreak++;
+    let ctype = '';
+    try { ctype = (res.headers && res.headers.get && res.headers.get('content-type')) || ''; } catch (_) {}
+    if (res.status === 429 || (res.status === 403 && ctype && !/json/i.test(ctype))) {
+      // 429 = rate limited; a 403 that isn't a normal JSON answer = Crunchyroll's security/bot check stepped in
       let retryAfterMs = 0;
       try { const ra = Number(res.headers && res.headers.get && res.headers.get('retry-after')); if (ra > 0) retryAfterMs = ra * 1000; } catch (_) {}
-      const base = retryAfterMs || 15 * 60000;   // Crunchyroll's own cooldown if it gives one, else a conservative 15 minutes
-      rateLimitUntil = Date.now() + Math.min(base * Math.min(rateLimitStreak, 4), 60 * 60000);   // escalates on repeat hits, capped at 1 hour
-      throw rateLimitedError(`Crunchyroll rate-limited us – pausing all requests for ${Math.ceil((rateLimitUntil - Date.now()) / 60000)} minute(s) to avoid risking a ban.`);
+      await rlHit(retryAfterMs);
+      throw rateLimitedError(rlPauseMsg());
     }
-    rateLimitStreak = 0;
+    if (RL.streak) { RL.streak = 0; rlSave(); }
+    if (res.status >= 500) RL.rate = Math.max(RL_MIN, RL.rate * 0.8);   // server struggling – ease off a bit
+    else if (res.ok) { RL.rate = Math.min(RL_MAX, RL.rate + 0.02); if (++RL.ok % 25 === 0) rlSave(); }
     if (res.status >= 500 && retry) { await sleep(2500); return api(path, retry - 1, opts); }
     if (!res.ok) { const err = new Error(`Crunchyroll said ${res.status}`); err.status = res.status; throw err; }
     const txt = await res.text();
     return txt ? JSON.parse(txt) : {};
   }
-  async function pool(list, n, fn) {
-    const q = list.slice();
-    await Promise.all(Array.from({ length: n }, async () => { while (q.length) { await fn(q.shift()); await sleep(1000 + Math.random() * 2000); } }));
+  // Only one Crunchyroll tab does a sync / library check at a time (the others just skip theirs)
+  async function oneTab(name, fn) {
+    if (!(navigator.locks && navigator.locks.request)) return fn();
+    let ran = false, out;
+    await navigator.locks.request('nullreaper-reaperdex-' + name, { ifAvailable: true }, async (lock) => { if (!lock) return; ran = true; out = await fn(); });
+    return ran ? out : 'other-tab';
   }
+  async function pool(list, n, fn) {   // pacing is handled by the request guard above
+    const q = list.slice();
+    await Promise.all(Array.from({ length: n }, async () => { while (q.length) await fn(q.shift()); }));
+  }
+  // Stable per-item spread (0.8–1.2×) so cached items don't all expire on the same day
+  const spread = (id) => { let x = 0; for (const c of String(id)) x = (x * 31 + c.charCodeAt(0)) | 0; return 0.8 + ((x >>> 0) % 1000) / 2500; };
   // Bulk playhead-write loops (fixing "1s left" episodes, putting Continue Watching back in order)
   // used to fire several writes a second. That's enough to trip Crunchyroll's rate limiter, and
   // repeated rate-limit hits risk escalating into a real account ban, not just a temporary block.
@@ -450,7 +556,6 @@
       const next = rel(j.meta && j.meta.next_page) || rel(j.next_page) ||
         rel(j.links && j.links.next && j.links.next.href) || rel(j.__links__ && j.__links__.next && j.__links__.next.href);
       url = next || `/content/v2/${acc}/watch-history?page_size=${PAGE_SIZE}&page=${page}&locale=${LOCALE}`;
-      await sleep(1000 + Math.random() * 2000);
     }
     return { items: all, pages };
   }
@@ -466,6 +571,7 @@
         for (const o of j.data || []) if (o && o.id) out[o.id] = o;
         done += b.length;
       } catch (e) {
+        if (e.rateLimited) throw e;   // paused – stop cleanly, carry on later
         if (b.length > 1 && e.status && e.status < 500) { const m = Math.ceil(b.length / 2); await get(b.slice(0, m)); await get(b.slice(m)); }
         else { if (!e.status || e.status >= 500) fails++; done += b.length; }   // a single removed item (404) is fine – keep going
       }
@@ -512,26 +618,33 @@
   }
 
 
-  async function fetchSeasons(ids, say, force) {
+  // Seasons: shows you're watching now are re-checked every ~3 days (new seasons), everything else
+  // every ~30 days. Progress is saved as it goes, so an interrupted first load never starts over.
+  async function fetchSeasons(ids, say, force, recent) {
     const cache = (await store.get('seasons5')) || {}, out = {}, todo = [];
-    for (const id of ids) { const c = cache[id]; if (c && !force && Date.now() - c.at < 7 * DAY) out[id] = c.s; else todo.push(id); }
-    let n = 0;
-    await pool(todo, 2, async (id) => {
-      try { const j = await api(`/content/v2/cms/series/${id}/seasons?locale=${LOCALE}`); out[id] = slimSeasons(j.data || []); cache[id] = { at: Date.now(), s: out[id] }; }
-      catch (_) { out[id] = cache[id] ? cache[id].s : null; }
-      if (say) say(`Checking your shows for new seasons… ${++n}/${todo.length}`);
-    });
-    if (todo.length) await store.set('seasons5', cache);
+    for (const id of ids) {
+      const c = cache[id], maxAge = (recent && recent.has(id) ? 3 * DAY : 30 * DAY) * spread(id);
+      if (c && !force && Date.now() - c.at < maxAge) out[id] = c.s; else todo.push(id);
+    }
+    let n = 0, dirty = 0;
+    try {
+      await pool(todo, 2, async (id) => {
+        try { const j = await api(`/content/v2/cms/series/${id}/seasons?locale=${LOCALE}`); out[id] = slimSeasons(j.data || []); cache[id] = { at: Date.now(), s: out[id] }; if (++dirty % 25 === 0) await store.set('seasons5', cache); }
+        catch (e) { if (e.rateLimited) throw e; out[id] = cache[id] ? cache[id].s : null; }
+        if (say) say(`Checking your shows for new seasons… ${++n}/${todo.length}`);
+      });
+    } finally { if (dirty) await store.set('seasons5', cache); }
     return out;
   }
 
   async function fetchEpisodeLists(ids, latest, say, force) {
     const cache = (await store.get('episodes3')) || {}, out = {}, todo = [];
     for (const id of ids) {
-      const c = cache[id], maxAge = latest.has(id) ? (force ? 0 : DAY / 2) : 30 * DAY;
+      const c = cache[id], maxAge = latest.has(id) ? (force ? 0 : DAY / 2) : 60 * DAY * spread(id);   // airing seasons twice a day, the rest every ~2 months
       if (c && Date.now() - c.at < maxAge) out[id] = c.e; else todo.push(id);
     }
-    let n = 0;
+    let n = 0, dirty = 0;
+    try {
     await pool(todo, 2, async (id) => {
       const before = cache[id] && cache[id].e;
       try {
@@ -544,10 +657,11 @@
         });
         if (before && out[id].length > before.length) state.epAdds[id] = out[id].length - before.length;   // new episodes came out
         cache[id] = { at: Date.now(), e: out[id] };
-      } catch (_) { out[id] = before || null; }
+        if (++dirty % 25 === 0) await store.set('episodes3', cache);   // save as it goes
+      } catch (e) { if (e.rateLimited) throw e; out[id] = before || null; }
       if (say) say(`Checking every season episode by episode… ${++n}/${todo.length}`);
     });
-    if (todo.length) await store.set('episodes3', cache);
+    } finally { if (dirty) await store.set('episodes3', cache); }
     return out;
   }
 
@@ -558,7 +672,7 @@
   };
   async function fetchShowInfo(ids, say, force) {
     const cache = (await store.get('shows3')) || {}, out = {}, todo = [];
-    for (const id of ids) { const c = cache[id]; if (c && !force && Date.now() - c.at < 30 * DAY && 'g' in c) out[id] = c; else todo.push(id); }
+    for (const id of ids) { const c = cache[id]; if (c && !force && Date.now() - c.at < 60 * DAY * spread(id) && 'g' in c) out[id] = c; else todo.push(id); }
     if (todo.length) {
       const objs = await fetchObjects(todo, say, 'Getting show names, artwork and genres');
       for (const id of todo) {
@@ -595,7 +709,7 @@
           for (const p of phList(j)) if (p && (p.content_id || p.id)) out[p.content_id || p.id] = p;
           state.phOwner = owner;
           break;
-        } catch (e) { state.debug.playheads.calls++; state.debug.playheads.fails++; state.debug.playheads.lastError = e.status || String(e.message); }
+        } catch (e) { if (e.rateLimited) throw e; state.debug.playheads.calls++; state.debug.playheads.fails++; state.debug.playheads.lastError = e.status || String(e.message); }
       }
       n += b.length;
       if (say) say(`Checking your progress on Crunchyroll… ${Math.min(n, ids.length).toLocaleString()}/${ids.length.toLocaleString()} episodes`);
@@ -610,8 +724,11 @@
   }
   // Where Crunchyroll thinks you're up to in a show (used when it has no per-episode progress)
   async function fetchUpNext(sid) {
-    for (const path of [`/content/v2/discover/up_next/${sid}?locale=${LOCALE}`, `/content/v2/discover/${state.acc}/up_next/${sid}?locale=${LOCALE}`]) {
-      try { const j = await api(path, 0); const it = (j.data || [])[0]; if (it) return it; } catch (_) {}
+    const paths = [`/content/v2/discover/up_next/${sid}?locale=${LOCALE}`, `/content/v2/discover/${state.acc}/up_next/${sid}?locale=${LOCALE}`];
+    if (state.upNextWay != null) paths.splice(0, paths.length, paths[state.upNextWay]);   // once one form has worked, only ask that one (half the requests)
+    for (const path of paths) {
+      try { const j = await api(path, 0); const it = (j.data || [])[0]; if (it) { if (state.upNextWay == null) state.upNextWay = path.includes(`/${state.acc}/up_next/`) ? 1 : 0; return it; } }
+      catch (e) { if (e.rateLimited || e.userPaused) throw e; }
     }
     return null;
   }
@@ -626,7 +743,8 @@
       return ids;
     } catch (_) { return []; }
   }
-  async function fetchWatchlist() {
+  async function fetchWatchlist(force) {
+    if (!force && state.wlAt && Date.now() - state.wlAt < DAY && state.watchlist) return state.watchlist.map((w) => w.sid);   // checked within the last day
     try {
       const j = await api(`/content/v2/discover/${state.acc}/watchlist?order=desc&n=1000&locale=${LOCALE}`, 1);
       const out = new Map();
@@ -636,7 +754,8 @@
         if (sid && !out.has(sid)) out.set(sid, { sid, t: em.series_title || p.title || '', img: imgOf(p, 'poster_wide') || imgOf(p, 'thumbnail'), g: genresOf(p) });
       }
       state.watchlist = [...out.values()];
-      store.set('watchlist3', state.watchlist);
+      state.wlAt = Date.now();
+      store.set('watchlist3', state.watchlist); store.set('wlat3', state.wlAt);
       return [...out.keys()];
     } catch (_) { return []; }
   }
@@ -695,7 +814,7 @@
         await api(t.path, 1, { method: t.method || 'POST', body: JSON.stringify(body) });
         state.phGood = { path: t.path, method: t.method || 'POST', body: t.body };
         return;
-      } catch (e) { errs.push(e.status || e.message); }
+      } catch (e) { if (e.rateLimited || e.userPaused) { e.retry = true; throw e; } errs.push(e.status || e.message); }
     }
     const err = new Error(`Crunchyroll said ${[...new Set(errs)].join(' / ')}`);
     err.retry = errs.every((e) => typeof e !== 'number' || e >= 500 || e === 429);   // only outages are worth retrying
@@ -1129,6 +1248,8 @@
   async function loadPrefs() {
     if (state.prefsLoaded) return;
     Object.assign(S, (await store.get('settings3')) || {});
+    if ((S.syncMig || 0) < 2) { if (S.syncMin === 10) S.syncMin = 0; S.syncMig = 2; }   // 1.9.8: timed auto-sync off by default (old default only) – Reaperdex syncs after you watch instead
+    if (S.syncMin > 0 && S.syncMin < 60) S.syncMin = 60;   // timed checks at most once an hour
     state.marks = (await store.get('marks3')) || {};
     state.keep = (await store.get('keepdate3')) || {};
     state.cwOk = (await store.get('cwok3')) || 0;
@@ -1143,6 +1264,7 @@
     state.firstBy = (await store.get('first3')) || null;
     state.queue = (await store.get('queue3')) || [];
     state.watchlist = (await store.get('watchlist3')) || [];
+    state.wlAt = (await store.get('wlat3')) || 0;
     state.plan = (await store.get('plan3')) || {};
     state.phLearned = (await store.get('phlearn3')) || null;
     state.airing = (await store.get('airingmap3')) || {};
@@ -1207,6 +1329,12 @@
 
   async function load(mode) {
     if (state.busy) return;
+    if (S.paused) { if (mode !== 'quiet') toast('Reaperdex is paused – switch it back on in Settings to sync', 'info'); return; }
+    const r = await oneTab('sync', () => loadNow(mode));
+    if (r === 'other-tab' && mode !== 'quiet') toast('Another Crunchyroll tab is already syncing – give it a moment', 'info');
+  }
+  async function loadNow(mode) {
+    if (state.busy) return;
     state.busy = true;
     state.epAdds = {};
     const quiet = mode === 'quiet';
@@ -1214,10 +1342,14 @@
     try {
       await loadPrefs();
       say('Waiting for your login…');
+      const full0 = mode === 'full' || !state.rows.length;
       if (!(await waitForToken())) throw new Error("Couldn't find your login. Make sure you're signed in, then reload (F5).");
-      const me = await api('/accounts/v1/me');
-      if (!me.account_id) throw new Error("Couldn't read your account.");
-      state.acc = me.account_id; state.created = me.created || state.created;
+      if (!state.accChecked || full0) {   // who's logged in – asked once per visit, not every sync
+        const me = await api('/accounts/v1/me');
+        if (!me.account_id) throw new Error("Couldn't read your account.");
+        if (state.acc && state.acc !== me.account_id) { state.rows = []; state.needFull = true; }   // a different account logged in
+        state.acc = me.account_id; state.created = me.created || state.created; state.accChecked = true;
+      }
       if (!state.name) { try { const p = await api('/accounts/v1/me/profile', 0); state.name = p.profile_name || p.username || ''; } catch (_) {} }
 
       const full = mode === 'full' || !state.rows.length;
@@ -1247,7 +1379,8 @@
       const sids = [...new Set(rows.map((r) => r.sid).filter(Boolean))];
       const movieIds = new Set(rows.filter((r) => r.movie).map((r) => r.sid));
       state.shows = await fetchShowInfo(sids, quiet ? null : say, mode === 'full');
-      state.seasons = await fetchSeasons(sids.filter((id) => !movieIds.has(id)), quiet ? null : say, mode === 'full');
+      const recentSids = new Set(rows.filter((r) => r.date && Date.now() - new Date(r.date).getTime() < 45 * DAY).map((r) => r.sid));
+      state.seasons = await fetchSeasons(sids.filter((id) => !movieIds.has(id)), quiet ? null : say, mode === 'full', recentSids);
       const started = new Set(), latest = new Set();
       for (const r of rows) {
         const info = state.seasons[r.sid];
@@ -1268,14 +1401,14 @@
 
       state.rows = rows; state.at = Date.now();
       // shows on your watchlist that the history list doesn't have: ask Crunchyroll for your progress
-      const wl = await fetchWatchlist();
+      const wl = await fetchWatchlist(full);
       if (full) {
         const inHist = new Set(rows.map((r) => r.sid));
         const missing = wl.filter((id) => !inHist.has(id));
         if (missing.length) await deepScan(missing, say);
       }
       buildSeries();
-      if (full) setTimeout(() => checkLibrary(true), 1500);
+      if (full) setTimeout(() => checkLibrary(false), 1500);
       if (S.airing) setTimeout(() => refreshAiring(), 2500);
       // new episode alerts: a season you'd caught up on got more episodes
       const alerts = [];
@@ -1307,8 +1440,20 @@
       if ((state.queue || []).length) retryQueue();
     } catch (e) {
       console.error('[CR History Export]', e);
-      if (!quiet) { toast('Error: ' + e.message, 'bad'); if (!state.series.length && ui.grid) ui.grid.replaceChildren(h('div', { class: 'cx-empty' }, 'Error: ' + e.message)); }
+      if (e.rateLimited) {
+        // paused to protect the account – nothing is lost (progress is saved), and it carries on by itself
+        resumeAfterPause(e.resumeAt, state.rows.length ? 'quiet' : 'resume');   // 'resume' re-reads history but keeps everything already saved
+        if (!quiet) { toast(e.message, 'info'); if (!state.series.length && ui.grid) ui.grid.replaceChildren(loader(e.message)); }
+      } else if (e.userPaused) { if (!quiet) toast(e.message, 'info');
+      } else if (!quiet) { toast('Error: ' + e.message, 'bad'); if (!state.series.length && ui.grid) ui.grid.replaceChildren(h('div', { class: 'cx-empty' }, 'Error: ' + e.message)); }
     } finally { state.busy = false; setSyncLabel(); }
+  }
+  // After a pause, pick up where we left off (once – repeated pauses just move the time later)
+  let resumeTimer = null;
+  function resumeAfterPause(at, mode) {
+    clearTimeout(resumeTimer);
+    const wait = Math.max(60000, (at || RL.until) - Date.now()) + 5000 + Math.random() * 30000;
+    resumeTimer = setTimeout(() => { resumeTimer = null; if (state.busy || onPlayer() || rlBlocked()) return resumeAfterPause(Math.max(rlBlockedUntil(), Date.now() + 60000), mode); load(mode); }, wait);
   }
 
   // Ask Crunchyroll how far you got in every episode of these shows – catches anything the history list lost
@@ -1368,18 +1513,24 @@
   }
 
   // ---- Library check: verify every show against Crunchyroll's saved progress, in the background ----
-  async function checkLibrary(force) {
+  let checkResume = null;
+  function checkLibrary(force) {
+    if (state.check.running || !state.rows.length || S.paused) return;
+    return oneTab('check', () => checkLibraryNow(force));
+  }
+  async function checkLibraryNow(force) {
     if (state.check.running || !state.rows.length) return;
     state.check = { ...state.check, running: true, done: 0, found: 0 };
     renderCheck();
     try {
       await waitForToken();
       if (!state.acc) { const me = await api('/accounts/v1/me'); state.acc = me.account_id; }
-      const extra = [...(await fetchWatchlist()), ...(await fetchCrunchylists())];
+      const extra = [...(await fetchWatchlist(false)), ...(await fetchCrunchylists())];
       const all = [...new Set([...state.series.filter((s) => !s.ext && !s.movie && s.status !== 'completed').flatMap((s) => s.members || [s.sid]), ...extra])]
-        .filter((sid) => force || !state.verified[sid] || Date.now() - state.verified[sid] > 7 * DAY);
+        .filter((sid) => force || !state.verified[sid] || Date.now() - state.verified[sid] > 21 * DAY * spread(sid));   // each show re-checked every ~3 weeks
       state.check.total = all.length;
       for (let i = 0; i < all.length; i += 8) {
+        while (onPlayer() && !force) await sleep(15000);   // never compete with the player – carry on once you've finished watching
         const chunk = all.slice(i, i + 8);
         state.check.found += await deepScan(chunk, null);
         state.check.done = Math.min(all.length, i + 8);
@@ -1388,7 +1539,10 @@
       }
       state.check.at = Date.now();
       if (state.check.found) toast(`Library check found ${plural(state.check.found, 'episode')} your history was missing`, 'ok');
-    } catch (e) { console.error('[CR History Export] check', e); }
+    } catch (e) {
+      console.error('[CR History Export] check', e);
+      if (e.rateLimited) { clearTimeout(checkResume); checkResume = setTimeout(function again() { if (onPlayer() || rlBlocked()) { checkResume = setTimeout(again, 5 * 60000); return; } checkLibrary(false); }, Math.max(60000, (e.resumeAt || RL.until) - Date.now()) + 60000 + Math.random() * 60000); }   // finish the rest later
+    }
     finally {
       state.check.running = false;
       await store.set('check3', { at: state.check.at, found: state.check.found, total: state.check.total, done: state.check.done });
@@ -1402,7 +1556,7 @@
     try {
       await waitForToken();
       if (!state.acc) { const me = await api('/accounts/v1/me'); state.acc = me.account_id; }
-      const wl = await fetchWatchlist();
+      const wl = await fetchWatchlist(true);
       const todo = state.series.filter((s) => !s.ext && !s.movie && s.status !== 'completed').flatMap((s) => s.members || [s.sid]);
       const n = await deepScan([...wl, ...todo], say);
       t.close(); buildSeries(); render();
@@ -2197,7 +2351,9 @@
   // debug info is safe to share publicly: no account/profile ids, emails, tokens or watch dates
   const redact = (o) => JSON.parse(JSON.stringify(o, (k, v) => (/account|profile|email|user|token|auth|date_played|created/i.test(k) ? '[removed]' : v)));
   async function copyDebug() {
-    const d = { note: 'Contains no account info, tokens or watch dates.', ...redact(state.debug), settings: { ...S, goal: undefined } };
+    await rlLoad();
+    const d = { note: 'Contains no account info, tokens or watch dates.', ...redact(state.debug), settings: { ...S, goal: undefined },
+      requests: { lastHour: RL.hour.filter((x) => Date.now() - x < 3600000).length, today: RL.day.d === dayKey() ? RL.day.n : 0, pace: +RL.rate.toFixed(2), paceCap: +rlCap().toFixed(2), pausesSoFar: RL.pauses, pausedFor: rlPaused() ? rlMins(rlBlockedUntil()) + ' min' : 'no', multiTab: !!rlChan, tabLock: !!(navigator.locks && navigator.locks.request) } };
     await copyText(JSON.stringify(d, null, 1).slice(0, 20000)); toast('Debug info copied (no personal info) – paste it in the chat', 'ok');
   }
 
@@ -2458,6 +2614,8 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
     if (!ui.sync) return;
     ui.sync.classList.toggle('busy', !!busy);
     const q = (state.queue || []).length;
+    if (!t && S.paused) { ui.syncTxt.textContent = 'Paused (Settings) – not talking to Crunchyroll'; return; }
+    if (!t && rlPaused()) { ui.syncTxt.textContent = `${RL.until > Date.now() ? 'Paused to keep your account safe' : 'Taking a break'} · carries on in ~${rlMins(rlBlockedUntil())} min`; return; }
     ui.syncTxt.textContent = t || (state.at ? `Synced ${ago(new Date(state.at).toISOString())}` : 'Not synced yet') + (q && !t ? ` · ${q} waiting for Crunchyroll` : '');
   }
   function setBadge(n) { if (ui.badge) { ui.badge.textContent = n ? '+' + n : ''; ui.badge.style.display = n ? '' : 'none'; } }
@@ -2538,7 +2696,7 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
       const w = location.pathname.includes('/watch/');
       ui.launch.style.display = w ? 'none' : '';
       // just left the player: give Crunchyroll a few seconds to save, then sync
-      if (wasWatching && !w && state.rows.length) setTimeout(() => { if (!state.busy) load('quiet'); }, 4000);
+      if (wasWatching && !w && state.rows.length) setTimeout(() => { if (!state.busy && !rlBlocked() && !onPlayer()) load('quiet'); }, 25000 + Math.random() * 5000);   // let Crunchyroll finish saving first
       wasWatching = w;
     };
     watchCheck(); setInterval(watchCheck, 1000);
@@ -2546,10 +2704,13 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
     (async () => {
       const had = await loadCache();
       applyTheme(); setSyncLabel();
-      if (had) { await sleep(4000); load(state.needFull ? 'full' : 'quiet'); }
+      if (had) { await sleep(4000); if (state.needFull) load('full'); else if (!onPlayer() && !rlBlocked() && Date.now() - (state.at || 0) > OPEN_SYNC_MS) load('quiet'); }
     })();
-    setInterval(() => { if (S.syncMin && state.rows.length && !document.hidden) load('quiet'); }, Math.max(2, S.syncMin || 10) * 60000);
-    document.addEventListener('visibilitychange', () => { if (!document.hidden && S.syncMin && state.rows.length && Date.now() - state.at > 2 * 60000) load('quiet'); });
+    // Syncs happen when they're useful: ~25s after you leave the player, and when you come back to Crunchyroll
+    // after a while. A timed check (Settings, off by default) runs at most once an hour and never while you watch.
+    const autoSync = () => setTimeout(() => { if (S.syncMin && state.rows.length && !document.hidden && !onPlayer() && !rlBlocked() && Date.now() - (state.at || 0) > S.syncMin * 60000 - 30000) load('quiet'); autoSync(); }, 5 * 60000);
+    autoSync();
+    document.addEventListener('visibilitychange', () => { if (!document.hidden && state.rows.length && !onPlayer() && !rlBlocked() && Date.now() - (state.at || 0) > OPEN_SYNC_MS) load('quiet'); });
   }
 
   function onKey(e) {
@@ -2582,6 +2743,7 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
     }
     if (applyLive()) buildSeries();
     render();
+    if (state.rows.length && !state.busy && !rlBlocked() && Date.now() - (state.at || 0) > OPEN_SYNC_MS) load('quiet');   // opening the tracker after a while catches up
     whatsNew();
     const fresh = [...livePH.values()].some((v) => v.at > state.at);
     if ((fresh || Date.now() - state.at > 60000) && !state.busy) load(state.needFull ? 'full' : 'sync');
@@ -3230,6 +3392,8 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
     const num = (k, min, max) => { const i = h('input', { class: 'cx-input sm', type: 'number', min, max, value: S[k] }); i.addEventListener('change', () => (S[k] = Math.max(min, Math.min(max, +i.value || 0)))); return i; };
     const sel = (k, opts) => { const s = h('select', { class: 'cx-select' }, ...opts.map(([v, l]) => h('option', { value: v, selected: S[k] === v ? '' : null }, l))); s.addEventListener('change', () => { S[k] = s.value; if (k === 'theme') applyTheme(); }); return s; };
     const notify = h('input', { type: 'checkbox', checked: S.notify ? '' : null });
+    const pauseBox = h('input', { type: 'checkbox', checked: S.paused ? '' : null });
+    pauseBox.addEventListener('change', () => { S.paused = pauseBox.checked; setSyncLabel(); });
     const airing = h('input', { type: 'checkbox', checked: S.airing ? '' : null });
     airing.addEventListener('change', () => { S.airing = airing.checked; if (S.airing) setTimeout(() => refreshAiring(true), 300); else { state.airing = {}; store.set('airingmap3', {}); } });
     notify.addEventListener('change', async () => {
@@ -3253,7 +3417,10 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
         h('div', { class: 'cx-hint' }, 'Set the goal to 0 to turn it off.'),
         h('label', {}, 'Mark as dropped after (days untouched)', num('dropDays', 7, 3650)),
         h('label', {}, 'Count an episode as watched at (%)', num('donePct', 50, 100)),
-        h('label', {}, 'Auto-sync every (minutes, 0 = off)', num('syncMin', 0, 240)),
+        h('label', {}, 'Also check every (minutes, 0 = off, at least 60)', num('syncMin', 0, 1440)),
+        h('div', { class: 'cx-hint' }, 'Reaperdex already syncs ~25 seconds after you finish watching and when you come back to Crunchyroll after 30+ minutes – most people don’t need a timed check.'),
+        h('label', {}, 'Speed when talking to Crunchyroll', sel('pace', [['normal', 'Normal – quick, adapts by itself'], ['gentle', 'Gentle – slower, extra careful']])),
+        h('label', { class: 'row' }, pauseBox, 'Pause Reaperdex (stops all requests to Crunchyroll)'),
         h('label', {}, 'Assumed episode length when unknown (min)', num('epMin', 1, 180)),
         h('label', {}, 'Count as a movie when it’s at least (min)', num('movieMin', 30, 300)),
         h('label', { class: 'row' }, notify, 'Desktop notification when a new episode drops'),
@@ -3262,7 +3429,7 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
       snapshotList(close),
       h('div', { class: 'cx-modal-act' }, h('button', { class: 'cx-btn', onclick: () => { close(); helpModal(); } }, 'Shortcuts & about'),
         h('button', { class: 'cx-btn', onclick: () => { close(); profileModal(); } }, 'Profile'),
-        h('button', { class: 'cx-btn primary', onclick: async () => { await savePrefs(); close(); refresh(); toast('Settings saved', 'ok'); } }, 'Save'))]);
+        h('button', { class: 'cx-btn primary', onclick: async () => { if (S.syncMin > 0 && S.syncMin < 60) S.syncMin = 60; await savePrefs(); close(); refresh(); setSyncLabel(); toast('Settings saved', 'ok'); } }, 'Save'))]);
   }
   function manualModal() {
     const f = { title: h('input', { class: 'cx-input', placeholder: 'e.g. Demon Slayer' }),
@@ -4087,11 +4254,19 @@ h1{margin:0;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#
   }
   async function retryQueue() {
     if (!state.queue || !state.queue.length) return;
-    const keep = [];
-    for (const q of state.queue) {
-      try { if (q.kind === 'mark') await crMarkWatched(q.id, q.d); else await crUnwatch(q.id); }
-      catch (_) { if (++q.tries < 6) keep.push(q); }
-      await sleep(200);
+    if (S.paused || rlBlocked() || onPlayer()) return;   // try again on a later sync
+    // waiting updates are bulk writes too: one at a time with a 5–10 s gap, stop if Crunchyroll pushes back
+    const keep = [], list = state.queue.slice();
+    let streak = 0;
+    for (let i = 0; i < list.length; i++) {
+      const q = list[i];
+      try { if (q.kind === 'mark') await crMarkWatched(q.id, q.d); else await crUnwatch(q.id); streak = 0; }
+      catch (e) {
+        if (e.rateLimited || e.userPaused) { keep.push(...list.slice(i)); break; }   // paused – keep the rest for later, untouched
+        if (++q.tries < 6) keep.push(q);
+        if (++streak >= 3) { keep.push(...list.slice(i + 1)); break; }
+      }
+      if (i < list.length - 1) { await gentleGap(); if (onPlayer()) { keep.push(...list.slice(i + 1)); break; } }
     }
     const done = state.queue.length - keep.length;
     state.queue = keep; await store.set('queue3', keep); setSyncLabel();
